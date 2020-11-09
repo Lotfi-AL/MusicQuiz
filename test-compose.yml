@@ -1,0 +1,44 @@
+version: "3"
+
+services:
+    test-backend:
+        build:
+            context: ./backend
+        container_name: test-backend
+        restart: unless-stopped
+        env_file: .env
+        environment:
+            - MONGO_USERNAME=$MONGO_USERNAME
+            - MONGO_PASSWORD=$MONGO_PASSWORD
+            - MONGO_HOSTNAME=db
+            - MONGO_PORT=$MONGO_PORT
+            - MONGO_DB=$MONGO_DB
+        ports:
+            - "1337:1337"
+        volumes:
+            - ./backend:/node/backend
+            - /node/backend/node_modules
+        depends_on:
+            - db
+        networks:
+            - db-network
+        command: npm run test
+    db:
+        image: mongo:4.1.8-xenial
+        container_name: db
+        restart: unless-stopped
+        env_file: .env
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME=$MONGO_USERNAME
+            - MONGO_INITDB_ROOT_PASSWORD=$MONGO_PASSWORD
+        volumes:
+            - dbdata:/data/db
+        networks:
+            - db-network
+
+networks:
+    db-network:
+        driver: bridge
+
+volumes:
+    dbdata:

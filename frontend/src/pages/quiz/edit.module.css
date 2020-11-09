@@ -1,0 +1,11 @@
+.title {
+    flex-grow: 1;
+    flex-direction: "row-reverse";
+}
+.c {
+    flex-grow: 1;
+}
+
+.maxWidth {
+    width: 100%;
+}
