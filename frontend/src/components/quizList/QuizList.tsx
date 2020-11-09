@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import { ApplicationState } from "../../redux/store";
 import { useRouter } from "next/router";
 import { addIdAndCreator, union } from "../../utils/addFields";
-import { Button, Grid, TextField } from "@material-ui/core";
+import { Button, FormControl, FormControlLabel, FormLabel, Grid, Radio, RadioGroup, TextField } from "@material-ui/core";
 import { IGridQuiz, IQuiz } from "../../typings/IQuiz";
 import styles from "./QuizList.module.css";
 
@@ -16,7 +16,7 @@ const QuizList = () => {
 
     const [page, setPage] = useState<number>(1);
 
-    const [maxQuizzes, setMaxQuizzes] = useState<string>("0");
+    const [maxQuizzes, setMaxQuizzes] = useState<string>("10");
 
     const [loading, setLoading] = useState(false);
 
@@ -27,6 +27,8 @@ const QuizList = () => {
     const [cache, setCache] = useState(new Set<IQuiz>());
 
     const [text, setText] = useState<string>("");
+
+    const [genre, setGenre] = useState<string>("RnB");
 
     const columns = [
         { field: "title", headerName: "Name", width: 150 },
@@ -81,7 +83,11 @@ const QuizList = () => {
 
     const retrieveDataFirstLoad = async () => {
         setLoading(true);
-        const data: IQuiz[] = await getData("/quiz/max=" + maxQuizzes, false);
+        console.log(text)
+        console.log(genre)
+        console.log(maxQuizzes)
+        const data: IQuiz[] = await getData("/quiz/title=" + text + "-genre=" + genre + " - max=" + maxQuizzes, false);
+        // const data: IQuiz[] = await getData("/quiz/max=" + maxQuizzes, false);
         console.log(data);
         setRows(addIdAndCreator(data));
         setFirstLoad(false);
@@ -91,7 +97,7 @@ const QuizList = () => {
 
     useEffect(() => {
         firstLoad ? retrieveDataFirstLoad() : retreiveData();
-    }, [page, maxQuizzes]);
+    }, [page]);
 
     const handlePageChange = (params) => {
         setPage((prevState) => {
@@ -101,7 +107,7 @@ const QuizList = () => {
     };
 
     const searchOnTitle = async (query: string) => {
-        const data = await getData("/quiz/title=" + query + "-max=" + maxQuizzes);
+        const data = await getData("/quiz/title=" + query + "-max=" + maxQuizzes + "-genre=" + genre);
         setRows(addIdAndCreator(data));
         setLoading(false);
     };
@@ -139,6 +145,16 @@ const QuizList = () => {
                 <Button onClick={() => searchQuizzes()} variant="contained" color="primary" className={styles.maxWidth}>
                     Search
                 </Button>
+            </Grid>
+            <Grid item xs={12}>
+                <FormControl component="fieldset">
+                    <FormLabel component="legend">Genre</FormLabel>
+                    <RadioGroup row aria-label="genre" name="genre" value={genre} onChange={(evt) => setGenre(evt.target.value)}>
+                        <FormControlLabel value="Rock" control={<Radio />} label="Rock" />
+                        <FormControlLabel value="Rap" control={<Radio />} label="Rap" />
+                        <FormControlLabel value="RnB" control={<Radio />} label="RnB" />
+                    </RadioGroup>
+                </FormControl>
             </Grid>
             <Grid item xs={12}>
                 <div style={{ height: 700, width: "100%" }}>

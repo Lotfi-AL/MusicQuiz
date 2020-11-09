@@ -31,6 +31,24 @@ router.get("/api/quiz/max=:max", async (req: Request, res: Response) => {
     }
 });
 
+router.get("/api/quiz/genre=:genre", async (req: Request, res: Response) => {
+    try {
+
+        const { genre } = req.params;
+        console.log(genre)
+        const quizzes = await Quiz.find({ genre: genre })
+            .limit(10)
+            .populate("creator", "username")
+            .sort("-createdAt")
+            .exec();
+        console.log(quizzes)
+
+        return res.status(200).send(quizzes);
+    } catch (error) {
+        console.log(error);
+    }
+});
+
 router.get("/api/quiz/id=:id", async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
@@ -49,8 +67,12 @@ router.get("/api/quiz/id=:id", async (req: Request, res: Response) => {
 // Title param with textscore sorting
 router.get("/api/quiz/title=:title", async (req: Request, res: Response) => {
     try {
-        const { title } = req.params;
-
+        const title = req.params.title;
+        console.log(title)
+        if (title === "") {
+            const quizzes = await Quiz.find({}).limit(10).populate("creator", "username").exec()
+            return res.status(200).send(quizzes)
+        }
         const quizzes = await Quiz.find({ $text: { $search: title } }, { score: { $meta: "textScore" } })
             .limit(10)
             .populate("creator", "username")
@@ -63,6 +85,23 @@ router.get("/api/quiz/title=:title", async (req: Request, res: Response) => {
     }
 });
 
+// Pagination
+router.get("/api/quiz/title=:title-max=:max-genre:=genre", async (req: Request, res: Response) => {
+    try {
+        const { createdAtBefore } = req.params;
+        console.log(req.params)
+        const max = quantityChecker(parseInt(req.params.max));
+        const quizzes = await Quiz.find({})
+            .limit(10)
+            .populate("creator", "username")
+            .sort("-createdAt")
+            .exec();
+
+        return res.status(200).send(quizzes);
+    } catch (error) {
+        console.log(error);
+    }
+});
 // Pagination
 router.get("/api/quiz/prevDate=:createdAtBefore-max=:max", async (req: Request, res: Response) => {
     try {
