@@ -109,12 +109,15 @@ export default function SongList(props?) {
     const searchSongs = () => {
         setCache(new Set());
         searchSongQuery(text);
-        setText("");
     };
 
     useEffect(() => {
         firstLoad ? retrieveDataFirstLoad() : retreiveData();
     }, [page]);
+
+    useEffect(() => {
+        firstLoad ? console.log("first") : searchSongs();
+    }, [text])
 
     const columns = [
         {
