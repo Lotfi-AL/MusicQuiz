@@ -112,11 +112,6 @@ router.get("/api/quiz/search", async (req: Request, res: Response) => {
 
         if (search.title) { query.title = search.title };
         if (search.genre) { query.genre = search.genre };
-        if (!search.max) { query.max = quantityChecker(0) }
-        else {
-            query.max = quantityChecker(parseInt(req.query.max as string))
-        }
-
         !search.max ? query.max = quantityChecker(0) : query.max = quantityChecker(parseInt(req.query.max as string))
 
         console.log(query)
