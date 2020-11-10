@@ -107,16 +107,26 @@ router.get("/api/quiz/search/:title-:max-:genre", async (req: Request, res: Resp
 // this should be the next route we work on. 
 router.get("/api/quiz/search", async (req: Request, res: Response) => {
     try {
-        // const { createdAtBefore } = req.params;
-        console.log(req.params)
-        console.log("RIGHT REQUEST")
-        const max = quantityChecker(parseInt(req.params.max));
-        const quizzes = await Quiz.find({})
+        const search = req.query;
+        var query: any =  {};
+
+        if(search.title){ query.title = search.title};
+        
+        if(search.genre){ query.genre = search.genre};
+        console.log(search.max)
+        console.log(typeof(search.max))
+        //  const max = search.max ? quantityChecker(parseInt(search.max)) : quantityChecker(0)
+        // if(search.max){ query.songsLength = max};
+
+        console.log(query)
+
+        const quizzes = await Quiz.find(
+            {query})
             .limit(10)
             .populate("creator", "username")
             .sort("-createdAt")
             .exec();
-
+        console.log(quizzes)
         return res.status(200).send(quizzes);
     } catch (error) {
         console.log(error);
