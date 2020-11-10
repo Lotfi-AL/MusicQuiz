@@ -94,7 +94,7 @@ export default function SongList(props?) {
     //if query is empty load the 10 first songs
 
     const searchOnTitle = async (query: string) => {
-        const songs = await getData("/song/title=" + query);
+        const songs = await getData("/song/search=" + query);
         setRows(addIdAndArtist(songs));
         setLoading(false);
     };

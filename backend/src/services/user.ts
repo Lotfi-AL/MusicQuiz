@@ -36,8 +36,9 @@ export const signInUser = async (payload: IUser) => {
                     .compare(payload.password, user.password)
                     .then((res) => {
                         if (res) {
+                            const id = user._id
                             const token = getSignedToken(user._id);
-                            return { token };
+                            return { token, id };
                         } else {
                             throw new Error("Incorrect password or username, try again");
                         }
