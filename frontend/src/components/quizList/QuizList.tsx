@@ -107,7 +107,11 @@ const QuizList = () => {
     };
 
     const searchOnTitle = async (query: string) => {
-        const data = await getData("/quiz/title=" + query + "-max=" + maxQuizzes + "-genre=" + genre);
+        console.log("serach on title")
+        const search: string = "/quiz/title=" + query;
+        console.log(search)
+        const data = await getData(search);
+        console.log(data)
         setRows(addIdAndCreator(data));
         setLoading(false);
     };

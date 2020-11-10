@@ -16,7 +16,7 @@ const quantityChecker = (q: number) => {
 router.get("/api/quiz/max=:max", async (req: Request, res: Response) => {
     try {
         const max = quantityChecker(parseInt(req.params.max));
-
+        console.log("max")
         const quizzes = await Quiz.find({ songsLength: { $lte: max } })
             .limit(10)
             .populate("creator", "username")
@@ -35,7 +35,7 @@ router.get("/api/quiz/genre=:genre", async (req: Request, res: Response) => {
     try {
 
         const { genre } = req.params;
-        console.log(genre)
+        console.log("genre")
         const quizzes = await Quiz.find({ genre: genre })
             .limit(10)
             .populate("creator", "username")
@@ -52,7 +52,6 @@ router.get("/api/quiz/genre=:genre", async (req: Request, res: Response) => {
 router.get("/api/quiz/id=:id", async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
-
         const quiz = await Quiz.findById(id)
             .populate("creator", "username")
             .populate({ path: "songs", populate: { path: "artist" } })
@@ -68,7 +67,8 @@ router.get("/api/quiz/id=:id", async (req: Request, res: Response) => {
 router.get("/api/quiz/title=:title", async (req: Request, res: Response) => {
     try {
         const title = req.params.title;
-        console.log(title)
+        console.log("title");
+        console.log(req.params)
         if (title === "") {
             const quizzes = await Quiz.find({}).limit(10).populate("creator", "username").exec()
             return res.status(200).send(quizzes)
@@ -86,10 +86,10 @@ router.get("/api/quiz/title=:title", async (req: Request, res: Response) => {
 });
 
 // Pagination
-router.get("/api/quiz/title=:title-max=:max-genre:=genre", async (req: Request, res: Response) => {
+router.get("/api/quiz/title=:title-max=:max", async (req: Request, res: Response) => {
     try {
         const { createdAtBefore } = req.params;
-        console.log(req.params)
+        console.log("RIGHT REQUEST")
         const max = quantityChecker(parseInt(req.params.max));
         const quizzes = await Quiz.find({})
             .limit(10)
