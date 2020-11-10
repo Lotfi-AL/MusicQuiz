@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import { ApplicationState } from "../../redux/store";
 import { useRouter } from "next/router";
 import { addIdAndCreator, union } from "../../utils/addFields";
-import { Button, Grid, TextField } from "@material-ui/core";
+import { Button, FormControl, FormControlLabel, FormLabel, Grid, Radio, RadioGroup, TextField } from "@material-ui/core";
 import { IGridQuiz, IQuiz } from "../../typings/IQuiz";
 import styles from "./QuizList.module.css";
 
@@ -16,7 +16,7 @@ const QuizList = () => {
 
     const [page, setPage] = useState<number>(1);
 
-    const [maxQuizzes, setMaxQuizzes] = useState<string>("0");
+    const [maxQuizzes, setMaxQuizzes] = useState<string>("10");
 
     const [loading, setLoading] = useState(false);
 
@@ -26,7 +26,9 @@ const QuizList = () => {
 
     const [cache, setCache] = useState(new Set<IQuiz>());
 
-    const [text, setText] = useState<string>("");
+    const [title, setTitle] = useState<string>("");
+
+    const [genre, setGenre] = useState<string>("RnB");
 
     const columns = [
         { field: "title", headerName: "Name", width: 150 },
@@ -81,7 +83,12 @@ const QuizList = () => {
 
     const retrieveDataFirstLoad = async () => {
         setLoading(true);
-        const data: IQuiz[] = await getData("/quiz/max=" + maxQuizzes, false);
+        console.log(title)
+        console.log(genre)
+        console.log(maxQuizzes)
+        let search: string = "/quiz/search/" + title + "-" + maxQuizzes + "-" + genre;
+        const data: IQuiz[] = await getData("/quiz/title=" + title + "-genre=" + genre + " - max=" + maxQuizzes, false);
+        // const data: IQuiz[] = await getData("/quiz/max=" + maxQuizzes, false);
         console.log(data);
         setRows(addIdAndCreator(data));
         setFirstLoad(false);
@@ -91,7 +98,7 @@ const QuizList = () => {
 
     useEffect(() => {
         firstLoad ? retrieveDataFirstLoad() : retreiveData();
-    }, [page, maxQuizzes]);
+    }, [page]);
 
     const handlePageChange = (params) => {
         setPage((prevState) => {
@@ -101,7 +108,10 @@ const QuizList = () => {
     };
 
     const searchOnTitle = async (query: string) => {
-        const data = await getData("/quiz/title=" + query + "-max=" + maxQuizzes);
+        console.log("serach on title")
+        console.log(title)
+        let search: string = "/quiz/search" + "?title=" + title + "?max=" + maxQuizzes + "?genre=" + genre;
+        const data = await getData(search);
         setRows(addIdAndCreator(data));
         setLoading(false);
     };
@@ -109,18 +119,18 @@ const QuizList = () => {
     const searchSongQuery = async (query: string) => {
         setLoading(true);
         setCache(new Set());
-        query === "" ? retrieveDataFirstLoad() : searchOnTitle(query);
+        query === "" ? searchOnTitle(query) : searchOnTitle(query);
     };
 
     const searchQuizzes = () => {
-        searchSongQuery(text);
+        searchSongQuery(title);
     };
     return (
         <Grid container spacing={2}>
             <Grid item xs={8}>
                 <TextField
-                    value={text}
-                    onChange={(event) => setText(event.target.value)}
+                    value={title}
+                    onChange={(event) => setTitle(event.target.value)}
                     variant="outlined"
                     className={styles.maxWidth}
                     label="Search for title of quiz"
@@ -139,6 +149,16 @@ const QuizList = () => {
                 <Button onClick={() => searchQuizzes()} variant="contained" color="primary" className={styles.maxWidth}>
                     Search
                 </Button>
+            </Grid>
+            <Grid item xs={12}>
+                <FormControl component="fieldset">
+                    <FormLabel component="legend">Genre</FormLabel>
+                    <RadioGroup row aria-label="genre" name="genre" value={genre} onChange={(evt) => setGenre(evt.target.value)}>
+                        <FormControlLabel value="Rock" control={<Radio />} label="Rock" />
+                        <FormControlLabel value="Rap" control={<Radio />} label="Rap" />
+                        <FormControlLabel value="RnB" control={<Radio />} label="RnB" />
+                    </RadioGroup>
+                </FormControl>
             </Grid>
             <Grid item xs={12}>
                 <div style={{ height: 700, width: "100%" }}>
