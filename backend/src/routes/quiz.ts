@@ -108,20 +108,16 @@ router.get("/api/quiz/search/:title-:max-:genre", async (req: Request, res: Resp
 router.get("/api/quiz/search", async (req: Request, res: Response) => {
     try {
         const search = req.query;
-        var query: any =  {};
+        var query: any = {};
 
-        if(search.title){ query.title = search.title};
-        
-        if(search.genre){ query.genre = search.genre};
-        console.log(search.max)
-        console.log(typeof(search.max))
-        //  const max = search.max ? quantityChecker(parseInt(search.max)) : quantityChecker(0)
-        // if(search.max){ query.songsLength = max};
+        if (search.title) { query.title = search.title };
+        if (search.genre) { query.genre = search.genre };
+        !search.max ? query.max = quantityChecker(0) : query.max = quantityChecker(parseInt(req.query.max as string))
 
         console.log(query)
 
         const quizzes = await Quiz.find(
-            {query})
+            { query })
             .limit(10)
             .populate("creator", "username")
             .sort("-createdAt")
