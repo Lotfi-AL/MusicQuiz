@@ -17,10 +17,11 @@ export const signUp = async (req: Request, res: Response, next: NextFunction) =>
 export const signIn = async (req: Request, res: Response, next: NextFunction) => {
     try {
         const payload = req.body;
-        const { token } = await signInUser(payload);
+        const { token, id } = await signInUser(payload);
         res.status(200).json({
             success: true,
             token: token,
+            id: id
         });
     } catch (error) {
         console.log(error);
