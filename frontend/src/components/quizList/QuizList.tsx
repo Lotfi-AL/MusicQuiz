@@ -110,7 +110,7 @@ const QuizList = () => {
     const searchOnTitle = async (query: string) => {
         console.log("serach on title")
         console.log(title)
-        let search: string = "/quiz/search" + "?title=" + title + "?max=" + maxQuizzes + "?genre=" + genre;
+        let search: string = "/quiz/search" + "?title=" + title + "&max=" + maxQuizzes + "&genre=" + genre;
         const data = await getData(search);
         setRows(addIdAndCreator(data));
         setLoading(false);
