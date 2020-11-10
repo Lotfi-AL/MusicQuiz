@@ -33,15 +33,29 @@ router.get("/api/song/title=:title", async (req: Request, res: Response) => {
 router.get("/api/song/search=:search", async (req: Request, res: Response) => {
     try{
         const {search} = req.params;
-        console.log(search)
         const regex = new RegExp(search, 'i');
-        const songs = await Song.find({title: {$regex: regex}})
-        .limit(10)
-        .populate("artist")
+        const artist = await Artist.find(
+            {name: {$regex: regex}}
+        )
+        .limit(1)
         .exec()
-        return res.status(200).send(songs)
+        const songs = await Song.find(
+            {
+                $or:[
+                    {artist: {_id: artist ? artist[0]._id : null}},
+                    {title: {$regex: regex}}
+                ]
+            }
+
+        )
+            .limit(10)
+            .populate("artist")
+            .exec()
+        console.log(songs)
+    return res.status(200).send(songs)
     } catch (error) {
         console.log(error);
+        res.status(200).send([])
     }
 });
 // Pagination
