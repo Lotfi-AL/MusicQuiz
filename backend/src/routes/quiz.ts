@@ -33,7 +33,6 @@ router.get("/api/quiz/max=:max", async (req: Request, res: Response) => {
 
 router.get("/api/quiz/genre=:genre", async (req: Request, res: Response) => {
     try {
-
         const { genre } = req.params;
         console.log("genre")
         const quizzes = await Quiz.find({ genre: genre })
@@ -45,6 +44,7 @@ router.get("/api/quiz/genre=:genre", async (req: Request, res: Response) => {
 
         return res.status(200).send(quizzes);
     } catch (error) {
+
         console.log(error);
     }
 });
@@ -86,9 +86,10 @@ router.get("/api/quiz/title=:title", async (req: Request, res: Response) => {
 });
 
 // Pagination
-router.get("/api/quiz/title=:title-max=:max", async (req: Request, res: Response) => {
+router.get("/api/quiz/search/:title-:max-:genre", async (req: Request, res: Response) => {
     try {
-        const { createdAtBefore } = req.params;
+        // const { createdAtBefore } = req.params;
+        console.log(req.params)
         console.log("RIGHT REQUEST")
         const max = quantityChecker(parseInt(req.params.max));
         const quizzes = await Quiz.find({})
@@ -102,6 +103,27 @@ router.get("/api/quiz/title=:title-max=:max", async (req: Request, res: Response
         console.log(error);
     }
 });
+// Pagination
+// this should be the next route we work on. 
+router.get("/api/quiz/search", async (req: Request, res: Response) => {
+    try {
+        // const { createdAtBefore } = req.params;
+        console.log(req.params)
+        console.log("RIGHT REQUEST")
+        const max = quantityChecker(parseInt(req.params.max));
+        const quizzes = await Quiz.find({})
+            .limit(10)
+            .populate("creator", "username")
+            .sort("-createdAt")
+            .exec();
+
+        return res.status(200).send(quizzes);
+    } catch (error) {
+        console.log(error);
+    }
+});
+
+
 // Pagination
 router.get("/api/quiz/prevDate=:createdAtBefore-max=:max", async (req: Request, res: Response) => {
     try {

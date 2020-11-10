@@ -26,7 +26,7 @@ const QuizList = () => {
 
     const [cache, setCache] = useState(new Set<IQuiz>());
 
-    const [text, setText] = useState<string>("");
+    const [title, setTitle] = useState<string>("");
 
     const [genre, setGenre] = useState<string>("RnB");
 
@@ -83,10 +83,11 @@ const QuizList = () => {
 
     const retrieveDataFirstLoad = async () => {
         setLoading(true);
-        console.log(text)
+        console.log(title)
         console.log(genre)
         console.log(maxQuizzes)
-        const data: IQuiz[] = await getData("/quiz/title=" + text + "-genre=" + genre + " - max=" + maxQuizzes, false);
+        let search: string = "/quiz/search/" + title + "-" + maxQuizzes + "-" + genre;
+        const data: IQuiz[] = await getData("/quiz/title=" + title + "-genre=" + genre + " - max=" + maxQuizzes, false);
         // const data: IQuiz[] = await getData("/quiz/max=" + maxQuizzes, false);
         console.log(data);
         setRows(addIdAndCreator(data));
@@ -108,10 +109,9 @@ const QuizList = () => {
 
     const searchOnTitle = async (query: string) => {
         console.log("serach on title")
-        const search: string = "/quiz/title=" + query;
-        console.log(search)
+        console.log(title)
+        let search: string = "/quiz/search" + "?title=" + title + "?max=" + maxQuizzes + "?genre=" + genre;
         const data = await getData(search);
-        console.log(data)
         setRows(addIdAndCreator(data));
         setLoading(false);
     };
@@ -119,18 +119,18 @@ const QuizList = () => {
     const searchSongQuery = async (query: string) => {
         setLoading(true);
         setCache(new Set());
-        query === "" ? retrieveDataFirstLoad() : searchOnTitle(query);
+        query === "" ? searchOnTitle(query) : searchOnTitle(query);
     };
 
     const searchQuizzes = () => {
-        searchSongQuery(text);
+        searchSongQuery(title);
     };
     return (
         <Grid container spacing={2}>
             <Grid item xs={8}>
                 <TextField
-                    value={text}
-                    onChange={(event) => setText(event.target.value)}
+                    value={title}
+                    onChange={(event) => setTitle(event.target.value)}
                     variant="outlined"
                     className={styles.maxWidth}
                     label="Search for title of quiz"
