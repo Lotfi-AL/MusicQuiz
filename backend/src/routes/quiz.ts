@@ -4,34 +4,15 @@ import verifyToken from "../utils/verifyToken";
 
 const router = express.Router();
 
-const quantityChecker = (q: number) => {
-    if (q === 0) {
-        return Number.MAX_VALUE;
-    } else {
-        return q;
-    }
+type RangeQuery = {
+    lt: number;
+    lte: number;
+    gt: number;
+    gte: number;
 };
 
-// First ten
-router.get("/api/quiz/max=:max", async (req: Request, res: Response) => {
-    try {
-        const max = quantityChecker(parseInt(req.params.max));
-
-        const quizzes = await Quiz.find({ songsLength: { $lte: max } })
-            .limit(10)
-            .populate("creator", "username")
-            .sort("-createdAt")
-            .exec();
-
-        console.log(quizzes);
-
-        return res.status(200).send(quizzes);
-    } catch (error) {
-        console.log(error);
-    }
-});
-
-router.get("/api/quiz/id=:id", async (req: Request, res: Response) => {
+// Get single quiz
+router.get("/api/quiz/:id", async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
 
@@ -46,42 +27,37 @@ router.get("/api/quiz/id=:id", async (req: Request, res: Response) => {
     }
 });
 
-// Title param with textscore sorting
-router.get("/api/quiz/title=:title", async (req: Request, res: Response) => {
-    try {
-        const { title } = req.params;
-
-        const quizzes = await Quiz.find({ $text: { $search: title } }, { score: { $meta: "textScore" } })
-            .limit(10)
-            .populate("creator", "username")
-            .sort({ score: { $meta: "textScore" } })
-            .exec();
-
-        return res.status(200).send(quizzes);
-    } catch (error) {
-        console.log(error);
-    }
-});
-
-// TODO:
-// Add filtering
-// Make function for deconstructing filters
-// Filters to implement: genre, quizLength
-
 // Pagination
 router.get("/api/quiz", async (req: Request, res: Response) => {
     try {
-        const { offset, limit, sort_by, order_by } = req.query;
+        const { page, limit, sort_by, order_by, genre, title } = req.query;
+
+        const quantity: RangeQuery = req.query.quantity as any;
 
         const options = {
-            sort: sort_by != undefined ? { [sort_by as string]: order_by } : { createdAt: "desc" },
+            sort: sort_by && order_by ? { [sort_by as string]: order_by } : { createdAt: "desc" },
             populate: "creator",
             lean: true,
-            offset: offset != undefined ? parseInt(offset as string) : 0,
-            limit: limit != undefined ? parseInt(limit as string) : 10,
+            page: page ? parseInt(page as string) : 1,
+            limit: limit ? parseInt(limit as string) : 10,
         };
 
-        const query = {};
+        const query = {
+            $and: [
+                quantity
+                    ? {
+                          $and: [
+                              quantity.lt ? { songsLength: { $lt: quantity.lt } } : {},
+                              quantity.lte ? { songsLength: { $lte: quantity.lte } } : {},
+                              quantity.gt ? { songsLength: { $gt: quantity.gt } } : {},
+                              quantity.gte ? { songsLength: { $gte: quantity.gte } } : {},
+                          ],
+                      }
+                    : {},
+                genre ? { genre: { $in: genre as string[] } } : {},
+                title ? { $text: { $search: title as string } } : {},
+            ],
+        };
 
         const quizzes = await Quiz.paginate(query, options)
             .then((result) => {
@@ -90,16 +66,6 @@ router.get("/api/quiz", async (req: Request, res: Response) => {
             .catch((error) => {
                 console.log(error);
             });
-        /*
-        const { createdAtBefore } = req.params;
-        const max = quantityChecker(parseInt(req.params.max));
-        const quizzes = await Quiz.find({ createdAt: { $lt: createdAtBefore }, songsLength: { $lte: max } })
-            .limit(10)
-            .populate("creator", "username")
-            .sort("-createdAt")
-            .exec();
-
-        */
 
         return res.status(200).send(quizzes);
     } catch (error) {
@@ -107,6 +73,7 @@ router.get("/api/quiz", async (req: Request, res: Response) => {
     }
 });
 
+// Create new quiz with token verification
 router.post("/api/quiz", verifyToken, async (req: Request, res: Response) => {
     try {
         const quiz = Quiz.build(req.body);
@@ -117,6 +84,7 @@ router.post("/api/quiz", verifyToken, async (req: Request, res: Response) => {
     }
 });
 
+// Delete quiz with token verification
 router.delete("/api/quiz/:id", verifyToken, async (req: Request, res: Response) => {
     try {
         const { id } = req.params;

@@ -25,8 +25,9 @@ const quizSchema = new Schema(
         title: { type: String, required: true },
         genre: {
             type: String,
-            enum: ["Pop", "Rock", "Electronic", "Hip-Hop", "Classical", "R&B", "Blues", "Metal"],
+            enum: ["pop", "rock", "electronic", "hip-hop", "classical", "rnb", "blues", "metal"],
             required: true,
+            lowercase: true,
         },
         songs: [{ type: Schema.Types.ObjectId, ref: "Song", required: true }],
         songsLength: { type: Number },
@@ -55,5 +56,5 @@ const build = (attr: IQuiz) => {
 };
 
 // Quiz.deleteMany({}, function (err) {
-//    if (err) return console.log("not working");
+//     if (err) return console.log("not working");
 // }); //Deletes all documents from table
