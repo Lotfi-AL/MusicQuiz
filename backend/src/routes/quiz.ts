@@ -16,7 +16,7 @@ const quantityChecker = (q: number) => {
 router.get("/api/quiz/max=:max", async (req: Request, res: Response) => {
     try {
         const max = quantityChecker(parseInt(req.params.max));
-
+        console.log("max")
         const quizzes = await Quiz.find({ songsLength: { $lte: max } })
             .limit(10)
             .populate("creator", "username")
@@ -31,10 +31,27 @@ router.get("/api/quiz/max=:max", async (req: Request, res: Response) => {
     }
 });
 
+router.get("/api/quiz/genre=:genre", async (req: Request, res: Response) => {
+    try {
+        const { genre } = req.params;
+        console.log("genre")
+        const quizzes = await Quiz.find({ genre: genre })
+            .limit(10)
+            .populate("creator", "username")
+            .sort("-createdAt")
+            .exec();
+        console.log(quizzes)
+
+        return res.status(200).send(quizzes);
+    } catch (error) {
+
+        console.log(error);
+    }
+});
+
 router.get("/api/quiz/id=:id", async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
-
         const quiz = await Quiz.findById(id)
             .populate("creator", "username")
             .populate({ path: "songs", populate: { path: "artist" } })
@@ -49,8 +66,13 @@ router.get("/api/quiz/id=:id", async (req: Request, res: Response) => {
 // Title param with textscore sorting
 router.get("/api/quiz/title=:title", async (req: Request, res: Response) => {
     try {
-        const { title } = req.params;
-
+        const title = req.params.title;
+        console.log("title");
+        console.log(req.params)
+        if (title === "") {
+            const quizzes = await Quiz.find({}).limit(10).populate("creator", "username").exec()
+            return res.status(200).send(quizzes)
+        }
         const quizzes = await Quiz.find({ $text: { $search: title } }, { score: { $meta: "textScore" } })
             .limit(10)
             .populate("creator", "username")
@@ -62,6 +84,57 @@ router.get("/api/quiz/title=:title", async (req: Request, res: Response) => {
         console.log(error);
     }
 });
+
+// Pagination
+router.get("/api/quiz/search/:title-:max-:genre", async (req: Request, res: Response) => {
+    try {
+        // const { createdAtBefore } = req.params;
+        console.log(req.params)
+        console.log("RIGHT REQUEST")
+        const max = quantityChecker(parseInt(req.params.max));
+        const quizzes = await Quiz.find({})
+            .limit(10)
+            .populate("creator", "username")
+            .sort("-createdAt")
+            .exec();
+
+        return res.status(200).send(quizzes);
+    } catch (error) {
+        console.log(error);
+    }
+});
+// Pagination
+// this should be the next route we work on. 
+router.get("/api/quiz/search", async (req: Request, res: Response) => {
+    try {
+        const search = req.query;
+        var query: any = {};
+
+        if (search.title) { query.title = search.title };
+        if (search.genre) { query.genre = search.genre };
+        !search.max ? query.max = quantityChecker(0) : query.max = quantityChecker(parseInt(req.query.max as string))
+
+        console.log(query)
+
+        const quizzes = await Quiz.find(
+            { 
+                $and: [
+                    query.title ? {title: { $regex : new RegExp(query.title, "i") }} : {},
+                    query.max ? {songsLength: query.max} : {},
+                    query.genre ? {genre: query.genre} : {},
+                ]
+            })
+            .limit(10)
+            .populate("creator", "username")
+            .sort("-createdAt")
+            .exec();
+        console.log(quizzes)
+        return res.status(200).send(quizzes);
+    } catch (error) {
+        console.log(error);
+    }
+});
+
 
 // Pagination
 router.get("/api/quiz/prevDate=:createdAtBefore-max=:max", async (req: Request, res: Response) => {
