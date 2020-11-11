@@ -36,7 +36,7 @@ router.get("/api/quiz", async (req: Request, res: Response) => {
 
         const options = {
             sort: sort_by && order_by ? { [sort_by as string]: order_by } : { createdAt: "desc" },
-            populate: "creator",
+            populate: { path: "creator", select: "username" },
             lean: true,
             page: page ? parseInt(page as string) : 1,
             limit: limit ? parseInt(limit as string) : 10,
