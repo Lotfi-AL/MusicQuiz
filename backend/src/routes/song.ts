@@ -40,10 +40,17 @@ router.get("/api/song/search=:search", async (req: Request, res: Response) => {
         .limit(1)
         .exec()
         const songs = await Song.find(
-            {
+            artist.length==0?{
                 $or:[
-                    {artist: {_id: artist ? artist[0]._id : null}},
-                    {title: {$regex: regex}}
+                    {title: {$regex: regex}},
+                    
+                ]
+
+            }:{
+                $or:[
+                    {artist: {_id: artist ? artist[0]._id : ""}},
+                    {title: {$regex: regex}},
+                    
                 ]
             }
 
