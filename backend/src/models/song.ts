@@ -1,4 +1,5 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose, { Schema, Document, PaginateModel } from "mongoose";
+import mongoosePaginate from "mongoose-paginate-v2";
 
 export interface ISong {
     title: string;
@@ -8,17 +9,18 @@ export interface ISong {
     genre: string;
     duration: Number;
 }
-interface SongDoc extends mongoose.Document {
+interface SongDoc extends Document {
     title: string;
     bpm: Number;
     artist: [{ type: Schema.Types.ObjectId; ref: "Artist" }];
     genre: string;
     duration: Number;
 }
-interface songModelInterface extends mongoose.Model<any> {
+
+interface SongModelInterface<T extends Document> extends PaginateModel<T> {
     build(attr: ISong): SongDoc;
 }
-const songSchema = new mongoose.Schema(
+const songSchema = new Schema(
     {
         title: { type: String, required: true },
         bpm: { type: Number, required: true },
@@ -34,7 +36,10 @@ songSchema.index({ title: "text" });
 songSchema.statics.build = (attr: ISong) => {
     return new Song(attr);
 };
-const Song = mongoose.model<SongDoc, songModelInterface>("Song", songSchema);
+
+songSchema.plugin(mongoosePaginate);
+
+export const Song = mongoose.model<SongDoc, SongModelInterface<SongDoc>>("Song", songSchema);
 
 const build = (attr: ISong) => {
     return new Song(attr);
@@ -43,5 +48,3 @@ const build = (attr: ISong) => {
 // Song.deleteMany({}, function (err) {
 //    if (err) return console.log("not working");
 // }); //Deletes all documents from table
-
-export { Song };

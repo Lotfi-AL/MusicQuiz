@@ -1,4 +1,5 @@
-import mongoose, { HookNextFunction, Schema } from "mongoose";
+import mongoose, { HookNextFunction, Schema, Document, PaginateModel, model } from "mongoose";
+import mongoosePaginate from "mongoose-paginate-v2";
 
 interface IQuiz {
     title: string;
@@ -7,7 +8,7 @@ interface IQuiz {
     songsLength: number;
     creator: Schema.Types.ObjectId;
 }
-export interface QuizDoc extends IQuiz, mongoose.Document {
+export interface QuizDoc extends IQuiz, Document {
     title: string;
     genre: string;
     songs: Schema.Types.ObjectId[];
@@ -15,14 +16,18 @@ export interface QuizDoc extends IQuiz, mongoose.Document {
     creator: Schema.Types.ObjectId;
 }
 
-interface QuizModelInterface extends mongoose.Model<any> {
+interface QuizModelInterface<T extends Document> extends PaginateModel<T> {
     build(attr: IQuiz): QuizDoc;
 }
 
-const quizSchema = new mongoose.Schema(
+const quizSchema = new Schema(
     {
         title: { type: String, required: true },
-        genre: { type: String, required: true },
+        genre: {
+            type: String,
+            enum: ["Pop", "Rock", "Electronic", "Hip-Hop", "Classical", "R&B", "Blues", "Metal"],
+            required: true,
+        },
         songs: [{ type: Schema.Types.ObjectId, ref: "Song", required: true }],
         songsLength: { type: Number },
         creator: { type: Schema.Types.ObjectId, ref: "User", required: true },
@@ -41,16 +46,14 @@ quizSchema.statics.build = (attr: IQuiz) => {
     return new Quiz(attr);
 };
 
+quizSchema.plugin(mongoosePaginate);
 
-const Quiz = mongoose.model<QuizDoc, QuizModelInterface>("Quiz", quizSchema);
+export const Quiz = mongoose.model<QuizDoc, QuizModelInterface<QuizDoc>>("Quiz", quizSchema);
 
 const build = (attr: IQuiz) => {
     return new Quiz(attr);
 };
 
-
 // Quiz.deleteMany({}, function (err) {
 //    if (err) return console.log("not working");
 // }); //Deletes all documents from table
-
-export { Quiz };

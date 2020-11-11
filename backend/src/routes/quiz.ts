@@ -63,9 +63,34 @@ router.get("/api/quiz/title=:title", async (req: Request, res: Response) => {
     }
 });
 
+// TODO:
+// Add filtering
+// Make function for deconstructing filters
+// Filters to implement: genre, quizLength
+
 // Pagination
-router.get("/api/quiz/prevDate=:createdAtBefore-max=:max", async (req: Request, res: Response) => {
+router.get("/api/quiz", async (req: Request, res: Response) => {
     try {
+        const { offset, limit, sort_by, order_by } = req.query;
+
+        const options = {
+            sort: sort_by != undefined ? { [sort_by as string]: order_by } : { createdAt: "desc" },
+            populate: "creator",
+            lean: true,
+            offset: offset != undefined ? parseInt(offset as string) : 0,
+            limit: limit != undefined ? parseInt(limit as string) : 10,
+        };
+
+        const query = {};
+
+        const quizzes = await Quiz.paginate(query, options)
+            .then((result) => {
+                return result;
+            })
+            .catch((error) => {
+                console.log(error);
+            });
+        /*
         const { createdAtBefore } = req.params;
         const max = quantityChecker(parseInt(req.params.max));
         const quizzes = await Quiz.find({ createdAt: { $lt: createdAtBefore }, songsLength: { $lte: max } })
@@ -73,6 +98,8 @@ router.get("/api/quiz/prevDate=:createdAtBefore-max=:max", async (req: Request, 
             .populate("creator", "username")
             .sort("-createdAt")
             .exec();
+
+        */
 
         return res.status(200).send(quizzes);
     } catch (error) {
