@@ -39,7 +39,7 @@ const Quiz = (store) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        getData("/quiz/id=" + pid, false)
+        getData("/quiz/" + pid, false)
             .then((data) => {
                 console.log(data);
                 setQuiz(data);
