@@ -1,7 +1,7 @@
 import { NavBar } from "../../components/navBar";
 import { connect } from "react-redux";
 import { ApplicationState } from "../../redux/store";
-import { Card, CardHeader, CardActions, CardContent, Container, Grid, TextField, Typography } from "@material-ui/core";
+import { Card, CardHeader, CardActions, CardContent, Container, Grid, TextField, Typography, InputLabel, Select, MenuItem, FormControl, FormHelperText } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import React, { useState } from "react";
 import { postData } from "../../utils/requests";
@@ -55,7 +55,7 @@ const createQuiz = (store) => {
     const handleSubmit = (event) => {
         event.preventDefault();
         const data: IQuiz = { title, genre, songs, creator };
-
+        console.log(genre)
         console.log(data);
         try {
             postData("/quiz", data, true);
@@ -90,14 +90,24 @@ const createQuiz = (store) => {
                         />
                     </Grid>
                     <Grid item xs={12} sm={6}>
-                        <TextField
-                            variant="outlined"
-                            required
-                            label="Genre"
-                            value={genre}
-                            onChange={handleGenre}
-                            className={styles.maxWidth}
-                        />
+                        <FormControl required variant="outlined" className={styles.maxWidth}>
+                            {/* <InputLabel id="demo-simple-select-filled-label">Genre</InputLabel> */}
+                            <Select
+                                labelId="demo-simple-select-filled-label"
+                                id="demo-simple-select-filled"
+                                value={genre}
+                                required
+                                onChange={handleGenre}
+                            >
+                                <MenuItem value="" disabled>
+                                    Genre
+                                </MenuItem>
+                                <MenuItem value={"Rock"}>Rock</MenuItem>
+                                <MenuItem value={"Rap"}>Rap</MenuItem>
+                                <MenuItem value={"RnB"}>RnB</MenuItem>
+                            </Select>
+                            <FormHelperText>Genre</FormHelperText>
+                        </FormControl>
                     </Grid>
                     <Grid item xs={12}>
                         <SongList add={addSongs} />
