@@ -117,7 +117,13 @@ router.get("/api/quiz/search", async (req: Request, res: Response) => {
         console.log(query)
 
         const quizzes = await Quiz.find(
-            { query })
+            { 
+                $and: [
+                    query.title ? {title: { $regex : new RegExp(query.title, "i") }} : {},
+                    query.max ? {songsLength: query.max} : {},
+                    query.genre ? {genre: query.genre} : {},
+                ]
+            })
             .limit(10)
             .populate("creator", "username")
             .sort("-createdAt")
