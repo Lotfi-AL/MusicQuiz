@@ -26,7 +26,19 @@ module.exports = {
     // Matches parent folder `__tests__` and filename
     // should contain `test` or `spec`.
     testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "collectCoverage": true,
+    "coverageReporters": ["lcov"],
+    "coverageDirectory": "test-coverage",
+    "coverageThreshold": {
+        "global": {
+            "branches": 0,
+            "functions": 0,
+            "lines": 0,
+            "statements": 0
+        },
 
-    // Module file extensions for importing
-    moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node", "css"],
+
+        // Module file extensions for importing
+        moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node", "css"],
+    }
 };

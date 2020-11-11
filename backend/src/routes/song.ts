@@ -8,7 +8,7 @@ const router = express.Router();
 router.get("/api/song/title=:title", async (req: Request, res: Response) => {
     try {
         const { title } = req.params;
-
+        console.log(title)
         const songs = await Song.find({ $text: { $search: title } }, { score: { $meta: "textScore" } })
             .limit(10)
             .populate("artist")
@@ -20,7 +20,42 @@ router.get("/api/song/title=:title", async (req: Request, res: Response) => {
         console.log(error);
     }
 });
+router.get("/api/song/search=:search", async (req: Request, res: Response) => {
+    try{
+        const {search} = req.params;
+        const regex = new RegExp(search, 'i');
+        const artist = await Artist.find(
+            {name: {$regex: regex}}
+        )
+        .limit(1)
+        .exec()
+        console.log
+        const songs = await Song.find(
+            artist.length==0?{
+                $or:[
+                    {title: {$regex: regex}},
+                    
+                ]
 
+            }:{
+                $or:[
+                    {artist: {_id: artist ? artist[0]._id : ""}},
+                    {title: {$regex: regex}},
+                    
+                ]
+            }
+
+        )
+            .limit(10)
+            .populate("artist")
+            .exec()
+        console.log(songs)
+    return res.status(200).send(songs)
+    } catch (error) {
+        console.log(error);
+        res.status(200).send([])
+    }
+});
 // Pagination
 router.get("/api/song", async (req: Request, res: Response) => {
     try {

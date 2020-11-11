@@ -15,7 +15,6 @@ type RangeQuery = {
 router.get("/api/quiz/:id", async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
-
         const quiz = await Quiz.findById(id)
             .populate("creator", "username")
             .populate({ path: "songs", populate: { path: "artist" } })
