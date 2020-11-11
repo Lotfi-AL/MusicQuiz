@@ -16,7 +16,11 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "types": [
+      "cypress"
+    ],
+    "baseUrl": "./"
   },
   // change "preserve" in jsx to "react" when testing
   "include": [
