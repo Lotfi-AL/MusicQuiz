@@ -14,6 +14,8 @@ const artistSchema = new Schema({
     name: { type: String },
 });
 
+artistSchema.index({ artist: "text" });
+
 artistSchema.statics.build = (attr: IArtist) => {
     return new Artist(attr);
 };
