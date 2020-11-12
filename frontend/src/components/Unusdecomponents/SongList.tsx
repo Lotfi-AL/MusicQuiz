@@ -145,20 +145,7 @@ export default function SongList(props?) {
 
     return (
         <Grid container spacing={2}>
-            <Grid item xs={8}>
-                <TextField
-                    value={text}
-                    onChange={(event) => setText(event.target.value)}
-                    variant="outlined"
-                    label="Search for a song"
-                    className={styles.maxWidth}
-                />
-            </Grid>
-            <Grid item xs={4}>
-                <Button onClick={() => searchSongs()} variant="contained" color="primary" className={styles.maxWidth}>
-                    Search
-                </Button>
-            </Grid>
+
             <Grid item xs={12}>
                 <div style={{ height: 700, width: "100%" }}>
                     <DataGrid

@@ -4,6 +4,7 @@ import wrapper from "../redux/store";
 import React from "react";
 
 class WrappedApp extends App<AppInitialProps> {
+
     static async getInitialProps({ Component, ctx }: AppContext) {
         const pageProps = Component.getInitialProps ? await Component.getInitialProps(ctx) : {};
         return { pageProps: pageProps };
