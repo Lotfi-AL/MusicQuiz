@@ -7,7 +7,6 @@ let pageSize = 10;
 
 const PaginatedList = ({ rowCount, rows, baseQuery, rowClick, columns, updateState, ListView }) => {
 
-    console.log("topwrapper");
     const [page, setPage] = useState<number>(1);
 
     const [loading, setLoading] = useState(false);

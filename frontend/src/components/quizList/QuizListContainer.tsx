@@ -4,7 +4,6 @@ import { IGridQuiz } from 'src/typings/IQuiz';
 import { addCreator } from 'src/utils/addFields';
 import { PaginatedList } from '../PaginatedList';
 import QuizListView from './QuizListView';
-import TopWrapper from './TopWrapper';
 
 const QuizList = () => {
     const baseQuery = "/quiz";
@@ -32,7 +31,6 @@ const QuizList = () => {
         setRowCount(data.totalDocs)
     }
 
-    console.log("quizlistContainer");
     return (
         <PaginatedList ListView={QuizListView} baseQuery={baseQuery} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
         </PaginatedList>

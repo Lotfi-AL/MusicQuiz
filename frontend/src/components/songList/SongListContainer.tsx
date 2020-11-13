@@ -46,7 +46,6 @@ const SongListContainer = (props?) => {
         setRowCount(data.totalDocs)
     }
 
-    console.log("quizlistContainer");
     return (
         <PaginatedList ListView={SongListView} baseQuery={baseQuery} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
         </PaginatedList>

@@ -3,8 +3,10 @@ import { getData } from "../../utils/requests";
 import { connect } from "react-redux";
 import { ApplicationState } from "../../redux/store";
 import { useRouter } from "next/router";
-import { Button, FormControl, FormControlLabel, FormLabel, Grid, InputLabel, MenuItem, Radio, RadioGroup, Select, Slider, TextField, Typography } from "@material-ui/core";
+import { Button, Checkbox, FormControl, FormControlLabel, FormGroup, FormLabel, Grid, InputLabel, MenuItem, Radio, RadioGroup, Select, Slider, TextField, Typography } from "@material-ui/core";
 import styles from "./QuizListView.module.css";
+
+import { genres as initGenres } from "../../utils/constants"
 
 let pageSize = 10;
 
@@ -12,20 +14,21 @@ let pageSize = 10;
 const QuizListView = ({ updateState, page }) => {
     const router = useRouter();
 
-    const [quantity, setQuantity] = useState([13, 17]);
-    const [minQuantity, setMinQuantity] = useState<string>("3");
+    const [quantity, setQuantity] = useState([0, 10]);
 
-    const [maxQuantity, setMaxQuantity] = useState<string>("5");
-
-    const [title, setTitle] = useState<string>("Top");
-
-    const [genre, setGenre] = useState<string>("RnB");
-
-    const [newSearch, setNewSearch] = useState(false)
-
-    const [firstLoad, setFirstLoad] = useState<boolean>(true);
+    const [title, setTitle] = useState<string>("");
 
     const baseQuery = "/quiz";
+
+    const [genres, setGenres] = useState(() => {
+        const newObj = {}
+        for (let genre of initGenres) {
+            newObj[genre] = false
+        }
+        return newObj;
+    })
+
+    const gen2 = ["pop", "rock", "electronic"]
 
     const makeQuery = () => {
         let search: string = baseQuery + "?";
@@ -38,7 +41,11 @@ const QuizListView = ({ updateState, page }) => {
         if (quantity !== null) {
             search += "&quantity[gte]=" + quantity[0].toString() + "&quantity[lte]=" + quantity[1].toString();
         }
-        console.log(search)
+        for (const [key, value] of Object.entries(genres)) {
+            if (value) {
+                search += "&genre[]=" + key
+            }
+        }
         search += "&page=" + page;
         return search
     }
@@ -49,10 +56,13 @@ const QuizListView = ({ updateState, page }) => {
         updateState(data);
     };
 
+    const handleChecked = (event) => {
+        setGenres({ ...genres, [event.target.name]: event.target.checked })
+    }
 
     useEffect(() => {
         searchQuery()
-    }, [page, quantity]);
+    }, [page, quantity, genres, title]);
 
     return (
         <>
@@ -75,7 +85,7 @@ const QuizListView = ({ updateState, page }) => {
                         onChange={(event, newValue) => setQuantity(newValue)}
                         valueLabelDisplay="auto"
                         aria-labelledby="range-slider"
-                        step={0, 5}
+                        step={5}
                         max={50}
                         marks
                     />
@@ -88,14 +98,17 @@ const QuizListView = ({ updateState, page }) => {
                 </Button>
             </Grid>
             <Grid item xs={12}>
-                <FormControl component="fieldset">
-                    <FormLabel component="legend">Genre</FormLabel>
-                    <RadioGroup row aria-label="genre" name="genre" value={genre} onChange={(evt) => setGenre(evt.target.value)}>
-                        <FormControlLabel value="Rock" control={<Radio />} label="Rock" />
-                        <FormControlLabel value="Rap" control={<Radio />} label="Rap" />
-                        <FormControlLabel value="RnB" control={<Radio />} label="RnB" />
-                    </RadioGroup>
-                </FormControl>
+                <FormLabel component="legend">Genres</FormLabel>
+                <FormGroup row>
+                    {Object.keys(genres).map((item, key) => {
+                        return <FormControlLabel key={key}
+                            control={<Checkbox checked={genres[item]}
+                                onChange={handleChecked} name={item} />
+                            }
+                            label={item}
+                        />
+                    })}
+                </FormGroup>
             </Grid>
         </>
     );

@@ -1,4 +1,4 @@
-import { Button, Grid, TextField } from '@material-ui/core';
+import { Button, FormControl, Grid, Slider, TextField, Typography } from '@material-ui/core';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react'
 import { getData } from 'src/utils/requests';
@@ -13,10 +13,7 @@ const SongListView = ({ updateState, page }) => {
 
     const [title, setTitle] = useState<string>("");
 
-    const [newSearch, setNewSearch] = useState(false)
-
-    const [firstLoad, setFirstLoad] = useState<boolean>(true);
-
+    const [duration, setDuration] = useState([90, 180])
     const baseQuery = "/song";
 
     const makeQuery = () => {
@@ -28,6 +25,10 @@ const SongListView = ({ updateState, page }) => {
             search += "&title=" + title
         }
 
+        //implementation for duration
+        // if (duration !== null) {
+        //     search += "&duration[gte]=" + duration[0].toString() + "&duration[lte]=" + duration[1].toString()
+        // }
         search += "&page=" + page;
         return search
     }
@@ -53,6 +54,23 @@ const SongListView = ({ updateState, page }) => {
                     label="Search for a song"
                     className={styles.maxWidth}
                 />
+            </Grid>
+            <Grid item xs={4}>
+                <FormControl className={styles.maxWidth}>
+                    <Typography id="range-slider" gutterBottom>
+                        Duration | Min-Max
+                    </Typography>
+                    <Slider
+                        value={duration}
+                        onChange={(event, newValue) => setDuration(newValue)}
+                        valueLabelDisplay="auto"
+                        aria-labelledby="range-slider"
+                        step={30}
+                        min={90}
+                        max={480}
+                        marks
+                    />
+                </FormControl>
             </Grid>
             <Grid item xs={4}>
                 <Button onClick={() => searchQuery()} variant="contained" color="primary" className={styles.maxWidth}>
