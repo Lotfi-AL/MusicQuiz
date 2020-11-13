@@ -14,6 +14,8 @@ const QuizList = () => {
 
     const router = useRouter();
 
+    const [loading, setLoading] = useState(true);
+
     const columns = [
         { field: "title", headerName: "Name", width: 150 },
         { field: "genre", headerName: "Genre", width: 150 },
@@ -27,12 +29,16 @@ const QuizList = () => {
     };
 
     const updateState = (data) => {
+        console.log("update state")
         setRows(addCreator(data.docs));
         setRowCount(data.totalDocs)
+        setLoading(false)
     }
 
+
+
     return (
-        <PaginatedList ListView={QuizListView} baseQuery={baseQuery} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
+        <PaginatedList setLoading={setLoading} loading={loading} ListView={QuizListView} baseQuery={baseQuery} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
         </PaginatedList>
     )
 }

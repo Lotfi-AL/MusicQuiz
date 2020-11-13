@@ -11,7 +11,7 @@ import { genres as initGenres } from "../../utils/constants"
 let pageSize = 10;
 
 
-const QuizListView = ({ updateState, page }) => {
+const QuizListView = ({ loading, updateState, page, sortModel, setLoading }) => {
     const router = useRouter();
 
     const [quantity, setQuantity] = useState([0, 10]);
@@ -46,6 +46,10 @@ const QuizListView = ({ updateState, page }) => {
                 search += "&genre[]=" + key
             }
         }
+        if (sortModel.length !== 0 && sortModel[0].field !== "") {
+            search += "&sort_by=" + sortModel[0].field + "&order_by=" + sortModel[0].sort
+        }
+        console.log(search)
         search += "&page=" + page;
         return search
     }
@@ -61,11 +65,13 @@ const QuizListView = ({ updateState, page }) => {
     }
 
     useEffect(() => {
+        setLoading(true)
         searchQuery()
-    }, [page, quantity, genres, title]);
+    }, [page, quantity, genres, title, sortModel]);
 
     return (
         <>
+
             <Grid item xs={8}>
                 <TextField
                     value={title}

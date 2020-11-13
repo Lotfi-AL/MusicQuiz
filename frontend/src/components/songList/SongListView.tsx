@@ -14,6 +14,7 @@ const SongListView = ({ updateState, page }) => {
     const [title, setTitle] = useState<string>("");
 
     const [duration, setDuration] = useState([90, 180])
+
     const baseQuery = "/song";
 
     const makeQuery = () => {
@@ -24,7 +25,6 @@ const SongListView = ({ updateState, page }) => {
         if (title !== "") {
             search += "&title=" + title
         }
-
         //implementation for duration
         // if (duration !== null) {
         //     search += "&duration[gte]=" + duration[0].toString() + "&duration[lte]=" + duration[1].toString()
