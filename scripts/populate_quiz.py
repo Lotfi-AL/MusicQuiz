@@ -2,7 +2,7 @@ import json
 import requests
 import random
 
-genres =["RnB","Rap","Rock"]
+genres =["rap", "pop", "rock", "electronic", "hip-hop", "classical", "rnb", "blues", "metal"]
 titles =["Best ever","Top 10","Top twenty"]
 song_ids = []
 
@@ -32,7 +32,7 @@ def signIn():
 def getSongIds():
     url="http://localhost:1337/api/song"
     res =requests.get(url)
-    for item in res.json():
+    for item in res.json()["docs"]:
         song_ids.append(item["_id"])
     
 
@@ -41,7 +41,7 @@ def addQuiz(token,author):
     auth = "Bearer "+token
     headers = {"authorization":auth}
     with open("quizzes2.json","a") as f:
-        for i in range(100):
+        for i in range(300):
             title = random.choice(titles)
             genre = random.choice(genres)
             songs = random.choices(song_ids,k=random.randrange(1,10))
@@ -51,7 +51,8 @@ def addQuiz(token,author):
             print(requests.post(url,json=quiz,headers=headers))
             
 def main():
-    signUp()
+    # signUp()
+    getSongIds()
     token,author = signIn()
     addQuiz(token,author)
     
