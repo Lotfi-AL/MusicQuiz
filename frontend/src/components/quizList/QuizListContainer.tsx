@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import React, { useState } from 'react'
 import { IGridQuiz } from 'src/typings/IQuiz';
 import { addCreator } from 'src/utils/addFields';
+import { getData } from 'src/utils/requests';
 import { PaginatedList } from '../PaginatedList';
 import QuizListView from './QuizListView';
 
@@ -14,7 +15,7 @@ const QuizList = () => {
 
     const router = useRouter();
 
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
 
     const columns = [
         { field: "title", headerName: "Name", width: 150 },
@@ -27,18 +28,18 @@ const QuizList = () => {
     const rowClick = (event) => {
         router.push("/quiz/" + event.data.id);
     };
-
-    const updateState = (data) => {
-        console.log("update state")
+    const updateState = async (query) => {
+        // setLoading(true)
+        const data = await getData(query);
         setRows(addCreator(data.docs));
         setRowCount(data.totalDocs)
-        setLoading(false)
+        // setLoading(false)
     }
 
 
 
     return (
-        <PaginatedList setLoading={setLoading} loading={loading} ListView={QuizListView} baseQuery={baseQuery} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
+        <PaginatedList loading={loading} ListView={QuizListView} baseQuery={baseQuery} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
         </PaginatedList>
     )
 }

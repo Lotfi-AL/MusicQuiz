@@ -8,7 +8,7 @@ import styles from "./SongListView.module.css";
 
 let pageSize = 10;
 
-const SongListView = ({ updateState, page }) => {
+const SongListView = ({ updateState, page, sortModel }) => {
     const router = useRouter();
 
     const [title, setTitle] = useState<string>("");
@@ -29,6 +29,9 @@ const SongListView = ({ updateState, page }) => {
         // if (duration !== null) {
         //     search += "&duration[gte]=" + duration[0].toString() + "&duration[lte]=" + duration[1].toString()
         // }
+        if (sortModel.sortDirection !== "") {
+            search += "&sort_by=" + sortModel.field + "&order_by=" + sortModel.sortDirection
+        }
         search += "&page=" + page;
         return search
     }
@@ -41,7 +44,7 @@ const SongListView = ({ updateState, page }) => {
 
     useEffect(() => {
         searchQuery()
-    }, [page, title]);
+    }, [page, title, sortModel]);
 
 
     return (

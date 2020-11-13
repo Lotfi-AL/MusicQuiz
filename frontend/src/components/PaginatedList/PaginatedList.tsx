@@ -5,30 +5,37 @@ import React, { useEffect, useState } from 'react'
 
 let pageSize = 10;
 
-const PaginatedList = ({ loading, setLoading, rowCount, rows, baseQuery, rowClick, columns, updateState, ListView }) => {
+const PaginatedList = ({ loading, rowCount, rows, baseQuery, rowClick, columns, updateState, ListView }) => {
     const [page, setPage] = useState<number>(1);
 
+    const [sortModel, setSortModel] = React.useState({ field: "", sortDirection: "" });
 
     const handlePageChange = (params) => {
         setPage(params.page);
     };
 
-    const [sortModel, setSortModel] = React.useState([{ field: "", sort: "" }]);
-
-    const handleSortModelChange = (params) => {
-        console.log(params.sortModel)
-        console.log(sortModel)
-        if (params.sortModel !== sortModel) {
-            setSortModel(params.sortModel);
+    //because of material ui has sort direction 1 behind we need this switch
+    const onColumnHeaderClick = (params) => {
+        let { sortDirection } = params.colDef;
+        if (sortDirection === null) {
+            sortDirection = "asc";
         }
-    };
+        else if (sortDirection === "asc") {
+            sortDirection = "desc"
+        }
+        else if (sortDirection === "desc") {
+            sortDirection = ""
+        }
+
+        const obj = { field: params.field, sortDirection: sortDirection }
+        setSortModel(obj);
+    }
 
     return (
         <Grid container spacing={2}>
 
-            <ListView updateState={updateState} page={page} sortModel={sortModel} setLoading={setLoading} />
+            <ListView updateState={updateState} page={page} sortModel={sortModel} />
             <Grid item xs={12}>
-                {console.log("på nytt")}
                 <div style={{ height: 700, width: "100%" }}>
                     <DataGrid
                         rows={rows}
@@ -42,7 +49,7 @@ const PaginatedList = ({ loading, setLoading, rowCount, rows, baseQuery, rowClic
                         loading={loading}
                         page={page}
                         sortingMode="server"
-                        onSortModelChange={handleSortModelChange}
+                        onColumnHeaderClick={onColumnHeaderClick}
                     />
                 </div>
             </Grid>

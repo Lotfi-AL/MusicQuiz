@@ -11,7 +11,7 @@ import { genres as initGenres } from "../../utils/constants"
 let pageSize = 10;
 
 
-const QuizListView = ({ loading, updateState, page, sortModel, setLoading }) => {
+const QuizListView = ({ updateState, page, sortModel }) => {
     const router = useRouter();
 
     const [quantity, setQuantity] = useState([0, 10]);
@@ -19,6 +19,8 @@ const QuizListView = ({ loading, updateState, page, sortModel, setLoading }) => 
     const [title, setTitle] = useState<string>("");
 
     const baseQuery = "/quiz";
+
+    const [search, setSearch] = useState(baseQuery);
 
     const [genres, setGenres] = useState(() => {
         const newObj = {}
@@ -46,36 +48,31 @@ const QuizListView = ({ loading, updateState, page, sortModel, setLoading }) => 
                 search += "&genre[]=" + key
             }
         }
-        if (sortModel.length !== 0 && sortModel[0].field !== "") {
-            search += "&sort_by=" + sortModel[0].field + "&order_by=" + sortModel[0].sort
+        if (sortModel.sortDirection !== "") {
+            search += "&sort_by=" + sortModel.field + "&order_by=" + sortModel.sortDirection
         }
-        console.log(search)
         search += "&page=" + page;
         return search
     }
 
     const searchQuery = async () => {
         let query: string = makeQuery()
-        const data = await getData(query);
-        updateState(data);
+        updateState(query);
     };
 
     const handleChecked = (event) => {
         setGenres({ ...genres, [event.target.name]: event.target.checked })
     }
-
     useEffect(() => {
-        setLoading(true)
         searchQuery()
-    }, [page, quantity, genres, title, sortModel]);
+    }, [page, sortModel, genres, title, quantity]);
 
     return (
         <>
-
             <Grid item xs={8}>
                 <TextField
                     value={title}
-                    onChange={(event) => setTitle(event.target.value)}
+                    onChange={(event) => { setTitle(event.target.value) }}
                     variant="outlined"
                     className={styles.maxWidth}
                     label="Search for title of quiz"
