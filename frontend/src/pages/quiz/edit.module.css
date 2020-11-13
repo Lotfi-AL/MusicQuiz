@@ -9,3 +9,7 @@
 .maxWidth {
     width: 100%;
 }
+
+.capitalize {
+    text-transform: capitalize;
+}
