@@ -39,6 +39,7 @@ const SignIn = () => {
                     <TextField
                         fullWidth
                         required
+                        id="username"
                         label="Username"
                         variant="outlined"
                         value={username}
@@ -49,6 +50,7 @@ const SignIn = () => {
                     <TextField
                         fullWidth
                         required
+                        id="password"
                         type="password"
                         label="Password"
                         variant="outlined"

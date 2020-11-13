@@ -1,0 +1,927 @@
+[
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912b7" },
+        "name": "Train",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912b8" },
+        "name": "Eminem",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912b9" },
+        "name": "Kesha",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912ba" },
+        "name": "Lady Gaga",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912bb" },
+        "name": "Bruno Mars",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912bc" },
+        "name": "Justin Bieber",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912bd" },
+        "name": "Taio Cruz",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912be" },
+        "name": "OneRepublic",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912bf" },
+        "name": "Alicia Keys",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912c0" },
+        "name": "Rihanna",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912c1" },
+        "name": "Flo Rida",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912c2" },
+        "name": "Mike Posner",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912c3" },
+        "name": "Far East Movement",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912c4" },
+        "name": "Usher",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912c5" },
+        "name": "Sean Kingston",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912c6" },
+        "name": "The Black Eyed Peas",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912c7" },
+        "name": "Adam Lambert",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912c8" },
+        "name": "Maroon 5",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912c9" },
+        "name": "Neon Trees",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912ca" },
+        "name": "Selena Gomez & The Scene",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912cb" },
+        "name": "Enrique Iglesias",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912cc" },
+        "name": "Katy Perry",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912cd" },
+        "name": "Britney Spears",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912ce" },
+        "name": "3OH!3",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912cf" },
+        "name": "David Guetta",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912d0" },
+        "name": "Christina Aguilera",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912d1" },
+        "name": "Florence + The Machine",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912d2" },
+        "name": "Shakira",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912d3" },
+        "name": "Tinie Tempah",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912d4" },
+        "name": "T.I.",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912d5" },
+        "name": "Martin Solveig",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912d6" },
+        "name": "Christina Perri",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912d7" },
+        "name": "Adele",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912d8" },
+        "name": "Pitbull",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912d9" },
+        "name": "Beyoncé",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912da" },
+        "name": "Beyonc�",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912db" },
+        "name": "Hot Chelle Rae",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912dc" },
+        "name": "Avril Lavigne",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912dd" },
+        "name": "Kanye West",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912de" },
+        "name": "LMFAO",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912df" },
+        "name": "Jessie J",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912e0" },
+        "name": "Jennifer Lopez",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912e1" },
+        "name": "Chris Brown",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912e2" },
+        "name": "Sleeping At Last",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912e3" },
+        "name": "Nicki Minaj",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912e4" },
+        "name": "P!nk",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912e5" },
+        "name": "Coldplay",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912e6" },
+        "name": "One Direction",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912e7" },
+        "name": "Taylor Swift",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912e8" },
+        "name": "Carly Rae Jepsen",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912e9" },
+        "name": "Kelly Clarkson",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912ea" },
+        "name": "Owl City",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912eb" },
+        "name": "The Wanted",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912ec" },
+        "name": "fun.",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912ed" },
+        "name": "Ellie Goulding",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912ee" },
+        "name": "Gym Class Heroes",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912ef" },
+        "name": "Avicii",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912f0" },
+        "name": "The Script",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912f1" },
+        "name": "Miley Cyrus",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912f2" },
+        "name": "Swedish House Mafia",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912f3" },
+        "name": "Daft Punk",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912f4" },
+        "name": "James Arthur",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912f5" },
+        "name": "Robin Thicke",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912f6" },
+        "name": "Demi Lovato",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912f7" },
+        "name": "Zedd",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912f8" },
+        "name": "Lana Del Rey",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912f9" },
+        "name": "Calvin Harris",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912fa" },
+        "name": "Drake",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912fb" },
+        "name": "Sara Bareilles",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912fc" },
+        "name": "Macklemore & Ryan Lewis",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912fd" },
+        "name": "Labrinth",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912fe" },
+        "name": "Ne-Yo",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e912ff" },
+        "name": "Ariana Grande",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91300" },
+        "name": "Justin Timberlake",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91301" },
+        "name": "will.i.am",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91302" },
+        "name": "Icona Pop",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91303" },
+        "name": "Fergie",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91304" },
+        "name": "Little Mix",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91305" },
+        "name": "Emeli Sand�",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91306" },
+        "name": "Selena Gomez",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91307" },
+        "name": "Austin Mahone",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91308" },
+        "name": "Jonas Brothers",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91309" },
+        "name": "Mariah Carey",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e9130a" },
+        "name": "Ciara",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e9130b" },
+        "name": "Jewel",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e9130c" },
+        "name": "Kelly Rowland",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e9130d" },
+        "name": "John Legend",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e9130e" },
+        "name": "Sam Smith",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e9130f" },
+        "name": "Pharrell Williams",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91310" },
+        "name": "MAGIC!",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91311" },
+        "name": "Passenger",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91312" },
+        "name": "Bastille",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c84090c820023e91313" },
+        "name": "Lorde",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91314" },
+        "name": "John Newman",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91315" },
+        "name": "Disclosure",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91316" },
+        "name": "Michael Jackson",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91317" },
+        "name": "5 Seconds of Summer",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91318" },
+        "name": "Iggy Azalea",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91319" },
+        "name": "Jason Derulo",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9131a" },
+        "name": "The Chainsmokers",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9131b" },
+        "name": "Birdy",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9131c" },
+        "name": "A Great Big World",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9131d" },
+        "name": "Sia",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9131e" },
+        "name": "Charli XCX",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9131f" },
+        "name": "Lily Allen",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91320" },
+        "name": "Lea Michele",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91321" },
+        "name": "Ed Sheeran",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91322" },
+        "name": "The Weeknd",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91323" },
+        "name": "Mark Ronson",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91324" },
+        "name": "Hozier",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91325" },
+        "name": "Shawn Mendes",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91326" },
+        "name": "Mr. Probz",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91327" },
+        "name": "Zara Larsson",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91328" },
+        "name": "Fifth Harmony",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91329" },
+        "name": "Clean Bandit",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9132a" },
+        "name": "Meghan Trainor",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9132b" },
+        "name": "Nick Jonas",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9132c" },
+        "name": "Paloma Faith",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9132d" },
+        "name": "Olly Murs",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9132e" },
+        "name": "Naughty Boy",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9132f" },
+        "name": "Alessia Cara",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91330" },
+        "name": "Sigala",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91331" },
+        "name": "Rudimental",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91332" },
+        "name": "Lost Frequencies",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91333" },
+        "name": "Robin Schulz",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91334" },
+        "name": "Lilly Wood and The Prick",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91335" },
+        "name": "Wiz Khalifa",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91336" },
+        "name": "Alesso",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91337" },
+        "name": "Madonna",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91338" },
+        "name": "Gwen Stefani",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91339" },
+        "name": "Jess Glynne",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9133a" },
+        "name": "Hilary Duff",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9133b" },
+        "name": "Ricky Martin",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9133c" },
+        "name": "Jennifer Hudson",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9133d" },
+        "name": "DNCE",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9133e" },
+        "name": "Martin Garrix",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9133f" },
+        "name": "Lukas Graham",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91340" },
+        "name": "G-Eazy",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91341" },
+        "name": "Hailee Steinfeld",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91342" },
+        "name": "B�RNS",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91343" },
+        "name": "Major Lazer",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91344" },
+        "name": "M�",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91345" },
+        "name": "Tove Lo",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91346" },
+        "name": "ZAYN",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91347" },
+        "name": "Bebe Rexha",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91348" },
+        "name": "Snakehips",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91349" },
+        "name": "Missy Elliott",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9134a" },
+        "name": "Years & Years",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9134b" },
+        "name": "Charlie Puth",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9134c" },
+        "name": "Janet Jackson",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9134d" },
+        "name": "Joey Montana",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9134e" },
+        "name": "Nelly Furtado",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9134f" },
+        "name": "DJ Snake",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91350" },
+        "name": "Kygo",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91351" },
+        "name": "DJ Khaled",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91352" },
+        "name": "Luis Fonsi",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91353" },
+        "name": "Camila Cabello",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91354" },
+        "name": "Jonas Blue",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91355" },
+        "name": "CNCO",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91356" },
+        "name": "Cardi B",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91357" },
+        "name": "Alan Walker",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91358" },
+        "name": "Liam Payne",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91359" },
+        "name": "Niall Horan",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9135a" },
+        "name": "Cashmere Cat",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9135b" },
+        "name": "Galantis",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9135c" },
+        "name": "Dua Lipa",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9135d" },
+        "name": "Silk City",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9135e" },
+        "name": "Marshmello",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e9135f" },
+        "name": "Halsey",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91360" },
+        "name": "Troye Sivan",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91361" },
+        "name": "Dan + Shay",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91362" },
+        "name": "Rita Ora",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91363" },
+        "name": "Harry Styles",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91364" },
+        "name": "Ansel Elgort",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91365" },
+        "name": "J Balvin",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c85090c820023e91366" },
+        "name": "N.E.R.D",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91367" },
+        "name": "Hayley Kiyoko",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91368" },
+        "name": "RedOne",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91369" },
+        "name": "Lewis Capaldi",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9136a" },
+        "name": "SHAED",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9136b" },
+        "name": "Lizzo",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9136c" },
+        "name": "Mabel",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9136d" },
+        "name": "Khalid",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9136e" },
+        "name": "R3HAB",
+        "__v": 0
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9136f" },
+        "name": "Daddy Yankee",
+        "__v": 0
+    }
+]
