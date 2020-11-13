@@ -5,7 +5,7 @@ import { Card, CardHeader, CardActions, CardContent, Container, Grid, TextField,
 import Button from "@material-ui/core/Button";
 import React, { useState } from "react";
 import { postData } from "../../utils/requests";
-import { SongList } from "../../components/songList";
+import { SongList, SongListContainer } from "../../components/songList";
 import styles from "./edit.module.css";
 import { useRouter } from "next/router";
 
@@ -110,7 +110,8 @@ const createQuiz = (store) => {
                         </FormControl>
                     </Grid>
                     <Grid item xs={12}>
-                        <SongList add={addSongs} />
+
+                        <SongListContainer add={addSongs} />
                     </Grid>
                     <Grid item xs={12}>
                         <Card variant="outlined">
