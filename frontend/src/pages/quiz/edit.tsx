@@ -118,7 +118,7 @@ const createQuiz = (store) => {
                                 </MenuItem>
                                 {genres.map((item, index) => {
                                     return (
-                                        <MenuItem value={item} key={index}>
+                                        <MenuItem value={item} key={index} className={styles.capitalize}>
                                             {item}
                                         </MenuItem>
                                     );
