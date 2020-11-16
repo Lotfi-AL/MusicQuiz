@@ -25,10 +25,10 @@ const SongListView = ({ updateState, page, sortModel }) => {
         if (title !== "") {
             search += "&title=" + title
         }
-        //implementation for duration
-        // if (duration !== null) {
-        //     search += "&duration[gte]=" + duration[0].toString() + "&duration[lte]=" + duration[1].toString()
-        // }
+        // implementation for duration
+        if (duration !== null) {
+            search += "&duration[gte]=" + duration[0].toString() + "&duration[lte]=" + duration[1].toString()
+        }
         if (sortModel.sortDirection !== "") {
             search += "&sort_by=" + sortModel.field + "&order_by=" + sortModel.sortDirection
         }
@@ -44,7 +44,7 @@ const SongListView = ({ updateState, page, sortModel }) => {
 
     useEffect(() => {
         searchQuery()
-    }, [page, title, sortModel]);
+    }, [page, title, sortModel, duration]);
 
 
     return (

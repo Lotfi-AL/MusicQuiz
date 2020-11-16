@@ -1,15 +1,9 @@
 import express, { Request, Response } from "express";
 import { Quiz } from "../models/quiz";
 import verifyToken from "../utils/verifyToken";
+import { RangeQuery } from "../utils/types";
 
 const router = express.Router();
-
-type RangeQuery = {
-    lt: number;
-    lte: number;
-    gt: number;
-    gte: number;
-};
 
 // Get single quiz
 router.get("/api/quiz/:id", async (req: Request, res: Response) => {
