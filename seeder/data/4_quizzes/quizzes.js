@@ -25,6 +25,18 @@ const songs = [
     "5fad5c8f090c820023e915c6",
     "5fad5c8f090c820023e915c5",
     "5fad5c8f090c820023e915c4",
+    "5fad5c8f090c820023e915c3",
+    "5fad5c8f090c820023e915c2",
+    "5fad5c8f090c820023e915c1",
+    "5fad5c8f090c820023e915c0",
+    "5fad5c8f090c820023e915bf",
+    "5fad5c8f090c820023e915be",
+    "5fad5c8f090c820023e915bd",
+    "5fad5c8f090c820023e915bc",
+    "5fad5c8f090c820023e915bb",
+    "5fad5c8f090c820023e915ba",
+    "5fad5c8f090c820023e915b9",
+    "5fad5c8f090c820023e915b8",
 ];
 
 const generateQuizzes = (quantity) => {
@@ -52,4 +64,4 @@ const generateQuizzes = (quantity) => {
     return quizzes;
 };
 
-//exports.module = []; //generateQuizzes(quizAmount);
+//exports.module = generateQuizzes(quizAmount);
