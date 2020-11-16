@@ -1,6 +1,7 @@
 import express, { Request, Response } from "express";
 import { Song } from "../models/song";
 import { Artist } from "../models/artist";
+import { RangeQuery } from "../utils/types";
 
 const router = express.Router();
 
@@ -8,6 +9,7 @@ const router = express.Router();
 router.get("/api/song", async (req: Request, res: Response) => {
     try {
         const { page, limit, sort_by, order_by, title } = req.query;
+        const duration: RangeQuery = req.query.duration as any;
 
         const options = {
             sort: sort_by ? { [sort_by as string]: order_by } : { createdAt: "desc" },
@@ -17,7 +19,21 @@ router.get("/api/song", async (req: Request, res: Response) => {
             limit: limit ? parseInt(limit as string) : 10,
         };
 
-        const query = { $and: [title ? { $text: { $search: title as string } } : {}] };
+        const query = {
+            $and: [
+                title ? { $text: { $search: title as string } } : {},
+                duration
+                    ? {
+                          $and: [
+                              duration.lt ? { duration: { $lt: duration.lt } } : {},
+                              duration.lte ? { duration: { $lte: duration.lte } } : {},
+                              duration.gt ? { duration: { $gt: duration.gt } } : {},
+                              duration.gte ? { duration: { $gte: duration.gte } } : {},
+                          ],
+                      }
+                    : {},
+            ],
+        };
 
         const songs = await Song.paginate(query, options)
             .then((result) => {
