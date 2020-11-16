@@ -1,13 +1,12 @@
 import { NavBar } from "../components/navBar";
 import { connect } from "react-redux";
 import { ApplicationState } from "../redux/store";
-import { Container, Tabs, Tab, Card, CardHeader, CardContent, Grid, Paper } from "@material-ui/core";
+import { Container, Tabs, Tab, Card, CardHeader, CardContent, Grid, Paper, Button } from "@material-ui/core";
 import { SongListContainer } from "../components/songList";
 import { QuizListContainer } from "../components/quizList";
 import React from "react";
-import { TabPanel } from "../components/TabPanel";
-import { CreateQuizBtn } from "../components/createQuizBtn";
-
+import { TabPanel } from "../components/tabPanel";
+import Link from "next/link";
 
 const index = (store) => {
     const [value, setValue] = React.useState(0);
@@ -16,8 +15,7 @@ const index = (store) => {
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
-    console.log("ja");
-    console.log(store);
+
     return (
         <>
             <NavBar></NavBar>
@@ -46,7 +44,15 @@ const index = (store) => {
                             <QuizListContainer />
                         </Grid>
                         <Grid item xs={12}>
-                            {currentUser != null ? <CreateQuizBtn /> : <></>}
+                            {currentUser != null ? (
+                                <Link href="/quiz/edit">
+                                    <Button variant="contained" color="primary">
+                                        Create Quiz
+                                    </Button>
+                                </Link>
+                            ) : (
+                                <></>
+                            )}
                         </Grid>
                     </Grid>
                 </TabPanel>

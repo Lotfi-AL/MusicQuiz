@@ -10,7 +10,7 @@ import initGenresObject from "./utils/initGenresObject";
 
 const QuizListView = ({ updateState, page, sortModel }) => {
 
-    const [quantity, setQuantity] = useState([0, 10]);
+    const [quantity, setQuantity] = useState<number[] | number>([0, 50]);
 
     const [title, setTitle] = useState<string>("");
 
@@ -39,7 +39,9 @@ const QuizListView = ({ updateState, page, sortModel }) => {
             <Grid item xs={8}>
                 <TextField
                     value={title}
-                    onChange={(event) => { setTitle(event.target.value) }}
+                    onChange={(event) => {
+                        setTitle(event.target.value);
+                    }}
                     variant="outlined"
                     className={styles.maxWidth}
                     label="Search for title of quiz"
@@ -61,22 +63,18 @@ const QuizListView = ({ updateState, page, sortModel }) => {
                     />
                 </FormControl>
             </Grid>
-
-            <Grid item xs={12}>
-                <Button onClick={() => searchQuery()} variant="contained" color="primary" className={styles.maxWidth}>
-                    Search
-                </Button>
-            </Grid>
             <Grid item xs={12}>
                 <FormLabel component="legend">Genres</FormLabel>
                 <FormGroup row>
                     {Object.keys(genres).map((item, key) => {
-                        return <FormControlLabel key={key}
-                            control={<Checkbox checked={genres[item]}
-                                onChange={handleChecked} name={item} />
-                            }
-                            label={item}
-                        />
+                        return (
+                            <FormControlLabel
+                                key={key}
+                                control={<Checkbox checked={genres[item]} onChange={handleChecked} name={item} />}
+                                label={item}
+                                className={styles.capitalize}
+                            />
+                        );
                     })}
                 </FormGroup>
             </Grid>

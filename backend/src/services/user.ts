@@ -7,9 +7,7 @@ import getSignedToken from "../utils/signedToken";
 export const createUser = async (payload: IUser) => {
     const user: IUser = payload;
     const { username, password } = user;
-    console.log("username is:" + username);
-    console.log("password is:" + password);
-    console.log(payload);
+
     return User.find({ username: username })
         .exec()
         .then((user) => {
@@ -36,7 +34,7 @@ export const signInUser = async (payload: IUser) => {
                     .compare(payload.password, user.password)
                     .then((res) => {
                         if (res) {
-                            const id = user._id
+                            const id = user._id;
                             const token = getSignedToken(user._id);
                             return { token, id };
                         } else {

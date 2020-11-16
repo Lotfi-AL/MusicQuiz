@@ -19,7 +19,7 @@ const SongListView = ({ updateState, page, sortModel }) => {
     };
 
     useEffect(() => {
-        searchQuery()
+        searchQuery();
     }, [page, title, sortModel, duration]);
 
     return (
@@ -50,13 +50,8 @@ const SongListView = ({ updateState, page, sortModel }) => {
                     />
                 </FormControl>
             </Grid>
-            <Grid item xs={4}>
-                <Button onClick={() => searchQuery()} variant="contained" color="primary" className={styles.maxWidth}>
-                    Search
-                </Button>
-            </Grid>
         </>
-    )
-}
+    );
+};
 
-export default SongListView
+export default SongListView;

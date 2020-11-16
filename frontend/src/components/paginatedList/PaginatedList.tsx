@@ -1,7 +1,6 @@
-import { Grid } from '@material-ui/core'
-import { DataGrid } from '@material-ui/data-grid'
-import React, { useEffect, useState } from 'react'
-
+import { Grid } from "@material-ui/core";
+import { DataGrid } from "@material-ui/data-grid";
+import React, { useState } from "react";
 
 let pageSize: number = 10;
 
@@ -19,16 +18,14 @@ const PaginatedList = ({ loading, rowCount, rows, rowClick, columns, updateState
         let { sortDirection } = params.colDef;
         if (sortDirection === null) {
             sortDirection = "asc";
-        }
-        else if (sortDirection === "asc") {
-            sortDirection = "desc"
-        }
-        else if (sortDirection === "desc") {
-            sortDirection = ""
+        } else if (sortDirection === "asc") {
+            sortDirection = "desc";
+        } else if (sortDirection === "desc") {
+            sortDirection = "";
         }
         const obj = { field: params.field, sortDirection: sortDirection }
         setSortModel(obj);
-    }
+    };
 
     return (
         <Grid container spacing={2}>
@@ -52,7 +49,7 @@ const PaginatedList = ({ loading, rowCount, rows, rowClick, columns, updateState
                 </div>
             </Grid>
         </Grid>
-    )
-}
+    );
+};
 
-export default PaginatedList
+export default PaginatedList;

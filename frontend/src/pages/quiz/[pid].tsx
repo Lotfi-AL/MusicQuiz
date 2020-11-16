@@ -41,15 +41,12 @@ const Quiz = (store) => {
     useEffect(() => {
         getData("/quiz/" + pid, false)
             .then((data) => {
-                console.log(data);
                 setQuiz(data);
                 setLoading(false);
             })
             .catch((error) => {
                 console.log(error);
             });
-
-        console.log(quiz);
     }, [loading]);
 
     return (

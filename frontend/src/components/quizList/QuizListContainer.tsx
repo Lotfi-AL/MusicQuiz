@@ -4,7 +4,7 @@ import { IGridQuiz } from 'src/typings/IQuiz';
 import { PaginatedResponse } from 'src/typings/PaginatedResponse';
 import { addCreator } from 'src/utils/addFields';
 import { getData } from 'src/utils/requests';
-import { PaginatedList } from '../PaginatedList';
+import { PaginatedList } from '../paginatedList';
 import QuizListView from './QuizListView';
 import columns from "./utils/Columns";
 const QuizList = () => {

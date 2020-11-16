@@ -31,8 +31,6 @@ const songSchema = new Schema(
     { timestamps: true },
 );
 
-songSchema.index({ title: "text" });
-
 songSchema.statics.build = (attr: ISong) => {
     return new Song(attr);
 };
