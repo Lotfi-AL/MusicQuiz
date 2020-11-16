@@ -1,0 +1,6635 @@
+[
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915ca" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131a" }],
+        "title": "Kills You Slowly",
+        "bpm": 44,
+        "genre": "electropop",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915ca"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915c9" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91323" }],
+        "title": "Nothing Breaks Like a Heart (feat. Miley Cyrus)",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 217,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915c9"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915c8" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91351" }],
+        "title": "No Brainer (feat. Justin Bieber, Chance the Rapper & Quavo)",
+        "bpm": 76,
+        "genre": "dance pop",
+        "duration": 260,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915c8"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915c7" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91321" }],
+        "title": "Cross Me (feat. Chance the Rapper & PnB Rock)",
+        "bpm": 79,
+        "genre": "pop",
+        "duration": 206,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915c7"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915c6" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91323" }],
+        "title": "Find U Again (feat. Camila Cabello)",
+        "bpm": 66,
+        "genre": "dance pop",
+        "duration": 176,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915c6"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915c5" },
+        "artist": [{ "$oid": "5fad5c86090c820023e9136f" }],
+        "title": "Con Calma - Remix",
+        "bpm": 87,
+        "genre": "latin",
+        "duration": 181,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915c5"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915c4" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9134f" }],
+        "title": "Taki Taki (feat. Selena Gomez, Ozuna & Cardi B)",
+        "bpm": 80,
+        "genre": "electronic trap",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915c4"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915c3" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91321" }],
+        "title": "Antisocial (with Travis Scott)",
+        "bpm": 82,
+        "genre": "pop",
+        "duration": 162,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915c3"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915c2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e1" }],
+        "title": "No Guidance (feat. Drake)",
+        "bpm": 45,
+        "genre": "dance pop",
+        "duration": 261,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915c2"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915c1" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131a" }],
+        "title": "Call You Mine",
+        "bpm": 70,
+        "genre": "electropop",
+        "duration": 218,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915c1"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915c0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Girls Like You (feat. Cardi B)",
+        "bpm": 54,
+        "genre": "pop",
+        "duration": 236,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915c0"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915bf" },
+        "artist": [{ "$oid": "5fad5c86090c820023e9136e" }],
+        "title": "All Around The World (La La La)",
+        "bpm": 86,
+        "genre": "big room",
+        "duration": 148,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915bf"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915be" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131a" }],
+        "title": "Takeaway",
+        "bpm": 51,
+        "genre": "electropop",
+        "duration": 210,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915be"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915bd" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f9" }],
+        "title": "Giant (with Rag'n'Bone Man)",
+        "bpm": 89,
+        "genre": "dance pop",
+        "duration": 229,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915bd"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915bc" },
+        "artist": [{ "$oid": "5fad5c86090c820023e9136d" }],
+        "title": "Talk (feat. Disclosure)",
+        "bpm": 40,
+        "genre": "alternative r&b",
+        "duration": 198,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915bc"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915bb" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91321" }],
+        "title": "I Don't Care (with Justin Bieber)",
+        "bpm": 68,
+        "genre": "pop",
+        "duration": 220,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915bb"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915ba" },
+        "artist": [{ "$oid": "5fad5c86090c820023e9136c" }],
+        "title": "Don't Call Me Up",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 178,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915ba"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915b9" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91308" }],
+        "title": "Sucker",
+        "bpm": 73,
+        "genre": "boy band",
+        "duration": 181,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915b9"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915b8" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91321" }],
+        "title": "Beautiful People (feat. Khalid)",
+        "bpm": 65,
+        "genre": "pop",
+        "duration": 198,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915b8"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915b7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91308" }],
+        "title": "Only Human",
+        "bpm": 50,
+        "genre": "boy band",
+        "duration": 183,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915b7"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915b6" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91350" }],
+        "title": "Higher Love",
+        "bpm": 68,
+        "genre": "edm",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915b6"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915b5" },
+        "artist": [{ "$oid": "5fad5c86090c820023e9136b" }],
+        "title": "Good as Hell (feat. Ariana Grande) - Remix",
+        "bpm": 89,
+        "genre": "escape room",
+        "duration": 159,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915b5"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915b4" },
+        "artist": [{ "$oid": "5fad5c86090c820023e9136b" }],
+        "title": "Truth Hurts",
+        "bpm": 62,
+        "genre": "escape room",
+        "duration": 173,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915b4"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915b3" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9135e" }],
+        "title": "Happier",
+        "bpm": 79,
+        "genre": "brostep",
+        "duration": 214,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915b3"
+    },
+    {
+        "_id": { "$oid": "5fad5c8f090c820023e915b2" },
+        "artist": [{ "$oid": "5fad5c86090c820023e9136a" }],
+        "title": "Trampoline (with ZAYN)",
+        "bpm": 46,
+        "genre": "electropop",
+        "duration": 184,
+
+        "__v": 0,
+        "id": "5fad5c8f090c820023e915b2"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915b1" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91321" }],
+        "title": "South of the Border (feat. Camila Cabello & Cardi B)",
+        "bpm": 62,
+        "genre": "pop",
+        "duration": 204,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915b1"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915b0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e9130e" }],
+        "title": "How Do You Sleep?",
+        "bpm": 68,
+        "genre": "pop",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915b0"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915af" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91325" }],
+        "title": "Se�orita",
+        "bpm": 54,
+        "genre": "canadian pop",
+        "duration": 191,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915af"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915ae" },
+        "artist": [{ "$oid": "5fad5c86090c820023e91369" }],
+        "title": "Someone You Loved",
+        "bpm": 41,
+        "genre": "pop",
+        "duration": 182,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915ae"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915ad" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91306" }],
+        "title": "Lose You To Love Me",
+        "bpm": 34,
+        "genre": "dance pop",
+        "duration": 206,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915ad"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915ac" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Memories",
+        "bpm": 32,
+        "genre": "pop",
+        "duration": 189,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915ac"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915ab" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f6" }],
+        "title": "Tell Me You Love Me - NOTD Remix",
+        "bpm": 77,
+        "genre": "dance pop",
+        "duration": 182,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915ab"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915aa" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91356" }],
+        "title": "Drip (feat. Migos)",
+        "bpm": 59,
+        "genre": "pop",
+        "duration": 264,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915aa"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915a9" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e7" }],
+        "title": "...Ready For It? - BloodPop� Remix",
+        "bpm": 84,
+        "genre": "pop",
+        "duration": 190,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915a9"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915a8" },
+        "artist": [{ "$oid": "5fad5c86090c820023e91368" }],
+        "title": "Boom Boom",
+        "bpm": 76,
+        "genre": "moroccan pop",
+        "duration": 248,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915a8"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915a7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91300" }],
+        "title": "Supplies",
+        "bpm": 55,
+        "genre": "dance pop",
+        "duration": 226,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915a7"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915a6" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91347" }],
+        "title": "Ferrari",
+        "bpm": 48,
+        "genre": "dance pop",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915a6"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915a5" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91353" }],
+        "title": "Never Be the Same - Radio Edit",
+        "bpm": 69,
+        "genre": "dance pop",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915a5"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915a4" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91300" }],
+        "title": "Filthy",
+        "bpm": 58,
+        "genre": "dance pop",
+        "duration": 294,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915a4"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915a3" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9135a" }],
+        "title": "Miss You (with Major Lazer & Tory Lanez)",
+        "bpm": 64,
+        "genre": "downtempo",
+        "duration": 186,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915a3"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915a2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cb" }],
+        "title": "MOVE TO MIAMI",
+        "bpm": 87,
+        "genre": "dance pop",
+        "duration": 169,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915a2"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915a1" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91362" }],
+        "title": "Girls (feat. Cardi B, Bebe Rexha & Charli XCX)",
+        "bpm": 69,
+        "genre": "dance pop",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915a1"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e915a0" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91359" }],
+        "title": "This Town",
+        "bpm": 41,
+        "genre": "dance pop",
+        "duration": 233,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e915a0"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9159f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b8" }],
+        "title": "Walk On Water (feat. Beyonc�)",
+        "bpm": 44,
+        "genre": "detroit hip hop",
+        "duration": 304,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9159f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9159e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cf" }],
+        "title": "2U (feat. Justin Bieber)",
+        "bpm": 61,
+        "genre": "dance pop",
+        "duration": 195,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9159e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9159d" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133d" }],
+        "title": "Kissing Strangers",
+        "bpm": 74,
+        "genre": "dance pop",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9159d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9159c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e4" }],
+        "title": "What About Us",
+        "bpm": 59,
+        "genre": "dance pop",
+        "duration": 272,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9159c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9159b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Wait",
+        "bpm": 60,
+        "genre": "pop",
+        "duration": 191,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9159b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9159a" },
+        "artist": [{ "$oid": "5fad5c86090c820023e91367" }],
+        "title": "What I Need (feat. Kehlani)",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 220,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9159a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91599" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9135c" }],
+        "title": "Want To",
+        "bpm": 69,
+        "genre": "dance pop",
+        "duration": 212,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91599"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91598" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91358" }],
+        "title": "For You (With Rita Ora)",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 243,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91598"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91597" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91366" }],
+        "title": "Lemon",
+        "bpm": 73,
+        "genre": "hip hop",
+        "duration": 220,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91597"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91596" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91365" }],
+        "title": "Mi Gente (feat. Beyonc�)",
+        "bpm": 72,
+        "genre": "latin",
+        "duration": 210,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91596"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91595" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e7" }],
+        "title": "End Game",
+        "bpm": 59,
+        "genre": "pop",
+        "duration": 245,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91595"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91594" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91350" }],
+        "title": "First Time",
+        "bpm": 59,
+        "genre": "edm",
+        "duration": 194,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91594"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91593" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91325" }],
+        "title": "Nervous",
+        "bpm": 62,
+        "genre": "canadian pop",
+        "duration": 164,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91593"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91592" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91364" }],
+        "title": "Supernova",
+        "bpm": 62,
+        "genre": "dance pop",
+        "duration": 191,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91592"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91591" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91346" }],
+        "title": "Let Me",
+        "bpm": 57,
+        "genre": "dance pop",
+        "duration": 185,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91591"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91590" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91358" }],
+        "title": "Familiar",
+        "bpm": 81,
+        "genre": "dance pop",
+        "duration": 197,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91590"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9158f" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91363" }],
+        "title": "Sign of the Times",
+        "bpm": 57,
+        "genre": "dance pop",
+        "duration": 341,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9158f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9158e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e3" }],
+        "title": "Chun-Li",
+        "bpm": 73,
+        "genre": "dance pop",
+        "duration": 192,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9158e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9158d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91300" }],
+        "title": "Say Something",
+        "bpm": 63,
+        "genre": "dance pop",
+        "duration": 279,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9158d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9158c" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91362" }],
+        "title": "Anywhere",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 215,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9158c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9158b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91306" }],
+        "title": "Bad Liar",
+        "bpm": 41,
+        "genre": "dance pop",
+        "duration": 215,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9158b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9158a" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91325" }],
+        "title": "Youth (feat. Khalid)",
+        "bpm": 60,
+        "genre": "canadian pop",
+        "duration": 191,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9158a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91589" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e7" }],
+        "title": "Look What You Made Me Do",
+        "bpm": 71,
+        "genre": "pop",
+        "duration": 212,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91589"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91588" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91361" }],
+        "title": "Tequila",
+        "bpm": 59,
+        "genre": "contemporary country",
+        "duration": 196,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91588"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91587" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131a" }],
+        "title": "Sick Boy",
+        "bpm": 58,
+        "genre": "electropop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91587"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91586" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91341" }],
+        "title": "Capital Letters",
+        "bpm": 81,
+        "genre": "dance pop",
+        "duration": 219,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91586"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91585" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91360" }],
+        "title": "My My My!",
+        "bpm": 46,
+        "genre": "dance pop",
+        "duration": 205,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91585"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91584" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91351" }],
+        "title": "Wild Thoughts (feat. Rihanna & Bryson Tiller)",
+        "bpm": 67,
+        "genre": "dance pop",
+        "duration": 204,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91584"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91583" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Friends (with BloodPop�)",
+        "bpm": 73,
+        "genre": "canadian pop",
+        "duration": 189,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91583"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91582" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91340" }],
+        "title": "Him & I (with Halsey)",
+        "bpm": 73,
+        "genre": "hip hop",
+        "duration": 269,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91582"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91581" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9135f" }],
+        "title": "Bad At Love",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 181,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91581"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e91580" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91321" }],
+        "title": "Perfect Duet (Ed Sheeran & Beyonc�)",
+        "bpm": 30,
+        "genre": "pop",
+        "duration": 260,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e91580"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9157f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "Finesse - Remix; feat. Cardi B",
+        "bpm": 86,
+        "genre": "pop",
+        "duration": 217,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9157f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9157e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "What Lovers Do (feat. SZA)",
+        "bpm": 60,
+        "genre": "pop",
+        "duration": 200,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9157e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9157d" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91331" }],
+        "title": "These Days",
+        "bpm": 81,
+        "genre": "dance pop",
+        "duration": 211,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9157d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9157c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "Shallow - Radio Edit",
+        "bpm": 33,
+        "genre": "dance pop",
+        "duration": 217,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9157c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8e090c820023e9157b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f6" }],
+        "title": "Sorry Not Sorry",
+        "bpm": 64,
+        "genre": "dance pop",
+        "duration": 204,
+
+        "__v": 0,
+        "id": "5fad5c8e090c820023e9157b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9157a" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9135e" }],
+        "title": "Silence",
+        "bpm": 76,
+        "genre": "brostep",
+        "duration": 181,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9157a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91579" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91341" }],
+        "title": "Let Me Go (with Alesso, Florida Georgia Line & watt)",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 175,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91579"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91578" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "Love On The Brain",
+        "bpm": 64,
+        "genre": "barbadian pop",
+        "duration": 224,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91578"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91577" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9135d" }],
+        "title": "Electricity (with Dua Lipa)",
+        "bpm": 67,
+        "genre": "edm",
+        "duration": 238,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91577"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91576" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9134b" }],
+        "title": "Attention",
+        "bpm": 61,
+        "genre": "dance pop",
+        "duration": 209,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91576"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91575" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91346" }],
+        "title": "Dusk Till Dawn - Radio Edit",
+        "bpm": 44,
+        "genre": "dance pop",
+        "duration": 239,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91575"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91574" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91306" }],
+        "title": "Wolves",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 198,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91574"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91573" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91325" }],
+        "title": "In My Blood",
+        "bpm": 71,
+        "genre": "canadian pop",
+        "duration": 211,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91573"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91572" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9135c" }],
+        "title": "IDGAF",
+        "bpm": 54,
+        "genre": "dance pop",
+        "duration": 218,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91572"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91571" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ff" }],
+        "title": "no tears left to cry",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 206,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91571"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91570" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91325" }],
+        "title": "There's Nothing Holdin' Me Back",
+        "bpm": 81,
+        "genre": "canadian pop",
+        "duration": 199,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91570"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9156f" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9135c" }],
+        "title": "New Rules",
+        "bpm": 70,
+        "genre": "dance pop",
+        "duration": 209,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9156f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9156e" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91356" }],
+        "title": "I Like It",
+        "bpm": 73,
+        "genre": "pop",
+        "duration": 253,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9156e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9156d" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91353" }],
+        "title": "Havana (feat. Young Thug)",
+        "bpm": 52,
+        "genre": "dance pop",
+        "duration": 217,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9156d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9156c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f9" }],
+        "title": "One Kiss (with Dua Lipa)",
+        "bpm": 86,
+        "genre": "dance pop",
+        "duration": 215,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9156c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9156b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e5" }],
+        "title": "A L I E N S",
+        "bpm": 88,
+        "genre": "permanent wave",
+        "duration": 282,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9156b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9156a" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133d" }],
+        "title": "Kissing Strangers - Remix",
+        "bpm": 77,
+        "genre": "dance pop",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9156a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91569" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131d" }],
+        "title": "Free Me",
+        "bpm": 46,
+        "genre": "australian dance",
+        "duration": 286,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91569"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91568" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d7" }],
+        "title": "Water Under the Bridge",
+        "bpm": 84,
+        "genre": "british soul",
+        "duration": 240,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91568"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91567" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d8" }],
+        "title": "Messin' Around",
+        "bpm": 81,
+        "genre": "dance pop",
+        "duration": 223,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91567"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91566" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132b" }],
+        "title": "Remember I Told You",
+        "bpm": 53,
+        "genre": "dance pop",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91566"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91565" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91345" }],
+        "title": "Influence",
+        "bpm": 59,
+        "genre": "dance pop",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91565"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91564" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d8" }],
+        "title": "Greenlight (feat. Flo Rida & LunchMoney Lewis)",
+        "bpm": 83,
+        "genre": "dance pop",
+        "duration": 245,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91564"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91563" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f8" }],
+        "title": "Lust for Life (with The Weeknd)",
+        "bpm": 67,
+        "genre": "art pop",
+        "duration": 264,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91563"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91562" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9135b" }],
+        "title": "Rich Boy",
+        "bpm": 90,
+        "genre": "big room",
+        "duration": 184,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91562"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91561" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912be" }],
+        "title": "No Vacancy (with Sebasti�n Yatra)",
+        "bpm": 76,
+        "genre": "dance pop",
+        "duration": 223,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91561"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91560" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9135a" }],
+        "title": "Love Incredible (feat. Camila Cabello)",
+        "bpm": 50,
+        "genre": "downtempo",
+        "duration": 180,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91560"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9155f" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9134b" }],
+        "title": "We Don't Talk Anymore - DROELOE Remix",
+        "bpm": 82,
+        "genre": "dance pop",
+        "duration": 218,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9155f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9155e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91304" }],
+        "title": "Touch (feat. Kid Ink)",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 203,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9155e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9155d" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91328" }],
+        "title": "Angel",
+        "bpm": 53,
+        "genre": "dance pop",
+        "duration": 189,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9155d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9155c" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91332" }],
+        "title": "Reality (feat. Janieck Devy) - Radio Edit",
+        "bpm": 64,
+        "genre": "belgian edm",
+        "duration": 158,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9155c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9155b" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133d" }],
+        "title": "Body Moves",
+        "bpm": 69,
+        "genre": "dance pop",
+        "duration": 236,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9155b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9155a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f1" }],
+        "title": "Younger Now",
+        "bpm": 87,
+        "genre": "dance pop",
+        "duration": 249,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9155a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91559" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91359" }],
+        "title": "Slow Hands",
+        "bpm": 42,
+        "genre": "dance pop",
+        "duration": 188,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91559"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91558" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133d" }],
+        "title": "Kissing Strangers",
+        "bpm": 74,
+        "genre": "dance pop",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91558"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91557" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f7" }],
+        "title": "Get Low (with Liam Payne)",
+        "bpm": 93,
+        "genre": "complextro",
+        "duration": 205,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91557"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91556" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f8" }],
+        "title": "Summer Bummer (feat. A$AP Rocky & Playboi Carti)",
+        "bpm": 57,
+        "genre": "art pop",
+        "duration": 261,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91556"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91555" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Bon app�tit",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91555"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91554" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91333" }],
+        "title": "OK - Spotify Version",
+        "bpm": 81,
+        "genre": "dance pop",
+        "duration": 189,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91554"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91553" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e8" }],
+        "title": "Cut To The Feeling",
+        "bpm": 91,
+        "genre": "canadian pop",
+        "duration": 208,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91553"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91552" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91358" }],
+        "title": "Strip That Down (feat. Quavo)",
+        "bpm": 50,
+        "genre": "dance pop",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91552"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91551" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "24K Magic",
+        "bpm": 80,
+        "genre": "pop",
+        "duration": 226,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91551"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91550" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91330" }],
+        "title": "Came Here for Love",
+        "bpm": 87,
+        "genre": "dance pop",
+        "duration": 203,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91550"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9154f" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91357" }],
+        "title": "Tired",
+        "bpm": 88,
+        "genre": "electro house",
+        "duration": 192,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9154f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9154e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912be" }],
+        "title": "Rich Love (with Seeb)",
+        "bpm": 87,
+        "genre": "dance pop",
+        "duration": 201,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9154e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9154d" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91356" }],
+        "title": "Bodak Yellow",
+        "bpm": 72,
+        "genre": "pop",
+        "duration": 224,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9154d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9154c" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132f" }],
+        "title": "How Far I'll Go - From \"Moana\"",
+        "bpm": 54,
+        "genre": "canadian contemporary r&b",
+        "duration": 176,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9154c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9154b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "The Cure",
+        "bpm": 51,
+        "genre": "dance pop",
+        "duration": 211,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9154b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e9154a" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91350" }],
+        "title": "First Time",
+        "bpm": 59,
+        "genre": "edm",
+        "duration": 194,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e9154a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91549" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d7" }],
+        "title": "All I Ask",
+        "bpm": 28,
+        "genre": "british soul",
+        "duration": 272,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91549"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91548" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91355" }],
+        "title": "Reggaet�n Lento (Remix)",
+        "bpm": 91,
+        "genre": "boy band",
+        "duration": 189,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91548"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91547" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f8" }],
+        "title": "Love",
+        "bpm": 37,
+        "genre": "art pop",
+        "duration": 273,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91547"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91546" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Cold (feat. Future)",
+        "bpm": 72,
+        "genre": "pop",
+        "duration": 234,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91546"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91545" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Chained To The Rhythm",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 238,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91545"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91544" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Swish Swish",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 243,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91544"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91543" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f9" }],
+        "title": "Slide (feat. Frank Ocean & Migos)",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 231,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91543"
+    },
+    {
+        "_id": { "$oid": "5fad5c8d090c820023e91542" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91354" }],
+        "title": "Mama",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 184,
+
+        "__v": 0,
+        "id": "5fad5c8d090c820023e91542"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91541" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91353" }],
+        "title": "Crying in the Club",
+        "bpm": 62,
+        "genre": "dance pop",
+        "duration": 216,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91541"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91540" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131a" }],
+        "title": "Paris",
+        "bpm": 64,
+        "genre": "electropop",
+        "duration": 222,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91540"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9153f" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133e" }],
+        "title": "There for You",
+        "bpm": 64,
+        "genre": "big room",
+        "duration": 222,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9153f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9153e" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131d" }],
+        "title": "The Greatest",
+        "bpm": 73,
+        "genre": "australian dance",
+        "duration": 210,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9153e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9153d" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91352" }],
+        "title": "Despacito - Remix",
+        "bpm": 82,
+        "genre": "latin",
+        "duration": 229,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9153d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9153c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b9" }],
+        "title": "Praying",
+        "bpm": 39,
+        "genre": "dance pop",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9153c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9153b" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91351" }],
+        "title": "I'm the One (feat. Justin Bieber, Quavo, Chance the Rapper & Lil Wayne)",
+        "bpm": 67,
+        "genre": "dance pop",
+        "duration": 289,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9153b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9153a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f9" }],
+        "title": "My Way",
+        "bpm": 91,
+        "genre": "dance pop",
+        "duration": 219,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9153a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91539" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91346" }],
+        "title": "I Don�t Wanna Live Forever (Fifty Shades Darker)",
+        "bpm": 45,
+        "genre": "dance pop",
+        "duration": 245,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91539"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91538" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91329" }],
+        "title": "Rockabye (feat. Sean Paul & Anne-Marie)",
+        "bpm": 76,
+        "genre": "dance pop",
+        "duration": 251,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91538"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91537" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131a" }],
+        "title": "Something Just Like This",
+        "bpm": 65,
+        "genre": "electropop",
+        "duration": 248,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91537"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91536" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f1" }],
+        "title": "Malibu",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 232,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91536"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91535" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91350" }],
+        "title": "It Ain't Me (with Selena Gomez)",
+        "bpm": 53,
+        "genre": "edm",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91535"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91534" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f7" }],
+        "title": "Stay",
+        "bpm": 62,
+        "genre": "complextro",
+        "duration": 210,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91534"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91533" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ff" }],
+        "title": "Side To Side",
+        "bpm": 74,
+        "genre": "dance pop",
+        "duration": 226,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91533"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91532" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91325" }],
+        "title": "Mercy",
+        "bpm": 66,
+        "genre": "canadian pop",
+        "duration": 209,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91532"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91531" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91322" }],
+        "title": "I Feel It Coming",
+        "bpm": 82,
+        "genre": "canadian contemporary r&b",
+        "duration": 269,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91531"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91530" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9134f" }],
+        "title": "Let Me Love You",
+        "bpm": 72,
+        "genre": "electronic trap",
+        "duration": 206,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91530"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9152f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "That's What I Like",
+        "bpm": 56,
+        "genre": "pop",
+        "duration": 207,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9152f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9152e" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91325" }],
+        "title": "Treat You Better",
+        "bpm": 82,
+        "genre": "canadian pop",
+        "duration": 188,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9152e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9152d" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91322" }],
+        "title": "Starboy",
+        "bpm": 59,
+        "genre": "canadian contemporary r&b",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9152d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9152c" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131a" }],
+        "title": "Closer",
+        "bpm": 52,
+        "genre": "electropop",
+        "duration": 245,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9152c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9152b" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91321" }],
+        "title": "Shape of You",
+        "bpm": 65,
+        "genre": "pop",
+        "duration": 234,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9152b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9152a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d7" }],
+        "title": "Million Years Ago",
+        "bpm": 0,
+        "genre": "british soul",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9152a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91529" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9134e" }],
+        "title": "Behind Your Back",
+        "bpm": 47,
+        "genre": "canadian latin",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91529"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91528" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9134d" }],
+        "title": "Picky - Remix",
+        "bpm": 81,
+        "genre": "latin",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91528"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91527" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9134c" }],
+        "title": "BURNITUP!",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 250,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91527"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91526" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cd" }],
+        "title": "Do You Wanna Come Over?",
+        "bpm": 70,
+        "genre": "dance pop",
+        "duration": 203,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91526"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91525" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133a" }],
+        "title": "Little Lies",
+        "bpm": 76,
+        "genre": "dance pop",
+        "duration": 204,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91525"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91524" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91311" }],
+        "title": "Beautiful Birds (feat. Birdy)",
+        "bpm": 17,
+        "genre": "folk-pop",
+        "duration": 214,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91524"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91523" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9134b" }],
+        "title": "One Call Away (feat. Tyga) - Remix",
+        "bpm": 69,
+        "genre": "dance pop",
+        "duration": 192,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91523"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91522" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cd" }],
+        "title": "Invitation",
+        "bpm": 65,
+        "genre": "dance pop",
+        "duration": 200,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91522"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91521" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e8" }],
+        "title": "Higher",
+        "bpm": 87,
+        "genre": "canadian pop",
+        "duration": 234,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91521"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91520" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91349" }],
+        "title": "Pep Rally",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 263,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91520"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9151f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e9130d" }],
+        "title": "Start",
+        "bpm": 4,
+        "genre": "neo mellow",
+        "duration": 310,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9151f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9151e" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133d" }],
+        "title": "Blown",
+        "bpm": 95,
+        "genre": "dance pop",
+        "duration": 197,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9151e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9151d" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132b" }],
+        "title": "Champagne Problems",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9151d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9151c" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91338" }],
+        "title": "Make Me Like You",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 217,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9151c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9151b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f7" }],
+        "title": "True Colors",
+        "bpm": 79,
+        "genre": "complextro",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9151b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9151a" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131b" }],
+        "title": "Keeping Your Head Up",
+        "bpm": 78,
+        "genre": "neo mellow",
+        "duration": 208,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9151a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91519" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cd" }],
+        "title": "Make Me... (feat. G-Eazy)",
+        "bpm": 70,
+        "genre": "dance pop",
+        "duration": 231,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91519"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91518" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d0" }],
+        "title": "Change",
+        "bpm": 54,
+        "genre": "dance pop",
+        "duration": 187,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91518"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91517" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91305" }],
+        "title": "Hurts",
+        "bpm": 64,
+        "genre": "dance pop",
+        "duration": 238,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91517"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91516" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d1" }],
+        "title": "Wish That You Were Here - From �Miss Peregrine�s Home for Peculiar Children� Original Motion Picture",
+        "bpm": 57,
+        "genre": "art pop",
+        "duration": 403,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91516"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91515" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91325" }],
+        "title": "I Know What You Did Last Summer",
+        "bpm": 77,
+        "genre": "canadian pop",
+        "duration": 224,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91515"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91514" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d7" }],
+        "title": "When We Were Young",
+        "bpm": 59,
+        "genre": "british soul",
+        "duration": 291,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91514"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91513" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9134a" }],
+        "title": "Desire",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 203,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91513"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91512" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91349" }],
+        "title": "WTF (Where They From)",
+        "bpm": 82,
+        "genre": "dance pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91512"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91511" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d7" }],
+        "title": "Send My Love (To Your New Lover)",
+        "bpm": 52,
+        "genre": "british soul",
+        "duration": 223,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91511"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91510" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91348" }],
+        "title": "Cruel (feat. ZAYN)",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91510"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9150f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e8" }],
+        "title": "Run Away With Me",
+        "bpm": 72,
+        "genre": "canadian pop",
+        "duration": 251,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9150f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9150e" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91347" }],
+        "title": "I Got You",
+        "bpm": 89,
+        "genre": "dance pop",
+        "duration": 192,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9150e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9150d" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131d" }],
+        "title": "Cheap Thrills",
+        "bpm": 80,
+        "genre": "australian dance",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9150d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9150c" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91346" }],
+        "title": "LIKE I WOULD",
+        "bpm": 83,
+        "genre": "dance pop",
+        "duration": 192,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9150c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9150b" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91325" }],
+        "title": "Don't Be A Fool",
+        "bpm": 34,
+        "genre": "canadian pop",
+        "duration": 216,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9150b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e9150a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f6" }],
+        "title": "Body Say",
+        "bpm": 74,
+        "genre": "dance pop",
+        "duration": 194,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e9150a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91509" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912be" }],
+        "title": "Wherever I Go",
+        "bpm": 69,
+        "genre": "dance pop",
+        "duration": 170,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91509"
+    },
+    {
+        "_id": { "$oid": "5fad5c8c090c820023e91508" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Rise",
+        "bpm": 64,
+        "genre": "dance pop",
+        "duration": 203,
+
+        "__v": 0,
+        "id": "5fad5c8c090c820023e91508"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e91507" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e7" }],
+        "title": "Out Of The Woods",
+        "bpm": 84,
+        "genre": "pop",
+        "duration": 236,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e91507"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e91506" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91346" }],
+        "title": "PILLOWTALK",
+        "bpm": 70,
+        "genre": "dance pop",
+        "duration": 204,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e91506"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e91505" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "Perfect Illusion",
+        "bpm": 86,
+        "genre": "dance pop",
+        "duration": 182,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e91505"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e91504" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132f" }],
+        "title": "Here",
+        "bpm": 82,
+        "genre": "canadian contemporary r&b",
+        "duration": 199,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e91504"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e91503" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132e" }],
+        "title": "Runnin' (Lose It All)",
+        "bpm": 85,
+        "genre": "tropical house",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e91503"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e91502" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91345" }],
+        "title": "Cool Girl",
+        "bpm": 69,
+        "genre": "dance pop",
+        "duration": 199,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e91502"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e91501" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91306" }],
+        "title": "Kill Em With Kindness",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 218,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e91501"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e91500" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132a" }],
+        "title": "NO",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 214,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e91500"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ff" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e4" }],
+        "title": "Just Like Fire (From the Original Motion Picture \"Alice Through The Looking Glass\")",
+        "bpm": 70,
+        "genre": "dance pop",
+        "duration": 215,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ff"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914fe" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d7" }],
+        "title": "All I Ask",
+        "bpm": 28,
+        "genre": "british soul",
+        "duration": 272,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914fe"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914fd" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91306" }],
+        "title": "Hands To Myself",
+        "bpm": 50,
+        "genre": "dance pop",
+        "duration": 201,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914fd"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914fc" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Company",
+        "bpm": 80,
+        "genre": "canadian pop",
+        "duration": 208,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914fc"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914fb" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91344" }],
+        "title": "Final Song",
+        "bpm": 67,
+        "genre": "dance pop",
+        "duration": 236,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914fb"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914fa" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131a" }],
+        "title": "All We Know",
+        "bpm": 59,
+        "genre": "electropop",
+        "duration": 194,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914fa"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914f9" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133d" }],
+        "title": "Toothbrush",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 232,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914f9"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914f8" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132b" }],
+        "title": "Close",
+        "bpm": 62,
+        "genre": "dance pop",
+        "duration": 234,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914f8"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914f7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e0" }],
+        "title": "Ain't Your Mama",
+        "bpm": 68,
+        "genre": "dance pop",
+        "duration": 218,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914f7"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914f6" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91343" }],
+        "title": "Light It Up (feat. Nyla & Fuse ODG) [Remix]",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 166,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914f6"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914f5" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132a" }],
+        "title": "Me Too",
+        "bpm": 69,
+        "genre": "dance pop",
+        "duration": 181,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914f5"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914f4" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91343" }],
+        "title": "Cold Water (feat. Justin Bieber & M�)",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 185,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914f4"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914f3" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131a" }],
+        "title": "Roses",
+        "bpm": 80,
+        "genre": "electropop",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914f3"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914f2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912fa" }],
+        "title": "Too Good",
+        "bpm": 65,
+        "genre": "canadian hip hop",
+        "duration": 263,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914f2"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914f1" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f6" }],
+        "title": "Confident",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 206,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914f1"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914f0" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91342" }],
+        "title": "Electric Love",
+        "bpm": 80,
+        "genre": "electropop",
+        "duration": 218,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914f0"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ef" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91304" }],
+        "title": "Shout Out to My Ex",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 246,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ef"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ee" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91341" }],
+        "title": "Starving",
+        "bpm": 62,
+        "genre": "dance pop",
+        "duration": 182,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ee"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ed" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ff" }],
+        "title": "Dangerous Woman",
+        "bpm": 60,
+        "genre": "dance pop",
+        "duration": 236,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ed"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ec" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c2" }],
+        "title": "I Took A Pill In Ibiza - Seeb Remix",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 198,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ec"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914eb" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91340" }],
+        "title": "Me, Myself & I",
+        "bpm": 67,
+        "genre": "hip hop",
+        "duration": 251,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914eb"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ea" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91325" }],
+        "title": "Stitches",
+        "bpm": 75,
+        "genre": "canadian pop",
+        "duration": 207,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ea"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914e9" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "Work",
+        "bpm": 53,
+        "genre": "barbadian pop",
+        "duration": 219,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914e9"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914e8" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132a" }],
+        "title": "Like I'm Gonna Lose You (feat. John Legend)",
+        "bpm": 53,
+        "genre": "dance pop",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914e8"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914e7" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132f" }],
+        "title": "Scars To Your Beautiful",
+        "bpm": 74,
+        "genre": "canadian contemporary r&b",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914e7"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914e6" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91328" }],
+        "title": "Work from Home (feat. Ty Dolla $ign)",
+        "bpm": 59,
+        "genre": "dance pop",
+        "duration": 214,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914e6"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914e5" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91300" }],
+        "title": "CAN'T STOP THE FEELING! (Original Song from DreamWorks Animation's \"TROLLS\")",
+        "bpm": 83,
+        "genre": "dance pop",
+        "duration": 236,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914e5"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914e4" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133f" }],
+        "title": "7 Years",
+        "bpm": 47,
+        "genre": "danish pop",
+        "duration": 237,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914e4"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914e3" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "Needed Me",
+        "bpm": 31,
+        "genre": "barbadian pop",
+        "duration": 192,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914e3"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914e2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "Million Reasons",
+        "bpm": 42,
+        "genre": "dance pop",
+        "duration": 205,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914e2"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914e1" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f9" }],
+        "title": "This Is What You Came For",
+        "bpm": 93,
+        "genre": "dance pop",
+        "duration": 222,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914e1"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914e0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ff" }],
+        "title": "Into You",
+        "bpm": 73,
+        "genre": "dance pop",
+        "duration": 244,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914e0"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914df" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133e" }],
+        "title": "In the Name of Love",
+        "bpm": 52,
+        "genre": "big room",
+        "duration": 196,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914df"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914de" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131a" }],
+        "title": "Don't Let Me Down",
+        "bpm": 87,
+        "genre": "electropop",
+        "duration": 208,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914de"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914dd" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133d" }],
+        "title": "Cake By The Ocean",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 219,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914dd"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914dc" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Love Yourself",
+        "bpm": 38,
+        "genre": "canadian pop",
+        "duration": 234,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914dc"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914db" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91322" }],
+        "title": "The Hills",
+        "bpm": 56,
+        "genre": "canadian contemporary r&b",
+        "duration": 242,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914db"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914da" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91303" }],
+        "title": "L.A.LOVE (la la)",
+        "bpm": 39,
+        "genre": "dance pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914da"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914d9" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133c" }],
+        "title": "Dangerous",
+        "bpm": 53,
+        "genre": "dance pop",
+        "duration": 255,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914d9"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914d8" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cb" }],
+        "title": "Let Me Be Your Lover",
+        "bpm": 90,
+        "genre": "dance pop",
+        "duration": 238,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914d8"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914d7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e9" }],
+        "title": "Run Run Run",
+        "bpm": 37,
+        "genre": "dance pop",
+        "duration": 273,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914d7"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914d6" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91338" }],
+        "title": "Spark The Fire",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914d6"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914d5" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Legendary Lovers",
+        "bpm": 84,
+        "genre": "dance pop",
+        "duration": 224,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914d5"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914d4" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133b" }],
+        "title": "Mr. Put It Down",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 196,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914d4"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914d3" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9133a" }],
+        "title": "Sparks",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 186,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914d3"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914d2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d8" }],
+        "title": "Time of Our Lives",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 229,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914d2"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914d1" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cf" }],
+        "title": "Yesterday (feat. Bebe Rexha)",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 243,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914d1"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914d0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d1" }],
+        "title": "St Jude",
+        "bpm": 43,
+        "genre": "art pop",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914d0"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914cf" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bf" }],
+        "title": "We Are Here",
+        "bpm": 67,
+        "genre": "hip pop",
+        "duration": 285,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914cf"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ce" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d8" }],
+        "title": "Celebrate (From the Original Motion Picture \"Penguins of Madagascar\")",
+        "bpm": 85,
+        "genre": "dance pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ce"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914cd" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e6" }],
+        "title": "Steal My Girl",
+        "bpm": 76,
+        "genre": "boy band",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914cd"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914cc" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91339" }],
+        "title": "Don't Be so Hard on Yourself",
+        "bpm": 82,
+        "genre": "dance pop",
+        "duration": 211,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914cc"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914cb" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91338" }],
+        "title": "Baby Don't Lie",
+        "bpm": 55,
+        "genre": "dance pop",
+        "duration": 203,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914cb"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ca" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91337" }],
+        "title": "Living For Love",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 219,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ca"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914c9" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91321" }],
+        "title": "Bloodstream",
+        "bpm": 59,
+        "genre": "pop",
+        "duration": 309,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914c9"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914c8" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cf" }],
+        "title": "Bang My Head (feat. Sia & Fetty Wap)",
+        "bpm": 87,
+        "genre": "dance pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914c8"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914c7" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91337" }],
+        "title": "Ghosttown",
+        "bpm": 55,
+        "genre": "dance pop",
+        "duration": 250,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914c7"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914c6" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e6" }],
+        "title": "Perfect",
+        "bpm": 82,
+        "genre": "boy band",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914c6"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914c5" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e0" }],
+        "title": "Feel The Light - From The \"Home\" Soundtrack",
+        "bpm": 60,
+        "genre": "dance pop",
+        "duration": 292,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914c5"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914c4" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91336" }],
+        "title": "Heroes (we could be)",
+        "bpm": 75,
+        "genre": "big room",
+        "duration": 210,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914c4"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914c3" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91335" }],
+        "title": "See You Again (feat. Charlie Puth)",
+        "bpm": 48,
+        "genre": "hip hop",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914c3"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914c2" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91334" }],
+        "title": "Prayer in C - Robin Schulz Radio Edit",
+        "bpm": 89,
+        "genre": "french indie pop",
+        "duration": 189,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914c2"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914c1" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Been You",
+        "bpm": 78,
+        "genre": "canadian pop",
+        "duration": 199,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914c1"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914c0" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91333" }],
+        "title": "Sugar (feat. Francesco Yates)",
+        "bpm": 82,
+        "genre": "dance pop",
+        "duration": 219,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914c0"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914bf" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131d" }],
+        "title": "Alive",
+        "bpm": 76,
+        "genre": "australian dance",
+        "duration": 264,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914bf"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914be" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91332" }],
+        "title": "Reality - Radio Edit",
+        "bpm": 70,
+        "genre": "belgian edm",
+        "duration": 159,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914be"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914bd" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912df" }],
+        "title": "Bang Bang",
+        "bpm": 75,
+        "genre": "australian pop",
+        "duration": 199,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914bd"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914bc" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "American Oxygen",
+        "bpm": 75,
+        "genre": "barbadian pop",
+        "duration": 320,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914bc"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914bb" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91331" }],
+        "title": "Lay It All on Me",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 242,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914bb"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ba" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Mark My Words",
+        "bpm": 26,
+        "genre": "canadian pop",
+        "duration": 134,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ba"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914b9" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "What Do You Mean? - Acoustic",
+        "bpm": 36,
+        "genre": "canadian pop",
+        "duration": 204,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914b9"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914b8" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e0" }],
+        "title": "Booty",
+        "bpm": 95,
+        "genre": "dance pop",
+        "duration": 210,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914b8"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914b7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ef" }],
+        "title": "Broken Arrows",
+        "bpm": 67,
+        "genre": "big room",
+        "duration": 233,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914b7"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914b6" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91304" }],
+        "title": "Love Me Like You",
+        "bpm": 67,
+        "genre": "dance pop",
+        "duration": 198,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914b6"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914b5" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ed" }],
+        "title": "On My Mind",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914b5"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914b4" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132a" }],
+        "title": "All About That Bass",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 189,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914b4"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914b3" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ff" }],
+        "title": "Focus",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 211,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914b3"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914b2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Sugar",
+        "bpm": 79,
+        "genre": "pop",
+        "duration": 235,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914b2"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914b1" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91328" }],
+        "title": "BO$$",
+        "bpm": 87,
+        "genre": "dance pop",
+        "duration": 171,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914b1"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914b0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e8" }],
+        "title": "I Really Like You",
+        "bpm": 81,
+        "genre": "canadian pop",
+        "duration": 205,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914b0"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914af" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "The Feeling",
+        "bpm": 81,
+        "genre": "canadian pop",
+        "duration": 245,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914af"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ae" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91330" }],
+        "title": "Easy Love",
+        "bpm": 94,
+        "genre": "dance pop",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ae"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ad" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d8" }],
+        "title": "Fireball (feat. John Ryan)",
+        "bpm": 94,
+        "genre": "dance pop",
+        "duration": 235,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ad"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ac" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912be" }],
+        "title": "I Lived",
+        "bpm": 85,
+        "genre": "dance pop",
+        "duration": 235,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ac"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914ab" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132f" }],
+        "title": "Here",
+        "bpm": 82,
+        "genre": "canadian contemporary r&b",
+        "duration": 199,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914ab"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914aa" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "I'll Show You",
+        "bpm": 61,
+        "genre": "canadian pop",
+        "duration": 200,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914aa"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914a9" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132a" }],
+        "title": "Lips Are Movin",
+        "bpm": 83,
+        "genre": "dance pop",
+        "duration": 183,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914a9"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914a8" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f7" }],
+        "title": "I Want You To Know",
+        "bpm": 85,
+        "genre": "complextro",
+        "duration": 240,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914a8"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914a7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91306" }],
+        "title": "Same Old Love",
+        "bpm": 59,
+        "genre": "dance pop",
+        "duration": 229,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914a7"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914a6" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132e" }],
+        "title": "Runnin' (Lose It All)",
+        "bpm": 85,
+        "genre": "tropical house",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914a6"
+    },
+    {
+        "_id": { "$oid": "5fad5c8b090c820023e914a5" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91319" }],
+        "title": "Trumpets",
+        "bpm": 70,
+        "genre": "dance pop",
+        "duration": 217,
+
+        "__v": 0,
+        "id": "5fad5c8b090c820023e914a5"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e914a4" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132d" }],
+        "title": "Up",
+        "bpm": 85,
+        "genre": "dance pop",
+        "duration": 224,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e914a4"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e914a3" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e9" }],
+        "title": "Heartbeat Song",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 199,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e914a3"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e914a2" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132c" }],
+        "title": "Only Love Can Hurt Like This",
+        "bpm": 89,
+        "genre": "british soul",
+        "duration": 233,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e914a2"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e914a1" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912fc" }],
+        "title": "Downtown (feat. Melle Mel, Grandmaster Caz, Kool Moe Dee & Eric Nally)",
+        "bpm": 61,
+        "genre": "dance pop",
+        "duration": 293,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e914a1"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e914a0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f6" }],
+        "title": "Really Don't Care",
+        "bpm": 73,
+        "genre": "dance pop",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e914a0"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9149f" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132b" }],
+        "title": "Jealous - Remix",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 222,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9149f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9149e" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91321" }],
+        "title": "Sing",
+        "bpm": 67,
+        "genre": "pop",
+        "duration": 235,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9149e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9149d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Company",
+        "bpm": 80,
+        "genre": "canadian pop",
+        "duration": 208,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9149d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9149c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d0" }],
+        "title": "Genie In a Bottle",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 218,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9149c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9149b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cf" }],
+        "title": "Hey Mama (feat. Nicki Minaj, Bebe Rexha & Afrojack)",
+        "bpm": 73,
+        "genre": "dance pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9149b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9149a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91306" }],
+        "title": "The Heart Wants What It Wants",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9149a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91499" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912da" }],
+        "title": "43776",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 214,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91499"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91498" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9132a" }],
+        "title": "Dear Future Husband",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 184,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91498"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91497" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d7" }],
+        "title": "Hello",
+        "bpm": 45,
+        "genre": "british soul",
+        "duration": 295,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91497"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91496" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91329" }],
+        "title": "Rather Be (feat. Jess Glynne)",
+        "bpm": 59,
+        "genre": "dance pop",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91496"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91495" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131d" }],
+        "title": "Elastic Heart",
+        "bpm": 79,
+        "genre": "australian dance",
+        "duration": 257,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91495"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91494" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91321" }],
+        "title": "Don't",
+        "bpm": 61,
+        "genre": "pop",
+        "duration": 220,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91494"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91493" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ff" }],
+        "title": "Break Free",
+        "bpm": 70,
+        "genre": "dance pop",
+        "duration": 215,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91493"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91492" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91328" }],
+        "title": "Worth It",
+        "bpm": 77,
+        "genre": "dance pop",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91492"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91491" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f9" }],
+        "title": "Blame",
+        "bpm": 86,
+        "genre": "dance pop",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91491"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91490" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Animals",
+        "bpm": 74,
+        "genre": "pop",
+        "duration": 231,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91490"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9148f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ff" }],
+        "title": "Love Me Harder",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 236,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9148f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9148e" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91327" }],
+        "title": "Never Forget You",
+        "bpm": 73,
+        "genre": "dance pop",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9148e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9148d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f9" }],
+        "title": "How Deep Is Your Love",
+        "bpm": 87,
+        "genre": "dance pop",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9148d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9148c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e6" }],
+        "title": "Night Changes",
+        "bpm": 52,
+        "genre": "boy band",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9148c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9148b" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91326" }],
+        "title": "Waves - Robin Schulz Radio Edit",
+        "bpm": 51,
+        "genre": "tropical house",
+        "duration": 208,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9148b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9148a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c1" }],
+        "title": "My House",
+        "bpm": 70,
+        "genre": "dance pop",
+        "duration": 192,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9148a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91489" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91319" }],
+        "title": "Want to Want Me",
+        "bpm": 68,
+        "genre": "dance pop",
+        "duration": 208,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91489"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91488" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91325" }],
+        "title": "Stitches",
+        "bpm": 75,
+        "genre": "canadian pop",
+        "duration": 207,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91488"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91487" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "What Do You Mean?",
+        "bpm": 57,
+        "genre": "canadian pop",
+        "duration": 206,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91487"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91486" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91322" }],
+        "title": "Earned It (Fifty Shades Of Grey) - From The \"Fifty Shades Of Grey\" Soundtrack",
+        "bpm": 38,
+        "genre": "canadian contemporary r&b",
+        "duration": 252,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91486"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91485" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ed" }],
+        "title": "Love Me Like You Do - From \"Fifty Shades Of Grey\"",
+        "bpm": 61,
+        "genre": "dance pop",
+        "duration": 253,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91485"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91484" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "FourFiveSeconds",
+        "bpm": 27,
+        "genre": "barbadian pop",
+        "duration": 188,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91484"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91483" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Sorry",
+        "bpm": 76,
+        "genre": "canadian pop",
+        "duration": 201,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91483"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91482" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Sugar",
+        "bpm": 79,
+        "genre": "pop",
+        "duration": 235,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91482"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91481" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91324" }],
+        "title": "Take Me To Church",
+        "bpm": 66,
+        "genre": "irish singer-songwriter",
+        "duration": 242,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91481"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91480" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91323" }],
+        "title": "Uptown Funk",
+        "bpm": 61,
+        "genre": "dance pop",
+        "duration": 270,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91480"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9147f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Love Yourself",
+        "bpm": 38,
+        "genre": "canadian pop",
+        "duration": 234,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9147f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9147e" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91322" }],
+        "title": "The Hills",
+        "bpm": 56,
+        "genre": "canadian contemporary r&b",
+        "duration": 242,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9147e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9147d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e9130e" }],
+        "title": "I'm Not The Only One",
+        "bpm": 49,
+        "genre": "pop",
+        "duration": 239,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9147d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9147c" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91321" }],
+        "title": "Thinking out Loud",
+        "bpm": 45,
+        "genre": "pop",
+        "duration": 282,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9147c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9147b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91300" }],
+        "title": "Not a Bad Thing",
+        "bpm": 73,
+        "genre": "dance pop",
+        "duration": 266,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9147b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9147a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e0" }],
+        "title": "I Luh Ya Papi",
+        "bpm": 73,
+        "genre": "dance pop",
+        "duration": 207,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9147a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91479" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bf" }],
+        "title": "It's On Again - Main Soundtrack",
+        "bpm": 54,
+        "genre": "hip pop",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91479"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91478" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91320" }],
+        "title": "Cannonball",
+        "bpm": 82,
+        "genre": "hollywood",
+        "duration": 215,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91478"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91477" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131f" }],
+        "title": "Sheezus",
+        "bpm": 50,
+        "genre": "dance pop",
+        "duration": 235,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91477"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91476" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91309" }],
+        "title": "You're Mine (Eternal)",
+        "bpm": 58,
+        "genre": "dance pop",
+        "duration": 224,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91476"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91475" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131b" }],
+        "title": "Words as Weapons",
+        "bpm": 35,
+        "genre": "neo mellow",
+        "duration": 239,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91475"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91474" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131b" }],
+        "title": "Tee Shirt - Soundtrack Version",
+        "bpm": 34,
+        "genre": "neo mellow",
+        "duration": 160,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91474"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91473" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d2" }],
+        "title": "La La La (Brasil 2014) (feat. Carlinhos Brown)",
+        "bpm": 82,
+        "genre": "colombian pop",
+        "duration": 198,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91473"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91472" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131e" }],
+        "title": "Boom Clap - From the Motion Picture Das Schicksal ist ein mieser Verr�ter",
+        "bpm": 81,
+        "genre": "candy pop",
+        "duration": 169,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91472"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91471" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e3" }],
+        "title": "Anaconda",
+        "bpm": 60,
+        "genre": "dance pop",
+        "duration": 260,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91471"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91470" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912da" }],
+        "title": "Drunk in Love",
+        "bpm": 62,
+        "genre": "dance pop",
+        "duration": 323,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91470"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9146f" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131b" }],
+        "title": "Not About Angels",
+        "bpm": 14,
+        "genre": "neo mellow",
+        "duration": 190,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9146f"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9146e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d8" }],
+        "title": "We Are One (Ole Ola) [The Official 2014 FIFA World Cup Song]",
+        "bpm": 94,
+        "genre": "dance pop",
+        "duration": 222,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9146e"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9146d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912da" }],
+        "title": "XO",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 216,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9146d"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9146c" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131d" }],
+        "title": "Chandelier",
+        "bpm": 78,
+        "genre": "australian dance",
+        "duration": 216,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9146c"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9146b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e9130f" }],
+        "title": "Come Get It Bae",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9146b"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e9146a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e5" }],
+        "title": "A Sky Full of Stars",
+        "bpm": 68,
+        "genre": "permanent wave",
+        "duration": 268,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e9146a"
+    },
+    {
+        "_id": { "$oid": "5fad5c8a090c820023e91469" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131c" }],
+        "title": "Say Something",
+        "bpm": 15,
+        "genre": "neo mellow",
+        "duration": 229,
+
+        "__v": 0,
+        "id": "5fad5c8a090c820023e91469"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91468" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cf" }],
+        "title": "Shot Me Down (feat. Skylar Grey) - Radio Edit",
+        "bpm": 77,
+        "genre": "dance pop",
+        "duration": 191,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91468"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91467" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d2" }],
+        "title": "Can't Remember to Forget You (feat. Rihanna)",
+        "bpm": 81,
+        "genre": "colombian pop",
+        "duration": 207,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91467"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91466" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131b" }],
+        "title": "Wings",
+        "bpm": 71,
+        "genre": "neo mellow",
+        "duration": 252,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91466"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91465" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f6" }],
+        "title": "Let It Go - From \"Frozen / Single Version",
+        "bpm": 66,
+        "genre": "dance pop",
+        "duration": 226,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91465"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91464" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f7" }],
+        "title": "Stay The Night - Featuring Hayley Williams Of Paramore",
+        "bpm": 74,
+        "genre": "complextro",
+        "duration": 217,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91464"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91463" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "G.U.Y.",
+        "bpm": 92,
+        "genre": "dance pop",
+        "duration": 233,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91463"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91462" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Birthday",
+        "bpm": 67,
+        "genre": "dance pop",
+        "duration": 215,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91462"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91461" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912da" }],
+        "title": "Partition",
+        "bpm": 44,
+        "genre": "dance pop",
+        "duration": 319,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91461"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91460" },
+        "artist": [{ "$oid": "5fad5c85090c820023e9131a" }],
+        "title": "#SELFIE",
+        "bpm": 92,
+        "genre": "electropop",
+        "duration": 184,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91460"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9145f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91303" }],
+        "title": "A Little Party Never Killed Nobody (All We Got)",
+        "bpm": 62,
+        "genre": "dance pop",
+        "duration": 241,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9145f"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9145e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91307" }],
+        "title": "Mmm Yeah (feat. Pitbull)",
+        "bpm": 92,
+        "genre": "dance pop",
+        "duration": 232,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9145e"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9145d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "This Is How We Do",
+        "bpm": 64,
+        "genre": "dance pop",
+        "duration": 204,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9145d"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9145c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912be" }],
+        "title": "Love Runs Out",
+        "bpm": 93,
+        "genre": "dance pop",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9145c"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9145b" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91319" }],
+        "title": "Wiggle (feat. Snoop Dogg)",
+        "bpm": 62,
+        "genre": "dance pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9145b"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9145a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "Young Girls",
+        "bpm": 75,
+        "genre": "pop",
+        "duration": 229,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9145a"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91459" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d6" }],
+        "title": "human",
+        "bpm": 49,
+        "genre": "dance pop",
+        "duration": 251,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91459"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91458" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "Gorilla",
+        "bpm": 54,
+        "genre": "pop",
+        "duration": 244,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91458"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91457" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91319" }],
+        "title": "Talk Dirty (feat. 2 Chainz)",
+        "bpm": 65,
+        "genre": "dance pop",
+        "duration": 178,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91457"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91456" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91318" }],
+        "title": "Fancy",
+        "bpm": 72,
+        "genre": "australian hip hop",
+        "duration": 200,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91456"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91455" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91317" }],
+        "title": "She Looks So Perfect",
+        "bpm": 95,
+        "genre": "boy band",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91455"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91454" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ed" }],
+        "title": "Burn",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 231,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91454"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91453" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91316" }],
+        "title": "Love Never Felt So Good",
+        "bpm": 72,
+        "genre": "pop",
+        "duration": 246,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91453"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91452" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f1" }],
+        "title": "Adore You",
+        "bpm": 66,
+        "genre": "dance pop",
+        "duration": 279,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91452"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91451" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91315" }],
+        "title": "Latch",
+        "bpm": 73,
+        "genre": "house",
+        "duration": 256,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91451"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91450" },
+        "artist": [{ "$oid": "5fad5c85090c820023e91314" }],
+        "title": "Love Me Again",
+        "bpm": 89,
+        "genre": "pop",
+        "duration": 240,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91450"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9144f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91313" }],
+        "title": "Team",
+        "bpm": 58,
+        "genre": "art pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9144f"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9144e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91312" }],
+        "title": "Pompeii",
+        "bpm": 72,
+        "genre": "metropopolis",
+        "duration": 214,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9144e"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9144d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ff" }],
+        "title": "Problem",
+        "bpm": 81,
+        "genre": "dance pop",
+        "duration": 194,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9144d"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9144c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91311" }],
+        "title": "Let Her Go",
+        "bpm": 54,
+        "genre": "folk-pop",
+        "duration": 253,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9144c"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9144b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "Treasure",
+        "bpm": 69,
+        "genre": "pop",
+        "duration": 179,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9144b"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9144a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Maps",
+        "bpm": 71,
+        "genre": "pop",
+        "duration": 190,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9144a"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91449" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ef" }],
+        "title": "Hey Brother",
+        "bpm": 78,
+        "genre": "big room",
+        "duration": 255,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91449"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91448" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Dark Horse",
+        "bpm": 59,
+        "genre": "dance pop",
+        "duration": 216,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91448"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91447" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e7" }],
+        "title": "Shake It Off",
+        "bpm": 80,
+        "genre": "pop",
+        "duration": 219,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91447"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91446" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91310" }],
+        "title": "Rude",
+        "bpm": 76,
+        "genre": "pop",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91446"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91445" },
+        "artist": [{ "$oid": "5fad5c84090c820023e9130f" }],
+        "title": "Happy - From \"Despicable Me 2\"",
+        "bpm": 82,
+        "genre": "dance pop",
+        "duration": 233,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91445"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91444" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f9" }],
+        "title": "Summer",
+        "bpm": 86,
+        "genre": "dance pop",
+        "duration": 223,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91444"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91443" },
+        "artist": [{ "$oid": "5fad5c84090c820023e9130e" }],
+        "title": "Stay With Me",
+        "bpm": 42,
+        "genre": "pop",
+        "duration": 173,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91443"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91442" },
+        "artist": [{ "$oid": "5fad5c84090c820023e9130d" }],
+        "title": "All of Me",
+        "bpm": 26,
+        "genre": "neo mellow",
+        "duration": 270,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91442"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91441" },
+        "artist": [{ "$oid": "5fad5c84090c820023e9130c" }],
+        "title": "Freak",
+        "bpm": 78,
+        "genre": "atl hip hop",
+        "duration": 274,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91441"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91440" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d8" }],
+        "title": "Outta Nowhere (feat. Danny Mercer)",
+        "bpm": 84,
+        "genre": "dance pop",
+        "duration": 207,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91440"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9143f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e9130b" }],
+        "title": "Foolish Games",
+        "bpm": 34,
+        "genre": "alaska indie",
+        "duration": 250,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9143f"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9143e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f5" }],
+        "title": "Give It 2 U",
+        "bpm": 83,
+        "genre": "dance pop",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9143e"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9143d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "Right Now - Dyro Radio Edit",
+        "bpm": 74,
+        "genre": "barbadian pop",
+        "duration": 186,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9143d"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9143c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e9130a" }],
+        "title": "Overdose",
+        "bpm": 70,
+        "genre": "dance pop",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9143c"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9143b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e9" }],
+        "title": "People Like Us",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 259,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9143b"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9143a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cd" }],
+        "title": "Ooh La La (from \"The Smurfs 2\")",
+        "bpm": 57,
+        "genre": "dance pop",
+        "duration": 257,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9143a"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91439" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b9" }],
+        "title": "Crazy Kids (feat. will.i.am)",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 229,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91439"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91438" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91304" }],
+        "title": "How Ya Doin'? (feat. Missy Elliott)",
+        "bpm": 95,
+        "genre": "dance pop",
+        "duration": 211,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91438"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91437" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91309" }],
+        "title": "#Beautiful",
+        "bpm": 76,
+        "genre": "dance pop",
+        "duration": 200,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91437"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91436" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91308" }],
+        "title": "Pom Poms",
+        "bpm": 98,
+        "genre": "boy band",
+        "duration": 198,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91436"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91435" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cb" }],
+        "title": "Finally Found You",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91435"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91434" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ed" }],
+        "title": "Anything Could Happen",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 286,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91434"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91433" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "Applause",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 212,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91433"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91432" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91300" }],
+        "title": "Take Back the Night",
+        "bpm": 66,
+        "genre": "dance pop",
+        "duration": 353,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91432"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91431" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91307" }],
+        "title": "What About Love",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 203,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91431"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e91430" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e5" }],
+        "title": "Atlas - From �The Hunger Games: Catching Fire� Soundtrack",
+        "bpm": 45,
+        "genre": "permanent wave",
+        "duration": 236,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e91430"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9142f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912eb" }],
+        "title": "We Own The Night",
+        "bpm": 94,
+        "genre": "boy band",
+        "duration": 206,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9142f"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9142e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e0" }],
+        "title": "Live It Up",
+        "bpm": 73,
+        "genre": "dance pop",
+        "duration": 244,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9142e"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9142d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91306" }],
+        "title": "Come & Get It",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 232,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9142d"
+    },
+    {
+        "_id": { "$oid": "5fad5c89090c820023e9142c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91300" }],
+        "title": "TKO",
+        "bpm": 68,
+        "genre": "dance pop",
+        "duration": 424,
+
+        "__v": 0,
+        "id": "5fad5c89090c820023e9142c"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9142b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bf" }],
+        "title": "Girl On Fire (feat. Nicki Minaj) - Inferno Version",
+        "bpm": 81,
+        "genre": "hip pop",
+        "duration": 271,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9142b"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9142a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91305" }],
+        "title": "Clown",
+        "bpm": 23,
+        "genre": "dance pop",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9142a"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91429" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f6" }],
+        "title": "Made In The USA",
+        "bpm": 86,
+        "genre": "dance pop",
+        "duration": 196,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91429"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91428" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91305" }],
+        "title": "Next To Me",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 197,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91428"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91427" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91300" }],
+        "title": "Mirrors - Radio Edit",
+        "bpm": 60,
+        "genre": "dance pop",
+        "duration": 277,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91427"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91426" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Heartbreaker",
+        "bpm": 52,
+        "genre": "canadian pop",
+        "duration": 263,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91426"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91425" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912dc" }],
+        "title": "Rock N Roll",
+        "bpm": 96,
+        "genre": "canadian pop",
+        "duration": 207,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91425"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91424" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912eb" }],
+        "title": "Walks Like Rihanna",
+        "bpm": 82,
+        "genre": "boy band",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91424"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91423" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91304" }],
+        "title": "Move",
+        "bpm": 74,
+        "genre": "dance pop",
+        "duration": 224,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91423"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91422" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91303" }],
+        "title": "A Little Party Never Killed Nobody (All We Got)",
+        "bpm": 62,
+        "genre": "dance pop",
+        "duration": 241,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91422"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91421" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Love Somebody",
+        "bpm": 78,
+        "genre": "pop",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91421"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91420" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Daylight",
+        "bpm": 67,
+        "genre": "pop",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91420"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9141f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cf" }],
+        "title": "Play Hard (feat. Ne-Yo & Akon) - New Edit",
+        "bpm": 87,
+        "genre": "dance pop",
+        "duration": 209,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9141f"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9141e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91302" }],
+        "title": "I Love It (feat. Charli XCX)",
+        "bpm": 91,
+        "genre": "candy pop",
+        "duration": 157,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9141e"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9141d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91301" }],
+        "title": "#thatPOWER",
+        "bpm": 61,
+        "genre": "dance pop",
+        "duration": 280,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9141d"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9141c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e91300" }],
+        "title": "Suit & Tie",
+        "bpm": 60,
+        "genre": "dance pop",
+        "duration": 326,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9141c"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9141b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ff" }],
+        "title": "The Way",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9141b"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9141a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912be" }],
+        "title": "If I Lose Myself - Alesso vs OneRepublic",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 215,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9141a"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91419" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912fc" }],
+        "title": "Thrift Shop (feat. Wanz)",
+        "bpm": 53,
+        "genre": "dance pop",
+        "duration": 236,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91419"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91418" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912fe" }],
+        "title": "Let Me Love You (Until You Learn To Love Yourself)",
+        "bpm": 68,
+        "genre": "dance pop",
+        "duration": 252,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91418"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91417" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912fd" }],
+        "title": "Beneath Your Beautiful",
+        "bpm": 52,
+        "genre": "pop",
+        "duration": 272,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91417"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91416" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d8" }],
+        "title": "Feel This Moment (feat. Christina Aguilera)",
+        "bpm": 76,
+        "genre": "dance pop",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91416"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91415" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912fc" }],
+        "title": "Can't Hold Us (feat. Ray Dalton)",
+        "bpm": 93,
+        "genre": "dance pop",
+        "duration": 258,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91415"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91414" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912fb" }],
+        "title": "Brave",
+        "bpm": 84,
+        "genre": "acoustic pop",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91414"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91413" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cd" }],
+        "title": "Work Bitch",
+        "bpm": 82,
+        "genre": "dance pop",
+        "duration": 248,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91413"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91412" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f3" }],
+        "title": "Lose Yourself to Dance",
+        "bpm": 66,
+        "genre": "electro",
+        "duration": 354,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91412"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91411" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f9" }],
+        "title": "Sweet Nothing (feat. Florence Welch)",
+        "bpm": 93,
+        "genre": "dance pop",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91411"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91410" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e6" }],
+        "title": "Kiss You",
+        "bpm": 93,
+        "genre": "boy band",
+        "duration": 183,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91410"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9140f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e6" }],
+        "title": "Best Song Ever",
+        "bpm": 88,
+        "genre": "boy band",
+        "duration": 200,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9140f"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9140e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912fa" }],
+        "title": "Hold On, We're Going Home",
+        "bpm": 41,
+        "genre": "canadian hip hop",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9140e"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9140d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c9" }],
+        "title": "Everybody Talks",
+        "bpm": 92,
+        "genre": "indie pop",
+        "duration": 177,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9140d"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9140c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f9" }],
+        "title": "Under Control",
+        "bpm": 92,
+        "genre": "dance pop",
+        "duration": 184,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9140c"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9140b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f8" }],
+        "title": "Summertime Sadness (Lana Del Rey Vs. Cedric Gervais) - Cedric Gervais Remix",
+        "bpm": 81,
+        "genre": "art pop",
+        "duration": 215,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9140b"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e9140a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f7" }],
+        "title": "Clarity",
+        "bpm": 78,
+        "genre": "complextro",
+        "duration": 271,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e9140a"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91409" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b9" }],
+        "title": "Die Young",
+        "bpm": 70,
+        "genre": "dance pop",
+        "duration": 212,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91409"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91408" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e7" }],
+        "title": "We Are Never Ever Getting Back Together",
+        "bpm": 68,
+        "genre": "pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91408"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91407" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f6" }],
+        "title": "Heart Attack",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 211,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91407"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91406" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f5" }],
+        "title": "Blurred Lines",
+        "bpm": 60,
+        "genre": "dance pop",
+        "duration": 264,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91406"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91405" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f4" }],
+        "title": "Impossible",
+        "bpm": 70,
+        "genre": "pop",
+        "duration": 209,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91405"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91404" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f1" }],
+        "title": "Wrecking Ball",
+        "bpm": 42,
+        "genre": "dance pop",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91404"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91403" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f3" }],
+        "title": "Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit",
+        "bpm": 81,
+        "genre": "electro",
+        "duration": 248,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91403"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91402" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f2" }],
+        "title": "Don't You Worry Child - Radio Edit",
+        "bpm": 84,
+        "genre": "big room",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91402"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91401" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f1" }],
+        "title": "We Can't Stop",
+        "bpm": 62,
+        "genre": "dance pop",
+        "duration": 231,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91401"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e91400" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Roar",
+        "bpm": 77,
+        "genre": "dance pop",
+        "duration": 224,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e91400"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e913ff" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912f0" }],
+        "title": "Hall of Fame",
+        "bpm": 87,
+        "genre": "celtic rock",
+        "duration": 203,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e913ff"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e913fe" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e4" }],
+        "title": "Just Give Me a Reason (feat. Nate Ruess)",
+        "bpm": 55,
+        "genre": "dance pop",
+        "duration": 243,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e913fe"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e913fd" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e6" }],
+        "title": "Story of My Life",
+        "bpm": 66,
+        "genre": "boy band",
+        "duration": 245,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e913fd"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e913fc" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ef" }],
+        "title": "Wake Me Up",
+        "bpm": 78,
+        "genre": "big room",
+        "duration": 247,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e913fc"
+    },
+    {
+        "_id": { "$oid": "5fad5c88090c820023e913fb" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e9" }],
+        "title": "Underneath the Tree",
+        "bpm": 81,
+        "genre": "dance pop",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c88090c820023e913fb"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913fa" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e4" }],
+        "title": "Blow Me (One Last Kiss)",
+        "bpm": 92,
+        "genre": "dance pop",
+        "duration": 256,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913fa"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913f9" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "It Will Rain",
+        "bpm": 84,
+        "genre": "pop",
+        "duration": 258,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913f9"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913f8" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ee" }],
+        "title": "Stereo Hearts (feat. Adam Levine)",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 211,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913f8"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913f7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "You Da One",
+        "bpm": 72,
+        "genre": "barbadian pop",
+        "duration": 200,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913f7"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913f6" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d8" }],
+        "title": "Don't Stop the Party (feat. TJR)",
+        "bpm": 96,
+        "genre": "dance pop",
+        "duration": 206,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913f6"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913f5" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "Diamonds",
+        "bpm": 71,
+        "genre": "barbadian pop",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913f5"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913f4" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ec" }],
+        "title": "We Are Young (feat. Janelle Mon�e)",
+        "bpm": 64,
+        "genre": "baroque pop",
+        "duration": 251,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913f4"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913f3" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ed" }],
+        "title": "Lights - Single Version",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 211,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913f3"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913f2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e1" }],
+        "title": "Turn Up the Music",
+        "bpm": 84,
+        "genre": "dance pop",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913f2"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913f1" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e0" }],
+        "title": "Dance Again",
+        "bpm": 86,
+        "genre": "dance pop",
+        "duration": 237,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913f1"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913f0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "The One That Got Away",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913f0"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913ef" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Wide Awake",
+        "bpm": 68,
+        "genre": "dance pop",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913ef"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913ee" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "Where Have You Been",
+        "bpm": 85,
+        "genre": "barbadian pop",
+        "duration": 243,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913ee"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913ed" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912df" }],
+        "title": "Domino",
+        "bpm": 55,
+        "genre": "australian pop",
+        "duration": 232,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913ed"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913ec" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Part Of Me",
+        "bpm": 92,
+        "genre": "dance pop",
+        "duration": 216,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913ec"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913eb" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Boyfriend",
+        "bpm": 55,
+        "genre": "canadian pop",
+        "duration": 171,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913eb"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913ea" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ec" }],
+        "title": "Some Nights",
+        "bpm": 74,
+        "genre": "baroque pop",
+        "duration": 277,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913ea"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913e9" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d8" }],
+        "title": "International Love",
+        "bpm": 86,
+        "genre": "dance pop",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913e9"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913e8" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Beauty And A Beat",
+        "bpm": 84,
+        "genre": "canadian pop",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913e8"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913e7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912eb" }],
+        "title": "Glad You Came",
+        "bpm": 85,
+        "genre": "boy band",
+        "duration": 198,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913e7"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913e6" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ea" }],
+        "title": "Good Time",
+        "bpm": 87,
+        "genre": "pop",
+        "duration": 206,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913e6"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913e5" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "One More Night",
+        "bpm": 82,
+        "genre": "pop",
+        "duration": 220,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913e5"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913e4" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e3" }],
+        "title": "Starships",
+        "bpm": 72,
+        "genre": "dance pop",
+        "duration": 211,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913e4"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913e3" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e4" }],
+        "title": "Try",
+        "bpm": 63,
+        "genre": "dance pop",
+        "duration": 248,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913e3"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913e2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e9" }],
+        "title": "Stronger (What Doesn't Kill You)",
+        "bpm": 94,
+        "genre": "dance pop",
+        "duration": 222,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913e2"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913e1" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e7" }],
+        "title": "We Are Never Ever Getting Back Together",
+        "bpm": 68,
+        "genre": "pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913e1"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913e0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d7" }],
+        "title": "Set Fire to the Rain",
+        "bpm": 68,
+        "genre": "british soul",
+        "duration": 242,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913e0"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913df" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ca" }],
+        "title": "Love You Like A Love Song",
+        "bpm": 68,
+        "genre": "dance pop",
+        "duration": 188,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913df"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913de" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e8" }],
+        "title": "Call Me Maybe",
+        "bpm": 58,
+        "genre": "canadian pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913de"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913dd" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e7" }],
+        "title": "I Knew You Were Trouble.",
+        "bpm": 47,
+        "genre": "pop",
+        "duration": 220,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913dd"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913dc" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e6" }],
+        "title": "What Makes You Beautiful",
+        "bpm": 79,
+        "genre": "boy band",
+        "duration": 200,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913dc"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913db" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Payphone",
+        "bpm": 75,
+        "genre": "pop",
+        "duration": 231,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913db"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913da" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e5" }],
+        "title": "Paradise",
+        "bpm": 59,
+        "genre": "permanent wave",
+        "duration": 279,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913da"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913d9" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "Locked Out of Heaven",
+        "bpm": 70,
+        "genre": "pop",
+        "duration": 233,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913d9"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913d8" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cf" }],
+        "title": "Titanium (feat. Sia)",
+        "bpm": 79,
+        "genre": "dance pop",
+        "duration": 245,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913d8"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913d7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e3" }],
+        "title": "Muny - Album Version (Edited)",
+        "bpm": 72,
+        "genre": "dance pop",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913d7"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913d6" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Firework",
+        "bpm": 83,
+        "genre": "dance pop",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913d6"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913d5" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Last Friday Night (T.G.I.F.)",
+        "bpm": 81,
+        "genre": "dance pop",
+        "duration": 231,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913d5"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913d4" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e3" }],
+        "title": "Moment 4 Life - Album Version (Edited)",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 279,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913d4"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913d3" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e0" }],
+        "title": "Invading My Mind",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 201,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913d3"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913d2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e4" }],
+        "title": "Raise Your Glass",
+        "bpm": 64,
+        "genre": "dance pop",
+        "duration": 208,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913d2"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913d1" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e3" }],
+        "title": "Super Bass",
+        "bpm": 74,
+        "genre": "dance pop",
+        "duration": 201,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913d1"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913d0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e2" }],
+        "title": "Turning Page",
+        "bpm": 38,
+        "genre": "acoustic pop",
+        "duration": 255,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913d0"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913cf" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d4" }],
+        "title": "Castle Walls (feat. Christina Aguilera)",
+        "bpm": 86,
+        "genre": "atl hip hop",
+        "duration": 329,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913cf"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913ce" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d6" }],
+        "title": "Jar of Hearts",
+        "bpm": 35,
+        "genre": "dance pop",
+        "duration": 247,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913ce"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913cd" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d3" }],
+        "title": "Written in the Stars (feat. Eric Turner)",
+        "bpm": 95,
+        "genre": "dance pop",
+        "duration": 220,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913cd"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913cc" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "S&M Remix",
+        "bpm": 81,
+        "genre": "barbadian pop",
+        "duration": 257,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913cc"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913cb" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "Cheers (Drink To That)",
+        "bpm": 91,
+        "genre": "barbadian pop",
+        "duration": 262,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913cb"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913ca" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e0" }],
+        "title": "Papi",
+        "bpm": 81,
+        "genre": "dance pop",
+        "duration": 223,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913ca"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913c9" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e0" }],
+        "title": "I'm Into You",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 200,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913c9"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913c8" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cd" }],
+        "title": "Hold It Against Me",
+        "bpm": 72,
+        "genre": "dance pop",
+        "duration": 229,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913c8"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913c7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912da" }],
+        "title": "1+1",
+        "bpm": 38,
+        "genre": "dance pop",
+        "duration": 274,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913c7"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913c6" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "Marry The Night",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 265,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913c6"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913c5" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "We Found Love",
+        "bpm": 77,
+        "genre": "barbadian pop",
+        "duration": 215,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913c5"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913c4" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c2" }],
+        "title": "Please Don't Go",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 197,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913c4"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913c3" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cb" }],
+        "title": "Tonight (I'm Fuckin' You)",
+        "bpm": 89,
+        "genre": "dance pop",
+        "duration": 232,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913c3"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913c2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "Judas",
+        "bpm": 93,
+        "genre": "dance pop",
+        "duration": 249,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913c2"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913c1" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "You And I",
+        "bpm": 70,
+        "genre": "dance pop",
+        "duration": 307,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913c1"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913c0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b9" }],
+        "title": "Blow",
+        "bpm": 73,
+        "genre": "dance pop",
+        "duration": 220,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913c0"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913bf" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cd" }],
+        "title": "I Wanna Go",
+        "bpm": 55,
+        "genre": "dance pop",
+        "duration": 210,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913bf"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913be" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cd" }],
+        "title": "Till the World Ends",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 238,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913be"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913bd" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "E.T.",
+        "bpm": 87,
+        "genre": "dance pop",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913bd"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913bc" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "The Edge Of Glory",
+        "bpm": 77,
+        "genre": "dance pop",
+        "duration": 321,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913bc"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913bb" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912de" }],
+        "title": "Sexy And I Know It",
+        "bpm": 86,
+        "genre": "dance pop",
+        "duration": 199,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913bb"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913ba" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cf" }],
+        "title": "Without You (feat. Usher)",
+        "bpm": 61,
+        "genre": "dance pop",
+        "duration": 208,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913ba"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913b9" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e1" }],
+        "title": "Yeah 3x",
+        "bpm": 88,
+        "genre": "dance pop",
+        "duration": 242,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913b9"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913b8" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "What's My Name?",
+        "bpm": 79,
+        "genre": "barbadian pop",
+        "duration": 263,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913b8"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913b7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912e0" }],
+        "title": "On The Floor",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 285,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913b7"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913b6" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c6" }],
+        "title": "Just Can�t Get Enough",
+        "bpm": 63,
+        "genre": "dance pop",
+        "duration": 219,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913b6"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913b5" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912be" }],
+        "title": "Good Life",
+        "bpm": 69,
+        "genre": "dance pop",
+        "duration": 253,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913b5"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913b4" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912df" }],
+        "title": "Price Tag",
+        "bpm": 83,
+        "genre": "australian pop",
+        "duration": 223,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913b4"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913b3" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b9" }],
+        "title": "We R Who We R",
+        "bpm": 82,
+        "genre": "dance pop",
+        "duration": 205,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913b3"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913b2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912de" }],
+        "title": "Party Rock Anthem",
+        "bpm": 74,
+        "genre": "dance pop",
+        "duration": 262,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913b2"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913b1" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912da" }],
+        "title": "Best Thing I Never Had",
+        "bpm": 65,
+        "genre": "dance pop",
+        "duration": 254,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913b1"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913b0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "Marry You",
+        "bpm": 83,
+        "genre": "pop",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913b0"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913af" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912dd" }],
+        "title": "Monster",
+        "bpm": 69,
+        "genre": "chicago rap",
+        "duration": 379,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913af"
+    },
+    {
+        "_id": { "$oid": "5fad5c87090c820023e913ae" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "Born This Way",
+        "bpm": 83,
+        "genre": "dance pop",
+        "duration": 260,
+
+        "__v": 0,
+        "id": "5fad5c87090c820023e913ae"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913ad" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912dc" }],
+        "title": "What the Hell",
+        "bpm": 93,
+        "genre": "canadian pop",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913ad"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913ac" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912db" }],
+        "title": "Tonight Tonight",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 200,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913ac"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913ab" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "Grenade",
+        "bpm": 56,
+        "genre": "pop",
+        "duration": 223,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913ab"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913aa" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912da" }],
+        "title": "Love On Top",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 267,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913aa"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913a9" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Moves Like Jagger - Studio Recording From The Voice Performance",
+        "bpm": 76,
+        "genre": "pop",
+        "duration": 201,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913a9"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913a8" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d9" }],
+        "title": "Run the World (Girls)",
+        "bpm": 90,
+        "genre": "dance pop",
+        "duration": 236,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913a8"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913a7" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d7" }],
+        "title": "Rolling in the Deep",
+        "bpm": 76,
+        "genre": "british soul",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913a7"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913a6" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "Just the Way You Are",
+        "bpm": 84,
+        "genre": "pop",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913a6"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913a5" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d8" }],
+        "title": "Give Me Everything",
+        "bpm": 94,
+        "genre": "dance pop",
+        "duration": 252,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913a5"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913a4" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d7" }],
+        "title": "Someone Like You",
+        "bpm": 33,
+        "genre": "british soul",
+        "duration": 285,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913a4"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913a3" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d6" }],
+        "title": "A Thousand Years",
+        "bpm": 41,
+        "genre": "dance pop",
+        "duration": 285,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913a3"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913a2" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d5" }],
+        "title": "Hello",
+        "bpm": 98,
+        "genre": "big room",
+        "duration": 191,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913a2"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913a1" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bd" }],
+        "title": "Break Your Heart",
+        "bpm": 90,
+        "genre": "dance pop",
+        "duration": 186,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913a1"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e913a0" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d4" }],
+        "title": "Castle Walls (feat. Christina Aguilera)",
+        "bpm": 86,
+        "genre": "atl hip hop",
+        "duration": 329,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e913a0"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9139f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c4" }],
+        "title": "DJ Got Us Fallin' In Love (feat. Pitbull)",
+        "bpm": 86,
+        "genre": "atl hip hop",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9139f"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9139e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d3" }],
+        "title": "Written in the Stars (feat. Eric Turner)",
+        "bpm": 95,
+        "genre": "dance pop",
+        "duration": 220,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9139e"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9139d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d0" }],
+        "title": "Not Myself Tonight",
+        "bpm": 81,
+        "genre": "dance pop",
+        "duration": 186,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9139d"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9139c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d0" }],
+        "title": "You Lost Me",
+        "bpm": 39,
+        "genre": "dance pop",
+        "duration": 257,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9139c"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9139b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d2" }],
+        "title": "Loca",
+        "bpm": 87,
+        "genre": "colombian pop",
+        "duration": 193,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9139b"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9139a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "Hard",
+        "bpm": 75,
+        "genre": "barbadian pop",
+        "duration": 251,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9139a"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91399" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bf" }],
+        "title": "Doesn't Mean Anything",
+        "bpm": 41,
+        "genre": "hip pop",
+        "duration": 273,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91399"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91398" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d0" }],
+        "title": "Something's Got A Hold On Me - Burlesque Original Motion Picture Soundtrack",
+        "bpm": 85,
+        "genre": "dance pop",
+        "duration": 185,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91398"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91397" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d1" }],
+        "title": "Dog Days Are Over",
+        "bpm": 81,
+        "genre": "art pop",
+        "duration": 253,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91397"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91396" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c6" }],
+        "title": "Rock That Body",
+        "bpm": 91,
+        "genre": "dance pop",
+        "duration": 269,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91396"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91395" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c7" }],
+        "title": "If I Had You",
+        "bpm": 91,
+        "genre": "australian pop",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91395"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91394" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912d0" }],
+        "title": "Bound To You - Burlesque Original Motion Picture Soundtrack",
+        "bpm": 41,
+        "genre": "dance pop",
+        "duration": 264,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91394"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91393" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cf" }],
+        "title": "Sexy Bitch (feat. Akon)",
+        "bpm": 63,
+        "genre": "dance pop",
+        "duration": 196,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91393"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91392" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bf" }],
+        "title": "Try Sleeping with a Broken Heart",
+        "bpm": 82,
+        "genre": "hip pop",
+        "duration": 249,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91392"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91391" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c6" }],
+        "title": "Imma Be",
+        "bpm": 52,
+        "genre": "dance pop",
+        "duration": 258,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91391"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91390" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b9" }],
+        "title": "Blah Blah Blah (feat. 3OH!3)",
+        "bpm": 84,
+        "genre": "dance pop",
+        "duration": 172,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91390"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9138f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ce" }],
+        "title": "My First Kiss - feat. Ke$ha",
+        "bpm": 89,
+        "genre": "dance pop",
+        "duration": 192,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9138f"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9138e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cd" }],
+        "title": "3",
+        "bpm": 71,
+        "genre": "dance pop",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9138e"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9138d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "California Gurls",
+        "bpm": 75,
+        "genre": "dance pop",
+        "duration": 235,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9138d"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9138c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cc" }],
+        "title": "Teenage Dream",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 228,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9138c"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9138b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912cb" }],
+        "title": "I Like It",
+        "bpm": 94,
+        "genre": "dance pop",
+        "duration": 231,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9138b"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9138a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ca" }],
+        "title": "Naturally",
+        "bpm": 90,
+        "genre": "dance pop",
+        "duration": 203,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9138a"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91389" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c9" }],
+        "title": "Animal",
+        "bpm": 83,
+        "genre": "indie pop",
+        "duration": 212,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91389"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91388" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912be" }],
+        "title": "All The Right Moves",
+        "bpm": 95,
+        "genre": "dance pop",
+        "duration": 238,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91388"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91387" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c8" }],
+        "title": "Misery",
+        "bpm": 81,
+        "genre": "pop",
+        "duration": 216,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91387"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91386" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b9" }],
+        "title": "Take It Off",
+        "bpm": 68,
+        "genre": "dance pop",
+        "duration": 215,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91386"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91385" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c7" }],
+        "title": "Whataya Want from Me",
+        "bpm": 68,
+        "genre": "australian pop",
+        "duration": 227,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91385"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91384" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c6" }],
+        "title": "Meet Me Halfway",
+        "bpm": 63,
+        "genre": "dance pop",
+        "duration": 284,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91384"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91383" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b9" }],
+        "title": "Your Love Is My Drug",
+        "bpm": 61,
+        "genre": "dance pop",
+        "duration": 187,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91383"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91382" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "Alejandro",
+        "bpm": 80,
+        "genre": "dance pop",
+        "duration": 274,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91382"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91381" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c6" }],
+        "title": "The Time (Dirty Bit)",
+        "bpm": 81,
+        "genre": "dance pop",
+        "duration": 308,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91381"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91380" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c5" }],
+        "title": "Eenie Meenie",
+        "bpm": 61,
+        "genre": "dance pop",
+        "duration": 202,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91380"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9137f" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c4" }],
+        "title": "OMG (feat. will.i.am)",
+        "bpm": 75,
+        "genre": "atl hip hop",
+        "duration": 269,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9137f"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9137e" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c3" }],
+        "title": "Like A G6",
+        "bpm": 84,
+        "genre": "dance pop",
+        "duration": 217,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9137e"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9137d" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "Telephone",
+        "bpm": 83,
+        "genre": "dance pop",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9137d"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9137c" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c2" }],
+        "title": "Cooler Than Me - Single Mix",
+        "bpm": 82,
+        "genre": "dance pop",
+        "duration": 213,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9137c"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9137b" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "Marry You",
+        "bpm": 83,
+        "genre": "pop",
+        "duration": 230,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9137b"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e9137a" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c1" }],
+        "title": "Club Can't Handle Me (feat. David Guetta)",
+        "bpm": 87,
+        "genre": "dance pop",
+        "duration": 235,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e9137a"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91379" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912c0" }],
+        "title": "Only Girl (In The World)",
+        "bpm": 72,
+        "genre": "barbadian pop",
+        "duration": 235,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91379"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91378" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bf" }],
+        "title": "Empire State of Mind (Part II) Broken Down",
+        "bpm": 37,
+        "genre": "hip pop",
+        "duration": 216,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91378"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91377" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912be" }],
+        "title": "Secrets",
+        "bpm": 76,
+        "genre": "dance pop",
+        "duration": 225,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91377"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91376" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bd" }],
+        "title": "Dynamite",
+        "bpm": 78,
+        "genre": "dance pop",
+        "duration": 203,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91376"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91375" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bc" }],
+        "title": "Baby",
+        "bpm": 86,
+        "genre": "canadian pop",
+        "duration": 214,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91375"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91374" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912bb" }],
+        "title": "Just the Way You Are",
+        "bpm": 84,
+        "genre": "pop",
+        "duration": 221,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91374"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91373" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912ba" }],
+        "title": "Bad Romance",
+        "bpm": 92,
+        "genre": "dance pop",
+        "duration": 295,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91373"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91372" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b9" }],
+        "title": "TiK ToK",
+        "bpm": 84,
+        "genre": "dance pop",
+        "duration": 200,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91372"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91371" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b8" }],
+        "title": "Love The Way You Lie",
+        "bpm": 93,
+        "genre": "detroit hip hop",
+        "duration": 263,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91371"
+    },
+    {
+        "_id": { "$oid": "5fad5c86090c820023e91370" },
+        "artist": [{ "$oid": "5fad5c84090c820023e912b7" }],
+        "title": "Hey, Soul Sister",
+        "bpm": 89,
+        "genre": "neo mellow",
+        "duration": 217,
+
+        "__v": 0,
+        "id": "5fad5c86090c820023e91370"
+    }
+]

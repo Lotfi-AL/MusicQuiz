@@ -7,6 +7,18 @@ const addArtistToItem = (item) => {
     return newItem;
 }
 
+export const addCreator = (data) => {
+    const returnData = new Array();
+    if (data) {
+        for (let item of data) {
+            returnData.push(addCreatorToItem(item))
+        }
+    }
+    else {
+    }
+    return returnData;
+}
+
 const addIdToItem = (item) => {
     let newItem = { ...item, id: item._id }
     return newItem;
@@ -20,7 +32,6 @@ export const addCreatorToItem = (item) => {
 
 const addIdAndArtist = (data) => {
     const returnData = new Array();
-    console.log(data);
     for (let item of data) {
         returnData.push(addArtistToItem(addIdToItem(item)));
     }

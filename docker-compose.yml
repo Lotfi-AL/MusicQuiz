@@ -39,6 +39,23 @@ services:
             - db-network
             - rest-network
         command: npm start
+    seeder:
+        build:
+            context: ./seeder
+        image: pkosiec/mongo-seeding:3.3.0
+        container_name: seeder
+        env_file: .env
+        environment:
+            - DB_URI=mongodb://$MONGO_USERNAME:$MONGO_PASSWORD@$MONGO_HOSTNAME:$MONGO_PORT/$MONGO_DB?authSource=admin
+            - DROP_DATABASE=true
+            - SET_TIMESTAMPS=true
+        volumes:
+            - ./seeder/data/:/seeder/import-data/
+        depends_on:
+            - backend
+        networks:
+            - db-network
+
     db:
         image: mongo:4.1.8-xenial
         container_name: db
@@ -47,6 +64,8 @@ services:
         environment:
             - MONGO_INITDB_ROOT_USERNAME=$MONGO_USERNAME
             - MONGO_INITDB_ROOT_PASSWORD=$MONGO_PASSWORD
+        ports:
+            - "27017:27017"
         volumes:
             - dbdata:/data/db
         networks:

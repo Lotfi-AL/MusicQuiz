@@ -1,1 +1,1 @@
-export { default as QuizList } from "./QuizList";
+export { default as QuizListContainer } from "./QuizListContainer";

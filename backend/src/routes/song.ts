@@ -10,11 +10,11 @@ router.get("/api/song", async (req: Request, res: Response) => {
         const { page, limit, sort_by, order_by, title } = req.query;
 
         const options = {
-            sort: sort_by != undefined ? { [sort_by as string]: order_by } : { createdAt: "desc" },
-            populate: "artist",
+            sort: sort_by ? { [sort_by as string]: order_by } : { createdAt: "desc" },
+            populate: { path: "artist", select: "name" },
             lean: true,
-            page: page != undefined ? parseInt(page as string) : 1,
-            limit: limit != undefined ? parseInt(limit as string) : 10,
+            page: page ? parseInt(page as string) : 1,
+            limit: limit ? parseInt(limit as string) : 10,
         };
 
         const query = { $and: [title ? { $text: { $search: title as string } } : {}] };

@@ -1,6 +1,6 @@
 import React from 'react'
 import { CreateQuiz } from '../CreateQuiz'
-import QuizList from '../../components/quizList/QuizList'
+import QuizList from '../../components/quizList/QuizListView'
 import Link from "next/link";
 import { Button, Container } from '@material-ui/core';
 import { SongList } from '../../components/songList';
