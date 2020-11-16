@@ -36,8 +36,6 @@ const quizSchema = new Schema(
     { timestamps: true },
 );
 
-quizSchema.index({ title: "text" });
-
 quizSchema.pre<QuizDoc>("save", function (next: HookNextFunction) {
     this.songsLength = this.songs.length;
     next();

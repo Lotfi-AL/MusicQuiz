@@ -16,7 +16,6 @@ router.get("/api/artist", async (req: Request, res: Response) => {
 router.post("/api/artist", async (req: Request, res: Response) => {
     try {
         const name = req.body;
-        console.log(name);
         const artist = Artist.build(name);
         await artist.save();
         return res.status(201).send(artist);

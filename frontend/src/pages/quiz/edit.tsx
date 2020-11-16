@@ -10,7 +10,6 @@ import {
     Grid,
     TextField,
     Typography,
-    InputLabel,
     Select,
     MenuItem,
     FormControl,
@@ -19,7 +18,7 @@ import {
 } from "@material-ui/core";
 import React, { useState } from "react";
 import { postData } from "../../utils/requests";
-import { SongList, SongListContainer } from "../../components/songList";
+import { SongListContainer } from "../../components/songList";
 import styles from "./edit.module.css";
 import { useRouter } from "next/router";
 
@@ -48,12 +47,12 @@ const createQuiz = (store) => {
 
     const handleQuizTitle = (event) => {
         settitle(event.target.value);
-        console.log(title);
     };
+
     const handleGenre = (event) => {
         setgenre(event.target.value);
-        console.log(genre);
     };
+
     const addSongs = (event) => {
         const card: ISong = event;
         if (!songs.includes(event._id)) {
@@ -63,16 +62,16 @@ const createQuiz = (store) => {
             console.log("already in quiz");
         }
     };
+
     const handleDelete = (event) => {
-        console.log(event.currentTarget);
         setsongcards(songCards.filter((el) => el._id !== event.currentTarget.id));
         setsongs(songs.filter((el) => el !== event.currentTarget.id));
     };
+
     const handleSubmit = (event) => {
         event.preventDefault();
         const data: IQuiz = { title, genre, songs, creator };
-        console.log(genre);
-        console.log(data);
+
         try {
             postData("/quiz", data, true);
             router.push("/");
@@ -128,7 +127,6 @@ const createQuiz = (store) => {
                         </FormControl>
                     </Grid>
                     <Grid item xs={12}>
-
                         <SongListContainer add={addSongs} />
                     </Grid>
                     <Grid item xs={12}>

@@ -1,11 +1,9 @@
-import { useRouter } from 'next/router';
-import React, { useState } from 'react'
-import { IGridQuiz } from 'src/typings/IQuiz';
-import { IGridSong } from 'src/typings/ISong';
-import addIdAndArtist, { addCreator } from 'src/utils/addFields';
-import { PaginatedList } from '../PaginatedList';
-import SongListView from "./SongListView"
-
+import { useRouter } from "next/router";
+import React, { useState } from "react";
+import { IGridSong } from "src/typings/ISong";
+import addIdAndArtist from "src/utils/addFields";
+import { PaginatedList } from "../paginatedList";
+import SongListView from "./SongListView";
 
 const SongListContainer = (props?) => {
     const baseQuery = "/song";
@@ -43,13 +41,20 @@ const SongListContainer = (props?) => {
 
     const updateState = (data) => {
         setRows(addIdAndArtist(data.docs));
-        setRowCount(data.totalDocs)
-    }
+        setRowCount(data.totalDocs);
+    };
 
     return (
-        <PaginatedList ListView={SongListView} baseQuery={baseQuery} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
-        </PaginatedList>
-    )
-}
+        <PaginatedList
+            ListView={SongListView}
+            baseQuery={baseQuery}
+            loading={false}
+            rows={rows}
+            rowCount={rowCount}
+            columns={columns}
+            updateState={updateState}
+            rowClick={rowClick}></PaginatedList>
+    );
+};
 
-export default SongListContainer
+export default SongListContainer;
