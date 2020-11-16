@@ -70,7 +70,20 @@ services:
             - dbdata:/data/db
         networks:
             - db-network
-
+    cypress:
+        image: "cypress/included:4.0.2"
+        depends_on:
+            - frontend
+        command: "--browser chrome"
+        environment:
+            - CYPRESS_baseUrl=http://frontend:3000
+        working_dir: /cypress
+        ports:
+            - "9000:9000"
+        volumes:
+            - ./cypress:/cypress
+        networks:
+            - rest-network
 networks:
     db-network:
         driver: bridge

@@ -98,6 +98,8 @@ const createQuiz = (store) => {
                     <Grid item xs={12} sm={6}>
                         <TextField
                             variant="outlined"
+                            data-cy="quiztitle"
+                            id="quiztitle"
                             required
                             label="Quiz title"
                             value={title}
@@ -110,6 +112,7 @@ const createQuiz = (store) => {
                             <Select
                                 labelId="demo-simple-select-filled-label"
                                 id="demo-simple-select-filled"
+                                data-cy="quizgenre"
                                 value={genre}
                                 required
                                 onChange={handleGenre}>
@@ -118,7 +121,7 @@ const createQuiz = (store) => {
                                 </MenuItem>
                                 {genres.map((item, index) => {
                                     return (
-                                        <MenuItem value={item} key={index} className={styles.capitalize}>
+                                        <MenuItem value={item} key={index} data-cy={item} className={styles.capitalize}>
                                             {item}
                                         </MenuItem>
                                     );
@@ -158,7 +161,13 @@ const createQuiz = (store) => {
                         </Card>
                     </Grid>
                     <Grid item xs={12}>
-                        <Button variant="contained" color="primary" onClick={handleSubmit} className={styles.maxWidth}>
+                        <Button
+                            variant="contained"
+                            color="primary"
+                            id="quizsubmit"
+                            data-cy="quizsubmit"
+                            onClick={handleSubmit}
+                            className={styles.maxWidth}>
                             Create Quiz
                         </Button>
                     </Grid>
