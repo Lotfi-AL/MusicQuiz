@@ -21,7 +21,7 @@ router.get("/api/song", async (req: Request, res: Response) => {
 
         const query = {
             $and: [
-                title ? { $text: { $search: title as string } } : {},
+                title ? { title: new RegExp(title as string, "i") } : {},
                 duration
                     ? {
                           $and: [
