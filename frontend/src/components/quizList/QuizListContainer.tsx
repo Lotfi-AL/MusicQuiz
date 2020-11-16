@@ -1,14 +1,13 @@
 import { useRouter } from 'next/router';
 import React, { useState } from 'react'
 import { IGridQuiz } from 'src/typings/IQuiz';
+import { PaginatedResponse } from 'src/typings/PaginatedResponse';
 import { addCreator } from 'src/utils/addFields';
 import { getData } from 'src/utils/requests';
 import { PaginatedList } from '../PaginatedList';
 import QuizListView from './QuizListView';
-
+import columns from "./utils/Columns";
 const QuizList = () => {
-    const baseQuery = "/quiz";
-
     const [rows, setRows] = useState<IGridQuiz[]>([]);
 
     const [rowCount, setRowCount] = useState<number>(0);
@@ -17,29 +16,23 @@ const QuizList = () => {
 
     const [loading, setLoading] = useState(false);
 
-    const columns = [
-        { field: "title", headerName: "Name", width: 150 },
-        { field: "genre", headerName: "Genre", width: 150 },
-        { field: "songsLength", headerName: "Songs", width: 130 },
-        { field: "creator", headerName: "Created By", width: 150 },
-        { field: "createdAt", headerName: "Created At", width: 150 },
-    ];
-
-    const rowClick = (event) => {
+    const rowClick = (event: { data: { id: string; }; }) => {
         router.push("/quiz/" + event.data.id);
     };
-    const updateState = async (query) => {
-        // setLoading(true)
-        const data = await getData(query);
+
+    /*
+    * Updates the rows from the API query response and the number of rows
+    */
+    const updateState = async (query: string) => {
+        setLoading(true)
+        const data: PaginatedResponse = await getData(query);
         setRows(addCreator(data.docs));
         setRowCount(data.totalDocs)
-        // setLoading(false)
+        setLoading(false)
     }
 
-
-
     return (
-        <PaginatedList loading={loading} ListView={QuizListView} baseQuery={baseQuery} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
+        <PaginatedList loading={loading} ListView={QuizListView} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
         </PaginatedList>
     )
 }

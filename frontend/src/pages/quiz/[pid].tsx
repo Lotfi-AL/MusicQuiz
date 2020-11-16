@@ -61,7 +61,7 @@ const Quiz = (store) => {
                 {!loading ? (
                     <>
                         <Grid container spacing={2}>
-                            <Grid item xs={12}>
+                            <Grid item xs={12} data-cy="quizDetails">
                                 <Card variant="outlined">
                                     <CardHeader title={quiz.title}></CardHeader>
                                     <CardContent>
@@ -70,7 +70,7 @@ const Quiz = (store) => {
                                     </CardContent>
                                 </Card>
                             </Grid>
-                            <Grid item xs={12}>
+                            <Grid item xs={12} data-cy="quizSongs">
                                 <Card variant="outlined">
                                     <CardHeader title="Songs: "></CardHeader>
                                     <CardContent>

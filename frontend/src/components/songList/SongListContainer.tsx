@@ -1,37 +1,19 @@
-import { useRouter } from 'next/router';
 import React, { useState } from 'react'
-import { IGridQuiz } from 'src/typings/IQuiz';
 import { IGridSong } from 'src/typings/ISong';
-import addIdAndArtist, { addCreator } from 'src/utils/addFields';
+import { PaginatedResponse } from 'src/typings/PaginatedResponse';
+import { addArtist } from 'src/utils/addFields';
+import { getData } from 'src/utils/requests';
 import { PaginatedList } from '../PaginatedList';
 import SongListView from "./SongListView"
-
+import columns from "./utils/Columns";
 
 const SongListContainer = (props?) => {
-    const baseQuery = "/song";
 
     const [rows, setRows] = useState<IGridSong[]>([]);
 
     const [rowCount, setRowCount] = useState<number>(0);
 
-    const router = useRouter();
-
-    const columns = [
-        {
-            field: "id",
-            hide: true,
-        },
-        {
-            field: "title",
-            headerName: "Title",
-            width: 200,
-        },
-        { field: "bpm", headerName: "BPM", width: 120 },
-        { field: "artist", headerName: "Artist", width: 240 },
-        { field: "genre", headerName: "Genre", width: 120 },
-        { field: "duration", headerName: "Duration", width: 120 },
-    ];
-
+    const [loading, setLoading] = useState(false);
     const rowClick = (event) => {
         const isprop = props.add;
         if (isprop) {
@@ -41,13 +23,16 @@ const SongListContainer = (props?) => {
         }
     };
 
-    const updateState = (data) => {
-        setRows(addIdAndArtist(data.docs));
+    const updateState = async (query: string) => {
+        setLoading(true);
+        const data: PaginatedResponse = await getData(query);
+        setRows(addArtist(data.docs));
         setRowCount(data.totalDocs)
+        setLoading(false);
     }
 
     return (
-        <PaginatedList ListView={SongListView} baseQuery={baseQuery} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
+        <PaginatedList ListView={SongListView} loading={loading} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
         </PaginatedList>
     )
 }
