@@ -1,10 +1,10 @@
-import { useRouter } from 'next/router';
-import React, { useState } from 'react'
-import { IGridQuiz } from 'src/typings/IQuiz';
-import { addCreator } from 'src/utils/addFields';
-import { getData } from 'src/utils/requests';
-import { PaginatedList } from '../PaginatedList';
-import QuizListView from './QuizListView';
+import { useRouter } from "next/router";
+import React, { useState } from "react";
+import { IGridQuiz } from "src/typings/IQuiz";
+import { addCreator } from "src/utils/addFields";
+import { getData } from "src/utils/requests";
+import { PaginatedList } from "../paginatedList";
+import QuizListView from "./QuizListView";
 
 const QuizList = () => {
     const baseQuery = "/quiz";
@@ -32,16 +32,21 @@ const QuizList = () => {
         // setLoading(true)
         const data = await getData(query);
         setRows(addCreator(data.docs));
-        setRowCount(data.totalDocs)
+        setRowCount(data.totalDocs);
         // setLoading(false)
-    }
-
-
+    };
 
     return (
-        <PaginatedList loading={loading} ListView={QuizListView} baseQuery={baseQuery} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
-        </PaginatedList>
-    )
-}
+        <PaginatedList
+            loading={loading}
+            ListView={QuizListView}
+            baseQuery={baseQuery}
+            rows={rows}
+            rowCount={rowCount}
+            columns={columns}
+            updateState={updateState}
+            rowClick={rowClick}></PaginatedList>
+    );
+};
 
-export default QuizList
+export default QuizList;

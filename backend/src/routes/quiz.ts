@@ -48,7 +48,7 @@ router.get("/api/quiz", async (req: Request, res: Response) => {
                       }
                     : {},
                 genre ? { genre: { $in: genre as string[] } } : {},
-                title ? { $text: { $search: title as string } } : {},
+                title ? { title: new RegExp(title as string, "i") } : {},
             ],
         };
 
