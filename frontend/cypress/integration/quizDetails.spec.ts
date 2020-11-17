@@ -5,7 +5,7 @@ describe("Detailed quiz", () => {
     })
 
     it("Displays Quiz details", () => {
-        cy.get("[data-cy=quizDetails]").should("contain", "Test Quiz 0").and("contain", "classical").and("contain", "testuser3");
+        cy.get("[data-cy=quizDetails]").should("contain", "Test Quiz 0").and("contain", "rnb").and("contain", "testuser2");
     });
 
     it("Displays the quiz songs", () => {

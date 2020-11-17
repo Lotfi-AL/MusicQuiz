@@ -23,7 +23,7 @@ const SignUp = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(error);
+        console.log(event);
         dispatch(signUp({ username, password }, router));
     };
 
@@ -32,12 +32,13 @@ const SignUp = () => {
             <br />
             <Grid container spacing={2}>
                 <Grid item xs={12}>
-                    <Typography align="center" variant="h5" component="h5">
+                    <Typography data-test="signup-title" align="center" variant="h5" component="h5">
                         Register
                     </Typography>
                 </Grid>
                 <Grid item xs={12}>
                     <TextField
+                        data-test="signup-username"
                         fullWidth
                         required
                         label="Username"
@@ -48,6 +49,7 @@ const SignUp = () => {
                 </Grid>
                 <Grid item xs={12}>
                     <TextField
+                        data-test="signup-password"
                         fullWidth
                         required
                         type="password"
@@ -58,7 +60,7 @@ const SignUp = () => {
                     />
                 </Grid>
                 <Grid item xs={12}>
-                    <Button fullWidth variant="contained" color="primary" onClick={handleSubmit}>
+                    <Button type="submit" onClick={handleSubmit} data-test="signup-submit" fullWidth variant="contained" color="primary" >
                         Register
                     </Button>
                 </Grid>
@@ -70,8 +72,9 @@ const SignUp = () => {
                 <Grid item xs={12}>
                     {error != "" ? <FormHelperText error={true}>Noe gikk galt</FormHelperText> : null}
                 </Grid>
+
             </Grid>
-        </Container>
+        </Container >
     );
 };
 

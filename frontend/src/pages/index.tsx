@@ -21,8 +21,8 @@ const index = (store) => {
             <NavBar></NavBar>
             <Paper square>
                 <Tabs value={value} onChange={handleChange} centered indicatorColor="primary" textColor="primary">
-                    <Tab label="Quiz List"></Tab>
-                    <Tab label="Song List"></Tab>
+                    <Tab data-cy="quizTab" label="Quiz List"></Tab>
+                    <Tab data-cy="songTab" label="Song List"></Tab>
                 </Tabs>
             </Paper>
 
@@ -51,8 +51,8 @@ const index = (store) => {
                                     </Button>
                                 </Link>
                             ) : (
-                                <></>
-                            )}
+                                    <></>
+                                )}
                         </Grid>
                     </Grid>
                 </TabPanel>

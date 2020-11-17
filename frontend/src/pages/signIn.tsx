@@ -31,12 +31,12 @@ const SignIn = () => {
             <br />
             <Grid container spacing={2}>
                 <Grid item xs={12}>
-                    <Typography align="center" variant="h5" component="h5">
+                    <Typography data-test="signin-title" align="center" variant="h5" component="h5">
                         Sign In
                     </Typography>
                 </Grid>
                 <Grid item xs={12}>
-                    <TextField
+                    <TextField data-test="signin-username"
                         fullWidth
                         required
                         id="username"
@@ -47,7 +47,7 @@ const SignIn = () => {
                     />
                 </Grid>
                 <Grid item xs={12}>
-                    <TextField
+                    <TextField data-test="signin-password"
                         fullWidth
                         required
                         id="password"
@@ -59,13 +59,13 @@ const SignIn = () => {
                     />
                 </Grid>
                 <Grid item xs={12}>
-                    <Button fullWidth variant="contained" color="primary" onClick={handleSubmit}>
+                    <Button data-test="signin-submit" fullWidth variant="contained" color="primary" onClick={handleSubmit}>
                         Sign in
                     </Button>
                 </Grid>
                 <Grid item xs={12}>
                     <Link href="/signUp">
-                        <MULink href="/signUp">Don't have a user? Sign up here</MULink>
+                        <MULink data-test="signup" href="/signUp">Don't have a user? Sign up here</MULink>
                     </Link>
                 </Grid>
                 <Grid item xs={12}>
