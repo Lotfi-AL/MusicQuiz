@@ -41,6 +41,7 @@ const SignUp = () => {
                         fullWidth
                         required
                         label="Username"
+                        data-testid="username"
                         variant="outlined"
                         value={username}
                         onChange={handleUsernameChange}
@@ -51,6 +52,7 @@ const SignUp = () => {
                         fullWidth
                         required
                         type="password"
+                        data-testid="password"
                         label="Password"
                         variant="outlined"
                         value={password}
@@ -58,7 +60,7 @@ const SignUp = () => {
                     />
                 </Grid>
                 <Grid item xs={12}>
-                    <Button fullWidth variant="contained" color="primary" onClick={handleSubmit}>
+                    <Button fullWidth variant="contained" color="primary" data-testid="USB" onClick={handleSubmit}>
                         Register
                     </Button>
                 </Grid>

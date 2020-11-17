@@ -31,7 +31,7 @@ const SignIn = () => {
             <br />
             <Grid container spacing={2}>
                 <Grid item xs={12}>
-                    <Typography align="center" variant="h5" component="h5">
+                    <Typography align="center" variant="h5" component="h5" id="ssss">
                         Sign In
                     </Typography>
                 </Grid>
@@ -40,6 +40,7 @@ const SignIn = () => {
                         fullWidth
                         required
                         id="username"
+                        data-testid="username"
                         label="Username"
                         variant="outlined"
                         value={username}
@@ -51,6 +52,7 @@ const SignIn = () => {
                         fullWidth
                         required
                         id="password"
+                        data-testid="password"
                         type="password"
                         label="Password"
                         variant="outlined"
@@ -59,7 +61,7 @@ const SignIn = () => {
                     />
                 </Grid>
                 <Grid item xs={12}>
-                    <Button fullWidth variant="contained" color="primary" onClick={handleSubmit}>
+                    <Button fullWidth variant="contained" color="primary" data-testid="USB" onClick={handleSubmit}>
                         Sign in
                     </Button>
                 </Grid>
