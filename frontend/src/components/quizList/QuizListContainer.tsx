@@ -32,8 +32,7 @@ const QuizList = () => {
     }
 
     return (
-        <PaginatedList loading={loading} ListView={QuizListView} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
-        </PaginatedList>
+        <PaginatedList loading={loading} ListView={QuizListView} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} />
     )
 }
 

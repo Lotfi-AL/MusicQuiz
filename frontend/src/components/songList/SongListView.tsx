@@ -1,10 +1,11 @@
 import { Button, FormControl, Grid, Slider, TextField, Typography } from '@material-ui/core';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react'
+import { ISortModel } from 'src/typings/ISortModel';
 import makeQuery from 'src/utils/makeQuery';
 import styles from "./SongListView.module.css";
 
-const SongListView = ({ updateState, page, sortModel }) => {
+const SongListView = ({ updateState, page, sortModel }: { updateState: (query: string) => Promise<void>, page: string, sortModel: ISortModel }) => {
     const router = useRouter();
 
     const [title, setTitle] = useState<string>("");
@@ -13,7 +14,7 @@ const SongListView = ({ updateState, page, sortModel }) => {
 
     const baseQuery = "/song";
 
-    const searchQuery = async () => {
+    const searchQuery = (): void => {
         let query: string = makeQuery({ baseQuery, title, duration, sortModel, page })
         updateState(query);
     };
@@ -26,6 +27,7 @@ const SongListView = ({ updateState, page, sortModel }) => {
         <>
             <Grid item xs={8}>
                 <TextField
+                    data-test="song-search"
                     value={title}
                     onChange={(event) => setTitle(event.target.value)}
                     variant="outlined"
@@ -39,6 +41,7 @@ const SongListView = ({ updateState, page, sortModel }) => {
                         Duration | Min-Max | seconds
                     </Typography>
                     <Slider
+                        data-test="quantity-slider"
                         value={duration}
                         onChange={(event, newValue) => setDuration(newValue)}
                         valueLabelDisplay="auto"

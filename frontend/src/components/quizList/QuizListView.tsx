@@ -4,20 +4,17 @@ import { ApplicationState } from "../../redux/store";
 import { Button, Checkbox, FormControl, FormControlLabel, FormGroup, FormLabel, Grid, InputLabel, MenuItem, Radio, RadioGroup, Select, Slider, TextField, Typography } from "@material-ui/core";
 import styles from "./QuizListView.module.css";
 
-import makeQuery from "src/utils/makeQuery";
+import makeQuery from "../../utils/makeQuery"
 
 import initGenresObject from "./utils/initGenresObject";
 
-const QuizListView = ({ updateState, page, sortModel }) => {
+const QuizListView = ({ updateState, page, sortModel }: { updateState: (query: string) => undefined, page: string, sortModel: { field: string, sortDirection: string } }) => {
 
     const [quantity, setQuantity] = useState<number[] | number>([0, 50]);
-
+    const [genres, setGenres] = useState(initGenresObject());
     const [title, setTitle] = useState<string>("");
 
     const baseQuery = "/quiz";
-
-    const [genres, setGenres] = useState(initGenresObject());
-
 
     const searchQuery = async () => {
         let query: string = makeQuery({ baseQuery, page, title, quantity, sortModel, genres })
@@ -29,7 +26,6 @@ const QuizListView = ({ updateState, page, sortModel }) => {
     }
 
     useEffect(() => {
-        console.log(page);
         searchQuery()
     }, [page, sortModel, genres, title, quantity]);
 
@@ -38,6 +34,7 @@ const QuizListView = ({ updateState, page, sortModel }) => {
         <>
             <Grid item xs={8}>
                 <TextField
+                    data-test="quiz-search"
                     value={title}
                     onChange={(event) => {
                         setTitle(event.target.value);
@@ -65,7 +62,7 @@ const QuizListView = ({ updateState, page, sortModel }) => {
             </Grid>
             <Grid item xs={12}>
                 <FormLabel component="legend">Genres</FormLabel>
-                <FormGroup row>
+                <FormGroup data-test="quiz-genres" row>
                     {Object.keys(genres).map((item, key) => {
                         return (
                             <FormControlLabel

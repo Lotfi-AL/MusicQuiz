@@ -32,21 +32,21 @@ const NavBar = (store) => {
             <Toolbar>
                 <Typography variant="h6" className={styles.title}>
                     <Link href="/">
-                        <span className={styles.pointer}>Music Quiz</span>
+                        <span data-test="mainpage-title" className={styles.pointer}>Music Quiz</span>
                     </Link>
                 </Typography>
 
                 {currentUser != null ? (
-                    <Button color="inherit" onClick={handleSignOut}>
+                    <Button data-test="signout" color="inherit" onClick={handleSignOut}>
                         Sign out
                     </Button>
                 ) : (
-                    <Button color="inherit" onClick={handleSignIn}>
-                        Sign in
-                    </Button>
-                )}
+                        <Button data-test="signin" color="inherit" onClick={handleSignIn}>
+                            Sign in
+                        </Button>
+                    )}
             </Toolbar>
-        </AppBar>
+        </AppBar >
     );
 };
 
