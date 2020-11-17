@@ -40,6 +40,9 @@ const SignIn = () => {
                         fullWidth
                         required
                         id="username"
+                        inputProps={{
+                            'data-testid': 'username'
+                          }}
                         label="Username"
                         variant="outlined"
                         value={username}
@@ -51,6 +54,9 @@ const SignIn = () => {
                         fullWidth
                         required
                         id="password"
+                        inputProps={{
+                            'data-testid': 'password'
+                          }}
                         type="password"
                         label="Password"
                         variant="outlined"
@@ -59,7 +65,7 @@ const SignIn = () => {
                     />
                 </Grid>
                 <Grid item xs={12}>
-                    <Button data-test="signin-submit" fullWidth variant="contained" color="primary" onClick={handleSubmit}>
+                    <Button data-test="signin-submit" fullWidth variant="contained" color="primary" data-testid="USB" onClick={handleSubmit}>
                         Sign in
                     </Button>
                 </Grid>

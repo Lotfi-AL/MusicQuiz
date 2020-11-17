@@ -1,8 +1,8 @@
 import { Button, FormControl, Grid, Slider, TextField, Typography } from '@material-ui/core';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react'
-import { ISortModel } from 'src/typings/ISortModel';
-import makeQuery from 'src/utils/makeQuery';
+import makeQuery from '../../utils/makeQuery';
+import { ISortModel } from '../../typings/ISortModel';
 import styles from "./SongListView.module.css";
 
 const SongListView = ({ updateState, page, sortModel }: { updateState: (query: string) => Promise<void>, page: string, sortModel: ISortModel }) => {

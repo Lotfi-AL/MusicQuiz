@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { IGridSong } from 'src/typings/ISong';
 import { PaginatedResponse } from 'src/typings/PaginatedResponse';
-import { addArtist } from 'src/utils/addFields';
-import { getData } from 'src/utils/requests';
+import { addArtist } from '../../utils/addFields';
+import { getData } from '../../utils/requests';
 import { PaginatedList } from '../paginatedList';
 import SongListView from "./SongListView"
 import columns from "./utils/Columns";
