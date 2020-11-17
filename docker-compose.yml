@@ -52,7 +52,7 @@ services:
         volumes:
             - ./seeder/data/:/seeder/import-data/
         depends_on:
-            - backend
+            - db
         networks:
             - db-network
 

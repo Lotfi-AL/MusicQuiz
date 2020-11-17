@@ -1,58 +1,104 @@
-const request = require("supertest");
-import app from "../index";
+import supertest, { Response, SuperAgentTest } from "supertest";
+import server from "../index";
 
-/*
-const signInUser = async () => {
-    return await request(app)
+let request: SuperAgentTest;
+
+beforeAll(() => {
+    request = supertest.agent(server);
+});
+
+afterAll(() => {
+    server.close();
+});
+
+const signInUser = async (username: string, password: string) => {
+    return await request
         .post("/api/signIn")
         .send({
-            username: "testuser",
-            password: "testpassword",
+            username,
+            password,
         })
         .expect(200)
-        .end((res: Response) => {
-            return res.body.token;
+        .then((res: Response) => {
+            return res.body;
+        })
+        .catch((err: Error) => {
+            return err;
         });
 };
 
+const getSongs = async () => {
+    return await request.get("/api/song").then((res: Response) => {
+        return res.body.docs.map((item: any) => {
+            return item._id;
+        });
+    });
+};
+
 describe("POST /api/quiz", () => {
-    const token = before(signInUser());
+    const username = "testuser1";
+    const password = "testuser1";
+    let user: any;
+    let songs: any;
+
+    beforeAll(async () => {
+        user = await signInUser(username, password);
+        songs = await getSongs();
+    });
 
     it("Returns new quiz", async () => {
-        const res = await request(app)
+        const res = await request
             .post("/api/quiz")
-            .set("Authorization", "Bearer " + token)
+            .set("Authorization", "Bearer " + user.token)
             .send({
                 title: "test-quiz",
                 genre: "rock",
-                songs: [],
-                creator: "",
+                songs: songs,
+                creator: user.id,
             });
         expect(res.status).toEqual(201);
-        expect(res.body).toHaveProperty("post");
+        expect(res.body).toHaveProperty("creator");
     });
 });
 
-*/
-
-/*
 describe("GET /api/quiz", () => {
     it("Returns 10 quizzes", async () => {
-        const res = await request(app).get("/api/quiz");
-        expect(res.body.length).toEqual(10);
+        const res = await request.get("/api/quiz");
+        expect(res.body.docs.length).toEqual(10);
         expect(res.status).toEqual(200);
     });
 
-    it("Returns correct quiz as first result", async () => {
-        const res = await request(app).get("/api/quiz/title=bad romance");
-        expect(res.body[0].title).toEqual("Bad Romance");
+    it("Returns rock genre from all quizzes", async () => {
+        const res = await request.get("/api/quiz?genre=rock");
         expect(res.status).toEqual(200);
+        for (let quiz of res.body.docs) {
+            expect(quiz.genre).toEqual("rock");
+        }
     });
 
-    it("Returns correct quiz at certain timestamp", async () => {
-        const res = await request(app).get("/api/quiz/prevDate=2020-10-27T15:08:02.207Z");
-        expect(res.body[0].title).toEqual("Bad Romance");
+    it("Returns only quizzes with less than or equal 5 songs", async () => {
+        const res = await request.get("/api/quiz?quantity[lte]=5");
         expect(res.status).toEqual(200);
+        for (let quiz of res.body.docs) {
+            expect(quiz.songsLength).toBeLessThanOrEqual(5);
+        }
+    });
+
+    it("Returns only quizzes from page 2", async () => {
+        const res = await request.get("/api/quiz?page=2");
+        expect(res.status).toEqual(200);
+        expect(res.body.page).toEqual(2);
+        expect(res.body.docs.length).toEqual(10);
+    });
+
+    it("Returns quizzes sorted by songsLength DESC", async () => {
+        const res = await request.get("/api/quiz?sort_by=songsLength&order_by=DESC");
+        expect(res.status).toEqual(200);
+        let prevQuiz = { songsLength: Number.MAX_SAFE_INTEGER };
+
+        for (let quiz of res.body.docs) {
+            expect(quiz.songsLength).toBeLessThanOrEqual(prevQuiz.songsLength);
+            prevQuiz = quiz;
+        }
     });
 });
-*/
