@@ -17,11 +17,9 @@ After you have installed docker, setup the envs and cloned the project proceed w
 
 Docker will now spin up four containers, frontend, backend, db, and a seeder. And make the project available on localhost:3000. 
 
-The project only needs to be built once, after you can use: 
+The project only needs to be built once, after you can use `npm start`.
 
-`npm start`
-
-You are now free to check out the site as you wish. If you want to run our tests you can close the docker-daemon with `CTRL+C`. 
+You are now free to check out the site as you wish. If you want to run our tests you can close the docker-daemon with `CTRL+C`. If for some reason the containers continue to run after, use `npm stop`. 
 
 
 Follow these steps for frontend unit tests: 
@@ -31,6 +29,7 @@ Follow these steps for frontend unit tests:
 Follow these steps to run backend API tests: 
 1. Go to the root folder of the project. 
 2. Run `npm run test-backend`
+
 
 
 # <center>Project 4, Task B</center>
