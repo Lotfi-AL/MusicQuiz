@@ -1,44 +1,21 @@
-import { Button, FormControl, Grid, Slider, TextField, Typography } from "@material-ui/core";
-import { useRouter } from "next/router";
-import React, { useEffect, useState } from "react";
-import { getData } from "src/utils/requests";
-import { setSourceMapRange } from "typescript";
+import { Button, FormControl, Grid, Slider, TextField, Typography } from '@material-ui/core';
+import { useRouter } from 'next/router';
+import React, { useEffect, useState } from 'react'
+import makeQuery from 'src/utils/makeQuery';
 import styles from "./SongListView.module.css";
-
-let pageSize = 10;
 
 const SongListView = ({ updateState, page, sortModel }) => {
     const router = useRouter();
 
     const [title, setTitle] = useState<string>("");
 
-    const [duration, setDuration] = useState([90, 480]);
+    const [duration, setDuration] = useState<number[] | number>([90, 480])
 
     const baseQuery = "/song";
 
-    const makeQuery = () => {
-        let search: string = baseQuery + "?";
-        if (pageSize !== 0) {
-            search += "&limit=" + pageSize;
-        }
-        if (title !== "") {
-            search += "&title=" + title;
-        }
-        // implementation for duration
-        if (duration !== null) {
-            search += "&duration[gte]=" + duration[0].toString() + "&duration[lte]=" + duration[1].toString();
-        }
-        if (sortModel.sortDirection !== "") {
-            search += "&sort_by=" + sortModel.field + "&order_by=" + sortModel.sortDirection;
-        }
-        search += "&page=" + page;
-        return search;
-    };
-
     const searchQuery = async () => {
-        let query: string = makeQuery();
-        const data = await getData(query);
-        updateState(data);
+        let query: string = makeQuery({ baseQuery, title, duration, sortModel, page })
+        updateState(query);
     };
 
     useEffect(() => {
@@ -59,7 +36,7 @@ const SongListView = ({ updateState, page, sortModel }) => {
             <Grid item xs={4}>
                 <FormControl className={styles.maxWidth}>
                     <Typography id="range-slider" gutterBottom>
-                        Duration | Min-Max
+                        Duration | Min-Max | seconds
                     </Typography>
                     <Slider
                         value={duration}

@@ -4,6 +4,9 @@ export default interface ISong {
     artist: IArtist[];
     genre: string;
     duration: Number;
+    id: string;
+    createdAt: string;
+    updatedAt: string;
 }
 
 

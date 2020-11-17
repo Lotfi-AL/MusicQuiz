@@ -1,86 +1,38 @@
 import React, { useEffect, useState } from "react";
-import { getData } from "../../utils/requests";
 import { connect } from "react-redux";
 import { ApplicationState } from "../../redux/store";
-import { useRouter } from "next/router";
-import {
-    Button,
-    Checkbox,
-    FormControl,
-    FormControlLabel,
-    FormGroup,
-    FormLabel,
-    Grid,
-    InputLabel,
-    MenuItem,
-    Radio,
-    RadioGroup,
-    Select,
-    Slider,
-    TextField,
-    Typography,
-} from "@material-ui/core";
+import { Button, Checkbox, FormControl, FormControlLabel, FormGroup, FormLabel, Grid, InputLabel, MenuItem, Radio, RadioGroup, Select, Slider, TextField, Typography } from "@material-ui/core";
 import styles from "./QuizListView.module.css";
 
-import { genres as initGenres } from "../../utils/constants";
+import makeQuery from "src/utils/makeQuery";
 
-let pageSize = 10;
+import initGenresObject from "./utils/initGenresObject";
 
 const QuizListView = ({ updateState, page, sortModel }) => {
-    const router = useRouter();
 
-    const [quantity, setQuantity] = useState([0, 50]);
+    const [quantity, setQuantity] = useState<number[] | number>([0, 50]);
 
     const [title, setTitle] = useState<string>("");
 
     const baseQuery = "/quiz";
 
-    const [search, setSearch] = useState(baseQuery);
+    const [genres, setGenres] = useState(initGenresObject());
 
-    const [genres, setGenres] = useState(() => {
-        const newObj = {};
-        for (let genre of initGenres) {
-            newObj[genre] = false;
-        }
-        return newObj;
-    });
-
-    const gen2 = ["pop", "rock", "electronic"];
-
-    const makeQuery = () => {
-        let search: string = baseQuery + "?";
-        if (pageSize !== 0) {
-            search += "&limit=" + pageSize;
-        }
-        if (title !== "") {
-            search += "&title=" + title;
-        }
-        if (quantity !== null) {
-            search += "&quantity[gte]=" + quantity[0].toString() + "&quantity[lte]=" + quantity[1].toString();
-        }
-        for (const [key, value] of Object.entries(genres)) {
-            if (value) {
-                search += "&genre[]=" + key;
-            }
-        }
-        if (sortModel.sortDirection !== "") {
-            search += "&sort_by=" + sortModel.field + "&order_by=" + sortModel.sortDirection;
-        }
-        search += "&page=" + page;
-        return search;
-    };
 
     const searchQuery = async () => {
-        let query: string = makeQuery();
+        let query: string = makeQuery({ baseQuery, page, title, quantity, sortModel, genres })
         updateState(query);
     };
 
-    const handleChecked = (event) => {
-        setGenres({ ...genres, [event.target.name]: event.target.checked });
-    };
+    const handleChecked = (event: { target: { name: string, checked: boolean } }) => {
+        setGenres({ ...genres, [event.target.name]: event.target.checked })
+    }
+
     useEffect(() => {
-        searchQuery();
+        console.log(page);
+        searchQuery()
     }, [page, sortModel, genres, title, quantity]);
+
 
     return (
         <>
@@ -98,7 +50,7 @@ const QuizListView = ({ updateState, page, sortModel }) => {
             <Grid item xs={4}>
                 <FormControl className={styles.maxWidth}>
                     <Typography id="range-slider" gutterBottom>
-                        Quantity | Min-Max
+                        Quantity | Min-Max | songs
                     </Typography>
                     <Slider
                         value={quantity}

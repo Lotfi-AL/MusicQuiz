@@ -12,10 +12,18 @@ export interface IGridQuiz {
     updatedAt: string;
 }
 
+interface IArtist {
+    _id: string;
+    name: string
+}
 export interface IQuiz {
     title: string;
     genre: string;
     songs: ISong[];
     songsLength: number;
     creator: IUser;
+    artist: IArtist[];
+    createdAt: string;
+    updatedAt: string;
+    id: string;
 }

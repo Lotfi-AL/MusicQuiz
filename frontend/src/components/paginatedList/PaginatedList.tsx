@@ -2,19 +2,19 @@ import { Grid } from "@material-ui/core";
 import { DataGrid } from "@material-ui/data-grid";
 import React, { useState } from "react";
 
-let pageSize = 10;
+let pageSize: number = 10;
 
-const PaginatedList = ({ loading, rowCount, rows, baseQuery, rowClick, columns, updateState, ListView }) => {
+const PaginatedList = ({ loading, rowCount, rows, rowClick, columns, updateState, ListView }) => {
     const [page, setPage] = useState<number>(1);
 
     const [sortModel, setSortModel] = React.useState({ field: "", sortDirection: "" });
 
-    const handlePageChange = (params) => {
+    const handlePageChange = (params: { page: number }) => {
         setPage(params.page);
     };
 
     //because of material ui has sort direction 1 behind we need this switch
-    const onColumnHeaderClick = (params) => {
+    const onColumnHeaderClick = (params: { colDef: { sortDirection: string }, field: string }) => {
         let { sortDirection } = params.colDef;
         if (sortDirection === null) {
             sortDirection = "asc";
@@ -23,8 +23,7 @@ const PaginatedList = ({ loading, rowCount, rows, baseQuery, rowClick, columns, 
         } else if (sortDirection === "desc") {
             sortDirection = "";
         }
-
-        const obj = { field: params.field, sortDirection: sortDirection };
+        const obj = { field: params.field, sortDirection: sortDirection }
         setSortModel(obj);
     };
 

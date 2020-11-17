@@ -85,7 +85,7 @@ const createQuiz = (store) => {
             <NavBar></NavBar>
             <br />
             <Container maxWidth="md">
-                <Grid container spacing={2}>
+                <Grid container spacing={2} data-cy="qTitle">
                     <Grid item xs={12}>
                         <Card variant="outlined">
                             <CardHeader title="Create new quiz" />
