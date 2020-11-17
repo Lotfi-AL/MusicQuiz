@@ -81,4 +81,4 @@ The frontend unit tests are done with `jest` and `react-testing-library`. We cho
 
 #### E2E Tests
 
-E2E tests are written with `cypress`. Cypress provides great tools for dealing with user actions, as well as a clean interface for running the tests. 
+E2E tests are written with `cypress`. Cypress provides great tools for dealing with user actions, as well as a clean interface for running the tests. We have written end to end tests that replicate users behaviour timeline. 
