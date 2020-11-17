@@ -28,13 +28,16 @@ You are now free to check out the site as you wish. If you want to run our tests
 
 Unfortunately the process is a bit convoluted. 
 
-Follow these steps: 
+Follow these steps for frontend unit tests: 
 1. Go to `/frontend` and alter `tsconfig.json`'s jsx field from `preserved` to `react`.'
 2. Run: `docker-compose up backend`.
 3. Open a new terminal and navigate to `frontend`. 
 4. Run `npm run test`.
 
-This should run all the tests. 
+Follow these steps to run backend API tests: 
+1. Go to the root folder of the project. 
+2. Run `docker-compose -docker-compose.yml -f test-compose.yml up --abort-on-container-exit test-backend`
+
 
 # <center>Project 3, Search</center>
 
