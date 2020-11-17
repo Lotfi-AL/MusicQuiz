@@ -6,7 +6,9 @@ module.exports = {
     // Jest transformations -- this adds support for TypeScript
     // using ts-jest
     transform: {
-      "^.+\\.tsx?$": "ts-jest"
+      "^.+\\.tsx?$": "ts-jest",
+      "^.+\\.css$": "<rootDir>/__mocks__/cssTransformer.js",
+      "^.+\\.png|svg|mp3$": "<rootDir>/__mocks__/fileTransformer.js",
     },
   
     // Runs special logic, such as cleaning up components

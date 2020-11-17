@@ -6,10 +6,13 @@ import { render, screen } from "@testing-library/react";
 import '@testing-library/jest-dom/extend-expect'
 import userEvent from '@testing-library/user-event'
 import SongListView from "../components/songList/SongListView"
+import SongListContainer from "../components/songList/SongListContainer"
 
 describe("should render songlist", () => {
     test("should render songlist", () => {
-        render(<SongListView {...Provider}/>)
+        render(<SongListView {...Provider}/>);
+        render(<SongListContainer />)
+
     })
 
 })

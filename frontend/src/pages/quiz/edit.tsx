@@ -85,10 +85,10 @@ const createQuiz = (store) => {
             <NavBar></NavBar>
             <br />
             <Container maxWidth="md">
-                <Grid container spacing={2} data-cy="qTitle">
+                <Grid container spacing={2}>
                     <Grid item xs={12}>
                         <Card variant="outlined">
-                            <CardHeader title="Create new quiz" />
+                            <CardHeader data-test="create-quiz-title" title="Create new quiz" />
                             <CardContent>
                                 Here you can create a new quiz. Fill in a quiz title and the desired genre.
                             </CardContent>
@@ -96,6 +96,7 @@ const createQuiz = (store) => {
                     </Grid>
                     <Grid item xs={12} sm={6}>
                         <TextField
+                            data-test="quiz-title"
                             variant="outlined"
                             required
                             label="Quiz title"
@@ -107,6 +108,7 @@ const createQuiz = (store) => {
                     <Grid item xs={12} sm={6}>
                         <FormControl required variant="outlined" className={styles.maxWidth}>
                             <Select
+                                data-test="quiz-genres"
                                 labelId="demo-simple-select-filled-label"
                                 id="demo-simple-select-filled"
                                 value={genre}
@@ -117,7 +119,7 @@ const createQuiz = (store) => {
                                 </MenuItem>
                                 {genres.map((item, index) => {
                                     return (
-                                        <MenuItem value={item} key={index} className={styles.capitalize}>
+                                        <MenuItem data-test={item} value={item} key={index} className={styles.capitalize}>
                                             {item}
                                         </MenuItem>
                                     );
@@ -130,7 +132,7 @@ const createQuiz = (store) => {
                         <SongListContainer add={addSongs} />
                     </Grid>
                     <Grid item xs={12}>
-                        <Card variant="outlined">
+                        <Card data-test="quiz-songs" variant="outlined">
                             {songCards.map((item) => {
                                 return (
                                     <Card variant="outlined" key={item._id}>
@@ -142,7 +144,7 @@ const createQuiz = (store) => {
                                                 <Typography variant="body2">{item.artist}</Typography>
                                             </CardContent>
                                             <CardActions>
-                                                <Button
+                                                <Button data-test={"delete-" + item.title}
                                                     id={item._id}
                                                     onClick={(e) => handleDelete(e)}
                                                     className={styles.title}>
@@ -156,7 +158,7 @@ const createQuiz = (store) => {
                         </Card>
                     </Grid>
                     <Grid item xs={12}>
-                        <Button variant="contained" color="primary" onClick={handleSubmit} className={styles.maxWidth}>
+                        <Button data-test="create-quiz" variant="contained" color="primary" onClick={handleSubmit} className={styles.maxWidth}>
                             Create Quiz
                         </Button>
                     </Grid>
