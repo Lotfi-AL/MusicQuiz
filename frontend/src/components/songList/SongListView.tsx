@@ -40,6 +40,7 @@ const SongListView = ({ updateState, page, sortModel }) => {
                         Duration | Min-Max | seconds
                     </Typography>
                     <Slider
+                        data-test="quantity-slider"
                         value={duration}
                         onChange={(event, newValue) => setDuration(newValue)}
                         valueLabelDisplay="auto"

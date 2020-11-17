@@ -21,8 +21,8 @@ const index = (store) => {
             <NavBar></NavBar>
             <Paper square>
                 <Tabs value={value} onChange={handleChange} centered indicatorColor="primary" textColor="primary">
-                    <Tab data-cy="quizTab" label="Quiz List"></Tab>
-                    <Tab data-cy="songTab" label="Song List"></Tab>
+                    <Tab data-test="quiz-tab" label="Quiz List"></Tab>
+                    <Tab data-test="song-tab" label="Song List"></Tab>
                 </Tabs>
             </Paper>
 
@@ -46,7 +46,7 @@ const index = (store) => {
                         <Grid item xs={12}>
                             {currentUser != null ? (
                                 <Link href="/quiz/edit">
-                                    <Button variant="contained" color="primary">
+                                    <Button data-test="create-quiz-btn" variant="contained" color="primary">
                                         Create Quiz
                                     </Button>
                                 </Link>

@@ -36,6 +36,7 @@ const QuizListView = ({ updateState, page, sortModel }) => {
         <>
             <Grid item xs={8}>
                 <TextField
+                    data-test="quiz-search"
                     value={title}
                     onChange={(event) => {
                         setTitle(event.target.value);
@@ -63,7 +64,7 @@ const QuizListView = ({ updateState, page, sortModel }) => {
             </Grid>
             <Grid item xs={12}>
                 <FormLabel component="legend">Genres</FormLabel>
-                <FormGroup row>
+                <FormGroup data-test="quiz-genres" row>
                     {Object.keys(genres).map((item, key) => {
                         return (
                             <FormControlLabel

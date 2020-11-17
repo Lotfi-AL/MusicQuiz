@@ -1,7 +1,7 @@
 describe("Song list", () => {
     beforeEach(() => {
         cy.visit("/")
-        cy.get("[data-cy=songTab]").click();
+        cy.get("[data-test=song-tab]").click();
         cy.get("div[aria-label=Title]").click();
     })
 
@@ -25,6 +25,7 @@ describe("Song list", () => {
     it("search for title works with pagination", () => {
         cy.getBySel("song-search").type("K")
     })
+
     it("sorting on Artist works ", () => {
         cy.get('div[aria-label=Artist]').click()
         cy.getBySel("paginated-list").should("contain", "Train")
