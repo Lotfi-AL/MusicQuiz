@@ -1,0 +1,19 @@
+{
+    "name": "prosjekt-4",
+    "version": "1.0.0",
+    "description": "This project uses docker-compose, what this does and why we chose to use it can be read further down in the documentation. For now you can download it [here](https://docs.docker.com/desktop/).",
+    "scripts": {
+        "test-backend": "docker-compose -f docker-compose.yml -f test-compose.yml up --abort-on-container-exit test-backend",
+        "test-frontend": "docker-compose -f docker-compose.yml -f test-compose.yml up --abort-on-container-exit test-frontend",
+        "test-frontend-e2e": "cd frontend && npm install && npm run cy:open",
+        "start": "docker-compose up",
+        "stop": "docker-compose down",
+        "build": "docker-compose up --build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.stud.idi.ntnu.no/it2810-h20/team-34/prosjekt-4.git"
+    },
+    "author": "",
+    "license": "ISC"
+}
