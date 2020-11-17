@@ -1,7 +1,7 @@
 import { Button, FormControl, Grid, Slider, TextField, Typography } from '@material-ui/core';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react'
-import makeQuery from 'src/utils/makeQuery';
+import makeQuery from '../../utils/makeQuery';
 import styles from "./SongListView.module.css";
 
 const SongListView = ({ updateState, page, sortModel }) => {
