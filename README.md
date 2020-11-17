@@ -62,9 +62,9 @@ Using `mongoose-paginate-v2` we managed to create easily configurable and mainta
 Previously we used a couple python scripts to seed the database through our API endpoints. This quickly became tedious to manage, as well as made the entire setup process more convoluted than it needed to be. Therefore we decided to make a docker container to do this directly with the database and on every `docker-compose up`. This way the data is consistent between the developers and reduces the total amount of "grunt work" during development. 
 
 
-#### Backend testing 
+#### Testing with docker
 
-The new backend tests are run with a docker-compose file that properly configures the backend for testing as well as runs the required containers. You may notice that the container is forced to close despite the tests being successful. This is an issue with the express server not closing after the tests have been run, and we decided that the workaround with `--abort-on-container-exit` in `docker-compose` was a reasonable compromise. 
+The new backend and frontend unit tests are run with a docker-compose file that properly configures the container for testing as well as runs the dependant containers. You may notice that the container is forced to close despite the tests being successful on the backend container. This is an issue with the express server not closing after the tests have been run, and we decided that the workaround with `--abort-on-container-exit` in `docker-compose` was a reasonable compromise. 
 
 
 ### Testing 
