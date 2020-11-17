@@ -23,9 +23,12 @@ The project only needs to be built once, after you can use `npm start`.
 You are now free to check out the site as you wish. If you want to run our tests you can close the docker-daemon with `CTRL+C`. If for some reason the containers continue to run after, use `npm stop`.
 
 Follow these steps for frontend unit tests:
+Follow these steps:
 
-1. Go to the root folder of the project
-2. Run `npm run test-frontend`
+
+1. Go to /frontend and alter tsconfig.json's jsx field from preserved to react.'
+2. Go to the root folder of the project
+3. Run `npm run test-frontend`
 
 Follow these steps for frontend End-to-end tests:
 
