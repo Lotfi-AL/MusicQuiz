@@ -13,9 +13,13 @@ MONGO_DB=songquiz
 
 After you have installed docker, setup the envs and cloned the project proceed with running this from the root directory: 
 
-`docker-compose up --build`
+`npm run build`
 
-Docker will now spin up four containers, frontend, backend, db, and a seeder. And make the project available on localhost:3000.
+Docker will now spin up four containers, frontend, backend, db, and a seeder. And make the project available on localhost:3000. 
+
+The project only needs to be built once, after you can use: 
+
+`npm start`
 
 You are now free to check out the site as you wish. If you want to run our tests you can close the docker-daemon with `CTRL+C`. 
 
@@ -29,7 +33,7 @@ Follow these steps for frontend unit tests:
 
 Follow these steps to run backend API tests: 
 1. Go to the root folder of the project. 
-2. Run `docker-compose -docker-compose.yml -f test-compose.yml up --abort-on-container-exit test-backend`
+2. Run `npm run test-backend`
 
 
 # <center>Project 4, Task B</center>
