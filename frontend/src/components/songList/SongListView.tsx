@@ -26,6 +26,7 @@ const SongListView = ({ updateState, page, sortModel }) => {
         <>
             <Grid item xs={8}>
                 <TextField
+                    name="search"
                     value={title}
                     onChange={(event) => setTitle(event.target.value)}
                     variant="outlined"

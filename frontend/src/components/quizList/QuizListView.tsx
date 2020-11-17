@@ -11,12 +11,11 @@ import initGenresObject from "./utils/initGenresObject";
 const QuizListView = ({ updateState, page, sortModel }) => {
 
     const [quantity, setQuantity] = useState<number[] | number>([0, 50]);
-
+    const [genres, setGenres] = useState(initGenresObject());
     const [title, setTitle] = useState<string>("");
 
     const baseQuery = "/quiz";
 
-    const [genres, setGenres] = useState(initGenresObject());
 
 
     const searchQuery = async () => {
@@ -29,7 +28,6 @@ const QuizListView = ({ updateState, page, sortModel }) => {
     }
 
     useEffect(() => {
-        console.log(page);
         searchQuery()
     }, [page, sortModel, genres, title, quantity]);
 

@@ -31,7 +31,7 @@ const PaginatedList = ({ loading, rowCount, rows, rowClick, columns, updateState
         <Grid container spacing={2}>
             <ListView updateState={updateState} page={page} sortModel={sortModel} />
             <Grid item xs={12}>
-                <div style={{ height: 700, width: "100%" }}>
+                <div data-cy="paginatedList" style={{ height: 700, width: "100%" }}>
                     <DataGrid
                         rows={rows}
                         columns={columns}
