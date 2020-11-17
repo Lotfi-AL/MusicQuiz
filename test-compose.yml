@@ -19,26 +19,7 @@ services:
             - ./backend:/node/backend
             - /node/backend/node_modules
         depends_on:
-            - db
+            - seeder
         networks:
             - db-network
         command: npm run test
-    db:
-        image: mongo:4.1.8-xenial
-        container_name: db
-        restart: unless-stopped
-        env_file: .env
-        environment:
-            - MONGO_INITDB_ROOT_USERNAME=$MONGO_USERNAME
-            - MONGO_INITDB_ROOT_PASSWORD=$MONGO_PASSWORD
-        volumes:
-            - dbdata:/data/db
-        networks:
-            - db-network
-
-networks:
-    db-network:
-        driver: bridge
-
-volumes:
-    dbdata:
