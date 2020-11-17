@@ -35,7 +35,7 @@ Follow these steps for frontend End-to-end tests:
 1. Go to the root folder of the project.
 2. Run `npm run build`
 3. Open another terminal window
-4. Run `npm run frontend-test-e2e`
+4. Run `npm run test-frontend-e2e`
 5. Cypress will now open in another window and you can choose which tests to run.
 
 Follow these steps to run backend API tests:
