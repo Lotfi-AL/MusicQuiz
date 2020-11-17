@@ -1,10 +1,11 @@
 import { Button, FormControl, Grid, Slider, TextField, Typography } from '@material-ui/core';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react'
+import { ISortModel } from 'src/typings/ISortModel';
 import makeQuery from 'src/utils/makeQuery';
 import styles from "./SongListView.module.css";
 
-const SongListView = ({ updateState, page, sortModel }) => {
+const SongListView = ({ updateState, page, sortModel }: { updateState: (query: string) => Promise<void>, page: string, sortModel: ISortModel }) => {
     const router = useRouter();
 
     const [title, setTitle] = useState<string>("");
@@ -13,7 +14,7 @@ const SongListView = ({ updateState, page, sortModel }) => {
 
     const baseQuery = "/song";
 
-    const searchQuery = async () => {
+    const searchQuery = (): void => {
         let query: string = makeQuery({ baseQuery, title, duration, sortModel, page })
         updateState(query);
     };

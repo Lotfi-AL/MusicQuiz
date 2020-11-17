@@ -14,6 +14,7 @@ const SongListContainer = (props?) => {
     const [rowCount, setRowCount] = useState<number>(0);
 
     const [loading, setLoading] = useState(false);
+
     const rowClick = (event) => {
         const isprop = props.add;
         if (isprop) {
@@ -32,8 +33,7 @@ const SongListContainer = (props?) => {
     }
 
     return (
-        <PaginatedList ListView={SongListView} loading={loading} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} >
-        </PaginatedList>
+        <PaginatedList ListView={SongListView} loading={loading} rows={rows} rowCount={rowCount} columns={columns} updateState={updateState} rowClick={rowClick} />
     )
 }
 

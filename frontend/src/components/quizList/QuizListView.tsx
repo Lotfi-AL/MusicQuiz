@@ -4,19 +4,17 @@ import { ApplicationState } from "../../redux/store";
 import { Button, Checkbox, FormControl, FormControlLabel, FormGroup, FormLabel, Grid, InputLabel, MenuItem, Radio, RadioGroup, Select, Slider, TextField, Typography } from "@material-ui/core";
 import styles from "./QuizListView.module.css";
 
-import makeQuery from "src/utils/makeQuery";
+import makeQuery from "../../utils/makeQuery"
 
 import initGenresObject from "./utils/initGenresObject";
 
-const QuizListView = ({ updateState, page, sortModel }) => {
+const QuizListView = ({ updateState, page, sortModel }: { updateState: (query: string) => undefined, page: string, sortModel: { field: string, sortDirection: string } }) => {
 
     const [quantity, setQuantity] = useState<number[] | number>([0, 50]);
     const [genres, setGenres] = useState(initGenresObject());
     const [title, setTitle] = useState<string>("");
 
     const baseQuery = "/quiz";
-
-
 
     const searchQuery = async () => {
         let query: string = makeQuery({ baseQuery, page, title, quantity, sortModel, genres })
