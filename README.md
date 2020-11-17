@@ -11,18 +11,11 @@ MONGO_PORT=27017
 MONGO_DB=songquiz
 ```
 
-
-After you have installed docker, setup the envs and cloned the project proceed with running from the root directory: 
+After you have installed docker, setup the envs and cloned the project proceed with running this from the root directory: 
 
 `docker-compose up --build`
 
-Docker will now spin up three containers, frontend, backend, and db. And make the project available on localhost:3000.
-
-In a seperate terminal, navigate to the `/scripts` folder and run: 
-
-`python3 spotiData.py`
-
-The database will now be seeded. This is only necessary to do once. 
+Docker will now spin up four containers, frontend, backend, db, and a seeder. And make the project available on localhost:3000.
 
 You are now free to check out the site as you wish. If you want to run our tests you can close the docker-daemon with `CTRL+C`. 
 
@@ -39,65 +32,53 @@ Follow these steps to run backend API tests:
 2. Run `docker-compose -docker-compose.yml -f test-compose.yml up --abort-on-container-exit test-backend`
 
 
-# <center>Project 3, Search</center>
+# <center>Project 4, Task B</center>
 
-In this project, we have decided to create a website where you can create your own user, search for songs, sort them as you desire and create and save quizzes.
-We are using [Material UI](https://material-ui.com/) library to import react components and build our website. Material UI provides well documented and well maintained components and makes it easier to build fast, responsive and clean website.
+This time around we decided to go with task B. The reason for this is that we felt our old API wasn't good enough to merit using it in a new React Native application. Therefore, we have completely redesigned our search endpoints, implemented cleaner components to work with the new endpoints in frontend, as well as having written a big suite of tests to properly evaluate the functionality of our project. 
+
+In this README you will only find information about what has changed since the previous iteration, if you would like to see the old documentation, you can do so [here](https://gitlab.stud.idi.ntnu.no/it2810-h20/team-34/prosjekt-3).
 
 ## <center>Technology</center>
 
 ### Frontend
 
-#### Next JS
+#### Displaying data
 
-In this project, we are using React with Typescript and NextJS, which is a React framework enabling fast rendering of pages without the need of rendering unnecessary Javascript (Typescript) and CSS for the desired Page. We chose not to use create-react-app package, just like the last project to be able to have more control of the enviroment and the installed packages, and to get a better understanding of the technology.
-Looking back to our project, using NextJs may not have affected our project in the way we desired and the project did not used the benefits the way we wanted.
+As you can read more about in the backend section, our API endpoints for search had a total rewrite. These new changes quickly made our old components for search obsolete. However, the changes made allowed us to write much more maintainable and modular code for our new components. We added several more filters, and made sorting and limiting the amount of results adjustable through API queries. 
 
-#### Material UI
-
-As mentioned in the beginning, we are using Material UI as our third party Component library. Material UI proves a well documented, widely used and easy to use components that are fast and updated, which suited our needs for a componant library. Group members also had previous exprience using this library which made the developing faster and easier.
-
-#### Redux
-
-For state management on this project, we chose Redux to store the entire state of the application. This made it easier to access the state of the application such as if a user is signed in through all the components without the need of sending props down to child components or using callback functions to send data back to parent.
-
-#### JWT Javascript Web Token
-
-JWT is used to securely transmitt information between the user (frontend) and backend as JSON objects. this secure method ensures that the data is trusted since it is digitally signed. JWT ensures making, verifying and decoding of the user token in our project, ensuring secure user authentication.
-
-#### Jest & Enzyme
-
-For testing the frontend, we have chosen Jest and Enzyme because of the simplicity of ject and component output test of Enzyme. These together provides a tool that meets our need for testing while making it easy with zero to some configuration.
+Now we essentially have a three components for our quiz and song display lists. One of these is shared between them, while the other two handle data specific functions such as what filters are available and query string construction. 
 
 ### Backend
 
-#### MongoDB & Mongoose
+#### Pagination
 
-This project uses MongoDB and Mongoose on the server side to store and access data. MongoDB is a document-based database management system that uses JSON-style storage (BSON) that makes it easy for application to retrieve and manipulate data.
-Mongoose is an ODM that makes the use of MongoDB easier by translating data from the database to objects in the application. Mongoose simplifies the database access and is one of the reason why we chose this.
+Using `mongoose-paginate-v2` we managed to create easily configurable and maintainable code our new search endpoints. We also swapped out the several GET requests we had previosuly with just one, that allowed queries such as `/api/quiz?songsLength[lte]=10&title=RandomQuiz`, and many more. 
+
 
 ### Docker
 
-In order to ensure that the development enviroment on each of us is consistent through group members, we decided to use docker. Docker ensures that the working enviroment stays the same across platforms, as well as launching the database. this is done by Docker by running the frontend and the backend in containers that can be seen as small VMs which. Docker is also used to run the tests written both for the backend and the frontend.
+#### Seeding the database
 
-## <center> Search, Sort & Filter</center>
+Previously we used a couple python scripts to seed the database through our API endpoints. This quickly became tedious to manage, as well as made the entire setup process more convoluted than it needed to be. Therefore we decided to make a docker container to do this directly with the database and on every `docker-compose up`. This way the data is consistent between the developers and reduces the total amount of "grunt work" during development. 
 
-Our project implements searching and filtering for songs and the created quizzes. By writing the title of the song, our website will send a requst to the backend to search for the substring written by the user, which then will send a response including all the matching results based on the substring written and filtering the other data, which the gets represented to the user in the data grid.
-The user is also able to create quizzes, which are a collection of chosen songs and save to the backend. Here, we have implemented searching and filtering by the length of the quiz, that is to say, the number of songs included in the quiz. This is handled by backend in the same way as described above.
 
-Using [DataGrid](https://material-ui.com/api/data-grid/) enables us to sort the datasets, both songs and quizzes in front end. This sorting enables the user to sort the data by ascenting or decenting based on the content of the columns in the data set (for example alphabetical ASCII sorting on the title, artist, bpm, etc of songs and quizzes).
+#### Backend testing 
 
-## <center> Pagination </center>
+The new backend tests are run with a docker-compose file that properly configures the backend for testing as well as runs the required containers. You may notice that the container is forced to close despite the tests being successful. This is an issue with the express server not closing after the tests have been run, and we decided that the workaround with `--abort-on-container-exit` in `docker-compose` was a reasonable compromise. 
 
-In order to create an effective rendering and viewing of large datasets, such as songs (600+ elements), without putting the backend on pressure, we have implemented Keyset Pagination. This type of pagination is different from the usual offset pagination where instead of offsetting each time a request is sent, and relying on the database to go through the data from the begging to the offset to find the desired data for the next page, this type of pagination uses filter values from the last page to fetch the next set of items.
-Our pagination requires the request sent from frontend to include the timestamp of the last recieved element of the last page, which is then used to directly access the next set of data based on the index of the item. The result is a fast response time on large data sets and less processing time & power on the server.
 
-## <center> Persistent Data</center>
+### Testing 
 
-Our project lets the user to create a username and set a password, and be able to log in and out of the website using these. Upon registering, the user gets the oppurtunity to create quizzes, store the quiz and see the other quizzes and the author. The data is stored in the server and is persistent.
+#### Backend
 
-## <center>Populating Data</center>
+The backend is tested with `jest` and `supertest`. Supertest makes it very easy to test API requests on an express server, and felt like a natural choice. All routes used in the frontend are tested, and can be seen in the `__tests__` directory in the backend. 
 
-In order to populate enough data (songs & artist) to the server, we initially thought of using the Spotify API to retreive information about an arbitrary number of songs, then processing the information and pushing to the server, but the spotify API came with some limitations which led ut to use retrieved data from another source. The data is pushed by a python script that posts the processed data to the database.
 
-## <center>Testing</center>
+#### Frontend Unit Tets
+
+The frontend unit tests are done with `jest` and `react-testing-library`. We chose these packages as they were in accordance with the requirements for the project. 
+
+
+#### E2E Tests
+
+E2E tests are written with `cypress`. Cypress provides great tools for dealing with user actions, as well as a clean interface for running the tests. 
