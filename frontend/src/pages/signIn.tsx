@@ -40,7 +40,9 @@ const SignIn = () => {
                         fullWidth
                         required
                         id="username"
-                        data-testid="username"
+                        inputProps={{
+                            'data-testid': 'username'
+                          }}
                         label="Username"
                         variant="outlined"
                         value={username}
@@ -52,7 +54,9 @@ const SignIn = () => {
                         fullWidth
                         required
                         id="password"
-                        data-testid="password"
+                        inputProps={{
+                            'data-testid': 'password'
+                          }}
                         type="password"
                         label="Password"
                         variant="outlined"

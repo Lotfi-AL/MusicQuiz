@@ -41,7 +41,9 @@ const SignUp = () => {
                         fullWidth
                         required
                         label="Username"
-                        data-testid="username"
+                        inputProps={{
+                            'data-testid': 'username'
+                          }}
                         variant="outlined"
                         value={username}
                         onChange={handleUsernameChange}
@@ -52,7 +54,9 @@ const SignUp = () => {
                         fullWidth
                         required
                         type="password"
-                        data-testid="password"
+                        inputProps={{
+                            'data-testid': 'password'
+                          }}
                         label="Password"
                         variant="outlined"
                         value={password}
