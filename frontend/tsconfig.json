@@ -17,22 +17,21 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react",
+    "jsx": "preserve",
     "types": [
-      "cypress"
+      "jest"
     ],
     "baseUrl": "./"
   },
   // change "preserve" in jsx to "react" when testing
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
+    "src/*.ts",
+    "src/*.tsx",
     "jest.config.js",
     "src/setupTests.ts"
   ],
   "exclude": [
-    "node_modules"
-  ],
-  
+    "src/*.test.ts"
+  ]
 }
