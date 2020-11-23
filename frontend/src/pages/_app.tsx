@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import App, { AppContext, AppInitialProps } from "next/app";
-import wrapper from "../redux/store";
+// import wrapper from "../redux/store";
 import React from "react";
 
 class WrappedApp extends App<AppInitialProps> {
@@ -16,5 +16,4 @@ class WrappedApp extends App<AppInitialProps> {
         return <Component {...pageProps} />;
     }
 }
-
-export default wrapper.withRedux(WrappedApp);
+export default WrappedApp;

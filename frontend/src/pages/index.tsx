@@ -10,8 +10,8 @@ import Link from "next/link";
 
 const index = (store) => {
     const [value, setValue] = React.useState(0);
-    const currentUser = store.authentication.currentUser;
-
+    // const currentUser = store.authentication.currentUser;
+    const currentUser = 1;
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
@@ -76,4 +76,8 @@ const index = (store) => {
     );
 };
 
-export default connect((state: ApplicationState) => state)(index);
+export function getStaticProps() {
+    return { props: {} }
+}
+
+export default index;

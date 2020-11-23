@@ -27,7 +27,7 @@ const createInitState = () => {
             currentUser: localStorage.getItem("USER-TOKEN") ? isValidToken(localStorage.getItem("USER-TOKEN")) : null,
             error: "",
             loading: false,
-            isAuthenticated: false,
+            isAuthenticated: true,
         };
     } catch (err) {
         return {
