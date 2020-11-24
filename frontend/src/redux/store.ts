@@ -5,13 +5,17 @@ import { combineReducers } from "redux";
 import authenticationReducer from "./authentication/reducer";
 import { AuthenticationState } from "./authentication/types";
 import { Context, createWrapper, MakeStore } from "next-redux-wrapper";
+import quizGameReducer from "./quizGame/reducer";
+import { QuizGameState } from "./quizGame/types";
 
 export interface ApplicationState {
     authentication: AuthenticationState;
+    quizGame: QuizGameState;
 }
 
 const rootReducer: Reducer<ApplicationState> = combineReducers<ApplicationState>({
     authentication: authenticationReducer,
+    quizGame: quizGameReducer
 });
 
 const makeStore: MakeStore<ApplicationState> = (context: Context) => {
@@ -20,7 +24,8 @@ const makeStore: MakeStore<ApplicationState> = (context: Context) => {
 
     const store = createStore<ApplicationState, Action<any>, unknown, unknown>(
         rootReducer,
-        composeEnhancers(applyMiddleware(...middlewares)),
+        applyMiddleware(thunk),
+        // composeEnhancers(applyMiddleware(...middlewares)),
     );
 
     return store;

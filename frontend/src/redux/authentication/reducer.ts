@@ -23,11 +23,11 @@ export const isValidToken = (token) => {
 const createInitState = () => {
     try {
         return {
-            token: localStorage.getItem("USER-TOKEN") ? localStorage.getItem("USER-TOKEN") : null,
-            currentUser: localStorage.getItem("USER-TOKEN") ? isValidToken(localStorage.getItem("USER-TOKEN")) : null,
+            token: null,//localStorage.getItem("USER-TOKEN") ? localStorage.getItem("USER-TOKEN") : null,
+            currentUser: null,//localStorage.getItem("USER-TOKEN") ? isValidToken(localStorage.getItem("USER-TOKEN")) : null,
             error: "",
             loading: false,
-            isAuthenticated: false,
+            isAuthenticated: true
         };
     } catch (err) {
         return {
