@@ -5,11 +5,16 @@ import { ApplicationState } from '../../redux/store';
 import { getData } from '../../utils/requests';
 import { IQuiz } from '../../typings/IQuiz';
 import ScoreBoard from './ScoreBoard';
+import { ScoreProvider } from '../scoreStore/ScoreProvider';
+import Button from '@material-ui/core/Button';
+import AddPlayers from './AddPlayers';
 
-const GameContainer = ({ page, pid }: { page: number, pid: string | string[] }) => {
+const GameContainer = ({ pid }: { pid: string | string[] }) => {
 
     const [quiz, setQuiz] = useState<IQuiz>(null);
-    console.log(quiz);
+    const [page, setPage] = useState<number>(0);
+    const [addPlayers, setAddPlayers] = useState(true);
+
     useEffect(() => {
         getData("/quiz/" + pid, false)
             .then((data) => {
@@ -22,9 +27,12 @@ const GameContainer = ({ page, pid }: { page: number, pid: string | string[] }) 
 
     return (
         <div>
-            {quiz && page < quiz.songs.length ? <><GameView song={quiz.songs[page]} />
-                <ScoreBoard done={false} /></> : <ScoreBoard done={true} />}
-            {}
+            <ScoreProvider>
+                {quiz && page < quiz.songs.length ? <><GameView song={quiz.songs[page]} />
+                    <ScoreBoard done={false} /></> : <ScoreBoard done={true} />}
+                {addPlayers ? <> <AddPlayers /> <Button onClick={() => setAddPlayers(false)}>Finished adding players? </Button> </> : <Button variant={"contained"} onClick={() => setPage(page + 1)}>Next Song in Quiz</Button>}
+
+            </ScoreProvider>
         </div>
     )
 }

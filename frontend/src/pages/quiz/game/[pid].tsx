@@ -16,17 +16,14 @@ import ScoreBoard from "../../../components/game/ScoreBoard";
 const Game = () => {
     const router = useRouter();
     const { pid } = router.query;
-    const [page, setPage] = useState<number>(0);
     const [done, setDone] = useState<boolean>(false);
-    console.log(page)
     return (
         <>
             <NavBar></NavBar>
             <br />
             <Container maxWidth="md">
                 {/* <ScoreBoard done={done} /> */}
-                <GameContainer pid={pid} page={page} />
-                <Button variant={"contained"} onClick={() => setPage(page + 1)}>Next Song in Quiz</Button>
+                <GameContainer pid={pid} />
             </Container>
         </>
     );
